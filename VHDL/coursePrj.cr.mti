@@ -1,0 +1,24 @@
+{D:/SN4NTR/BSUIR/Course Project/test.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/SN4NTR/BSUIR/Course Project/test.vhd}
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package project_package
+-- Compiling entity test_mult
+-- Compiling architecture test_beh of test_mult
+
+} {} {}} {D:/SN4NTR/BSUIR/Course Project/project_package.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/SN4NTR/BSUIR/Course Project/project_package.vhd}
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Compiling package project_package
+
+} {} {}} {D:/SN4NTR/BSUIR/Course Project/multiplier.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/SN4NTR/BSUIR/Course Project/multiplier.vhd}
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package project_package
+-- Compiling entity mult_function
+-- Compiling architecture mult_function_beh of mult_function
+
+} {} {}}

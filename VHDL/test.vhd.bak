@@ -1,0 +1,36 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+LIBRARY work;
+USE work.project_package.ALL;
+
+ENTITY test_mult IS
+END test_mult;
+
+ARCHITECTURE test_beh OF test_mult IS
+	COMPONENT mult_function IS
+		GENERIC (N : NATURAL := 4);
+		PORT (
+			rg1, rg2 : IN int_array (0 TO N - 1);
+			res : OUT int_array (0 TO (N * 2) - 1));
+	END COMPONENT;
+
+	SIGNAL rg1, rg2 : int_array (0 TO N - 1);
+	SIGNAL res : int_array (0 TO (N * 2) - 1);
+
+BEGIN
+
+	mult_func_call : mult_function GENERIC MAP(N => N)
+	PORT MAP(rg1 => rg1, rg2 => rg2, res => res);
+
+	rg1(0) <= 1;
+	rg1(1) <= 0;
+	rg1(2) <= 0;
+	rg1(5) <= 0;
+
+	rg2(0) <= 0;
+	rg2(1) <= 0;
+	rg2(2) <= 1;
+	rg2(3) <= 0;
+
+END test_beh;

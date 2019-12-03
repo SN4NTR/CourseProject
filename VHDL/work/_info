@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Programs/ModelSim/examples
+Emult_function
+Z0 w1575390216
+Z1 DPx4 work 15 project_package 0 22 DY7f:CE>@`>467][jYi@e0
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/SN4NTR/BSUIR/Course Project
+Z5 8D:/SN4NTR/BSUIR/Course Project/multiplier.vhd
+Z6 FD:/SN4NTR/BSUIR/Course Project/multiplier.vhd
+l0
+L7
+VEMZ:FX`=3;kZf_I4H_1ko0
+!s100 DQP`KNJ=8TdKUGZoX>g`A2
+Z7 OL;C;10.6d;65
+32
+Z8 !s110 1575390598
+!i10b 1
+Z9 !s108 1575390598.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/multiplier.vhd|
+Z11 !s107 D:/SN4NTR/BSUIR/Course Project/multiplier.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Amult_function_beh
+R1
+R2
+R3
+DEx4 work 13 mult_function 0 22 EMZ:FX`=3;kZf_I4H_1ko0
+32
+R8
+l76
+L14
+V71LGe@4LJ_:gNn<]65hGg0
+!s100 6U[9M25LG7nhMV4V0oFSQ0
+R7
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Pproject_package
+32
+R8
+w1575379793
+R4
+8D:/SN4NTR/BSUIR/Course Project/project_package.vhd
+FD:/SN4NTR/BSUIR/Course Project/project_package.vhd
+l0
+L1
+VDY7f:CE>@`>467][jYi@e0
+!s100 9U8EMmEMH0GD7S1a<Jfz20
+R7
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/project_package.vhd|
+!s107 D:/SN4NTR/BSUIR/Course Project/project_package.vhd|
+!i113 0
+R12
+R13
+Etest
+Z14 w1575379776
+R1
+R2
+R3
+R4
+Z15 8D:/SN4NTR/BSUIR/Course Project/test.vhd
+Z16 FD:/SN4NTR/BSUIR/Course Project/test.vhd
+l0
+L7
+V4;I0Z2hjJW;ce9?gDXH6l1
+!s100 1XWfTUIEdejV3jdJJ[nSF3
+R7
+32
+Z17 !s110 1575380455
+!i10b 1
+Z18 !s108 1575380454.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/test.vhd|
+Z20 !s107 D:/SN4NTR/BSUIR/Course Project/test.vhd|
+!i113 0
+R12
+R13
+Atest_beh
+R1
+R2
+R3
+DEx4 work 4 test 0 22 4;I0Z2hjJW;ce9?gDXH6l1
+32
+R17
+l21
+L10
+VBUHLoGa?N_meO;TJ0H:jg3
+!s100 KeA<MGePOgoFOOK98h91L3
+R7
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R12
+R13
+Etest_mult
+Z21 w1575390593
+R1
+R2
+R3
+R4
+R15
+R16
+l0
+L7
+VQO@]ZX3Az>66ZFbGGjgI^3
+!s100 ;zO`5eP:R;3DB_BT_;OP=2
+R7
+32
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 0
+R12
+R13
+Atest_beh
+R1
+R2
+R3
+DEx4 work 9 test_mult 0 22 QO@]ZX3Az>66ZFbGGjgI^3
+32
+R8
+l21
+L10
+Vo2aS6Bj3Yf5ojcFQ6B4Uk3
+!s100 Z^3So]=@daoEC;WI^:SUn0
+R7
+!i10b 1
+R9
+R19
+R20
+!i113 0
+R12
+R13
