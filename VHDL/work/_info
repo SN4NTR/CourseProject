@@ -9,8 +9,8 @@ z2
 cModel Technology
 dD:/Programs/ModelSim/examples
 Emult_function
-Z0 w1575390216
-Z1 DPx4 work 15 project_package 0 22 DY7f:CE>@`>467][jYi@e0
+Z0 w1575730397
+Z1 DPx4 work 15 project_package 0 22 WDC>z[To^SmEcimQSjdn[1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z4 dD:/SN4NTR/BSUIR/Course Project/VHDL
@@ -18,13 +18,13 @@ Z5 8D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd
 Z6 FD:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd
 l0
 L7
-VEMZ:FX`=3;kZf_I4H_1ko0
-!s100 DQP`KNJ=8TdKUGZoX>g`A2
+V3_PQWc=GY^YPna0<0m]4;0
+!s100 J7hT7IE:>RAZ2JPK]LH8h3
 Z7 OL;C;10.6d;65
 32
-Z8 !s110 1575391446
+Z8 !s110 1575730404
 !i10b 1
-Z9 !s108 1575391446.000000
+Z9 !s108 1575730404.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd|
 Z11 !s107 D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd|
 !i113 0
@@ -34,13 +34,13 @@ Amult_function_beh
 R1
 R2
 R3
-DEx4 work 13 mult_function 0 22 EMZ:FX`=3;kZf_I4H_1ko0
+DEx4 work 13 mult_function 0 22 3_PQWc=GY^YPna0<0m]4;0
 32
 R8
-l76
+l92
 L14
-V71LGe@4LJ_:gNn<]65hGg0
-!s100 6U[9M25LG7nhMV4V0oFSQ0
+V8_iA`@glR4W@GF6Y9cmzg1
+!s100 TG@GVhMC[1^[z3e4RTD962
 R7
 !i10b 1
 R9
@@ -50,16 +50,18 @@ R11
 R12
 R13
 Pproject_package
+R2
+R3
 32
 R8
-w1575379793
+w1575729001
 R4
 8D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd
 FD:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd
 l0
-L1
-VDY7f:CE>@`>467][jYi@e0
-!s100 9U8EMmEMH0GD7S1a<Jfz20
+L4
+VWDC>z[To^SmEcimQSjdn[1
+!s100 e[nEE@_FHi@mC_RlJZaOh0
 R7
 !i10b 1
 R9
@@ -70,53 +72,53 @@ R12
 R13
 Etest
 Z14 w1575379776
-R1
+Z15 DPx4 work 15 project_package 0 22 DY7f:CE>@`>467][jYi@e0
 R2
 R3
-Z15 dD:/SN4NTR/BSUIR/Course Project
-Z16 8D:/SN4NTR/BSUIR/Course Project/test.vhd
-Z17 FD:/SN4NTR/BSUIR/Course Project/test.vhd
+Z16 dD:/SN4NTR/BSUIR/Course Project
+Z17 8D:/SN4NTR/BSUIR/Course Project/test.vhd
+Z18 FD:/SN4NTR/BSUIR/Course Project/test.vhd
 l0
 L7
 V4;I0Z2hjJW;ce9?gDXH6l1
 !s100 1XWfTUIEdejV3jdJJ[nSF3
 R7
 32
-Z18 !s110 1575380455
+Z19 !s110 1575380455
 !i10b 1
-Z19 !s108 1575380454.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/test.vhd|
-Z21 !s107 D:/SN4NTR/BSUIR/Course Project/test.vhd|
+Z20 !s108 1575380454.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/test.vhd|
+Z22 !s107 D:/SN4NTR/BSUIR/Course Project/test.vhd|
 !i113 0
 R12
 R13
 Atest_beh
-R1
+R15
 R2
 R3
 DEx4 work 4 test 0 22 4;I0Z2hjJW;ce9?gDXH6l1
 32
-R18
+R19
 l21
 L10
 VBUHLoGa?N_meO;TJ0H:jg3
 !s100 KeA<MGePOgoFOOK98h91L3
 R7
 !i10b 1
-R19
 R20
 R21
+R22
 !i113 0
 R12
 R13
 Etest_mult
-Z22 w1575390593
+Z23 w1575728710
 R1
 R2
 R3
 R4
-Z23 8D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd
-Z24 FD:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd
+Z24 8D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd
+Z25 FD:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd
 l0
 L7
 VQO@]ZX3Az>66ZFbGGjgI^3
@@ -126,8 +128,8 @@ R7
 R8
 !i10b 1
 R9
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd|
-Z26 !s107 D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd|
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd|
+Z27 !s107 D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd|
 !i113 0
 R12
 R13
@@ -140,13 +142,13 @@ DEx4 work 9 test_mult 0 22 QO@]ZX3Az>66ZFbGGjgI^3
 R8
 l21
 L10
-Vo2aS6Bj3Yf5ojcFQ6B4Uk3
-!s100 Z^3So]=@daoEC;WI^:SUn0
+VlHP9ohMOTeE_^LLgz?SJY1
+!s100 ZkZTbC4ONe6gX`PaBUWJ40
 R7
 !i10b 1
 R9
-R25
 R26
+R27
 !i113 0
 R12
 R13

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/test_mult.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/test_mult.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "test_mult.ngc" test_mult.ngd  
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/test_mult.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/test_mult.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "test_mult.ngc" test_mult.ngd  
