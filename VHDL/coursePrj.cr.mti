@@ -12,6 +12,8 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
 -- Loading package project_package
 -- Compiling entity test_mult
 -- Compiling architecture test_beh of test_mult

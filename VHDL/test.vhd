@@ -1,5 +1,8 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_textio.ALL;
+USE ieee.numeric_std.ALL;
+USE std.textio.ALL;
 
 LIBRARY work;
 USE work.project_package.ALL;
@@ -9,28 +12,43 @@ END test_mult;
 
 ARCHITECTURE test_beh OF test_mult IS
 	COMPONENT mult_function IS
-		GENERIC (N : NATURAL := 4);
 		PORT (
-			rg1, rg2 : IN std_logic_array (0 TO N - 1);
-			result : OUT std_logic_array (0 TO (N * 2) - 1));
+			rg1, rg2 : IN std_logic_vector (0 TO N - 1);
+			result : OUT std_logic_vector (0 TO (N * 2) - 1));
 	END COMPONENT;
 
-	SIGNAL rg1, rg2 : std_logic_array (0 TO N - 1);
-	SIGNAL result : std_logic_array (0 TO (N * 2) - 1);
+	SIGNAL rg1, rg2 : std_logic_vector (0 TO N - 1);
+	SIGNAL result : std_logic_vector (0 TO (N * 2) - 1);
+
+	CONSTANT f_name : STRING := "input_data.txt";
+	FILE f_source : text;
 
 BEGIN
 
-	mult_func_call : mult_function GENERIC MAP(N => N)
-	PORT MAP(rg1 => rg1, rg2 => rg2, result => result);
+	mult_func_call : mult_function PORT MAP(rg1 => rg1, rg2 => rg2, result => result);
 
-	rg1(0) <= '0', '0' AFTER 50 ns, '0' AFTER 100 ns;
-	rg1(1) <= '1', '0' AFTER 50 ns, '1' AFTER 100 ns;
-	rg1(2) <= '1', '1' AFTER 50 ns, '0' AFTER 100 ns;
-	rg1(3) <= '1', '1' AFTER 50 ns, '0' AFTER 100 ns;
+	PROCESS
+		VARIABLE f_line : line;
+		VARIABLE rg1_line : std_logic_vector(0 TO N - 1);
+		VARIABLE rg2_line : std_logic_vector(0 TO N - 1);
+		VARIABLE space_char : CHARACTER;
 
-	rg2(0) <= '0', '0' AFTER 50 ns, '0' AFTER 100 ns;
-	rg2(1) <= '1', '1' AFTER 50 ns, '1' AFTER 100 ns;
-	rg2(2) <= '0', '0' AFTER 50 ns, '1' AFTER 100 ns;
-	rg2(3) <= '1', '0' AFTER 50 ns, '1' AFTER 100 ns;
+	BEGIN
+		file_open(f_source, f_name, read_mode);
 
+		WHILE (NOT endfile(f_source)) LOOP
+			readline(f_source, f_line);
+			read(f_line, rg1_line);
+			read(f_line, space_char);
+			read(f_line, rg2_line);
+
+			rg1 <= rg1_line;
+			rg2 <= rg2_line;
+
+			WAIT FOR 50 ns;
+		END LOOP;
+
+		file_close(f_source);
+
+	END PROCESS;
 END test_beh;

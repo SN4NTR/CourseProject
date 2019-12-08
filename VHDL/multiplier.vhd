@@ -5,10 +5,9 @@ LIBRARY work;
 USE work.project_package.ALL;
 
 ENTITY mult_function IS
-	GENERIC (N : NATURAL := 4);
 	PORT (
-		rg1, rg2 : IN std_logic_array (0 TO N - 1);
-		result : OUT std_logic_array (0 TO (N * 2) - 1));
+		rg1, rg2 : IN std_logic_vector (0 TO N - 1);
+		result : OUT std_logic_vector (0 TO (N * 2) - 1));
 END mult_function;
 
 ARCHITECTURE mult_function_beh OF mult_function IS
@@ -23,7 +22,7 @@ ARCHITECTURE mult_function_beh OF mult_function IS
 		RETURN arr_with_zeros;
 	END FUNCTION;
 
-	FUNCTION std_logic_to_integer(arr : std_logic_array(0 TO N - 1)) RETURN int_array IS
+	FUNCTION std_logic_to_integer(arr : std_logic_vector(0 TO N - 1)) RETURN int_array IS
 		VARIABLE arr_to_integer : int_array(0 TO N - 1);
 	BEGIN
 		FOR i IN 0 TO arr'length - 1 LOOP
@@ -37,8 +36,8 @@ ARCHITECTURE mult_function_beh OF mult_function IS
 		RETURN arr_to_integer;
 	END FUNCTION;
 
-	FUNCTION integer_to_std_logic(arr1, arr2 : int_array(0 TO N - 1)) RETURN std_logic_array IS
-		VARIABLE arr_to_std_logic : std_logic_array(0 TO (N * 2) - 1);
+	FUNCTION integer_to_std_logic(arr1, arr2 : int_array(0 TO N - 1)) RETURN std_logic_vector IS
+		VARIABLE arr_to_std_logic : std_logic_vector(0 TO (N * 2) - 1);
 	BEGIN
 		FOR i IN 0 TO arr1'length - 1 LOOP
 			IF (arr1(i) = 1) THEN
@@ -59,11 +58,11 @@ ARCHITECTURE mult_function_beh OF mult_function IS
 		RETURN arr_to_std_logic;
 	END FUNCTION;
 
-	FUNCTION multiply(rg1, rg2 : std_logic_array(0 TO N - 1)) RETURN std_logic_array IS
+	FUNCTION multiply(rg1, rg2 : std_logic_vector(0 TO N - 1)) RETURN std_logic_vector IS
 		VARIABLE rg1_copy : int_array (0 TO N - 1);
 		VARIABLE rg2_copy : int_array (0 TO N - 1);
 		VARIABLE rg3 : int_array (0 TO N - 1);
-		VARIABLE result : std_logic_array (0 TO (N * 2) - 1);
+		VARIABLE result : std_logic_vector (0 TO (N * 2) - 1);
 		VARIABLE counter : INTEGER := N;
 		VARIABLE buff : INTEGER := 0;
 		VARIABLE rg3_last_element : INTEGER := 0;
