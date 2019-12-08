@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/Programs/ModelSim/examples
 Emult_function
-Z0 w1575730397
+Z0 w1575756913
 Z1 DPx4 work 15 project_package 0 22 WDC>z[To^SmEcimQSjdn[1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -22,9 +22,9 @@ V3_PQWc=GY^YPna0<0m]4;0
 !s100 J7hT7IE:>RAZ2JPK]LH8h3
 Z7 OL;C;10.6d;65
 32
-Z8 !s110 1575730404
+Z8 !s110 1575796355
 !i10b 1
-Z9 !s108 1575730404.000000
+Z9 !s108 1575796355.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd|
 Z11 !s107 D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd|
 !i113 0
@@ -37,10 +37,10 @@ R3
 DEx4 work 13 mult_function 0 22 3_PQWc=GY^YPna0<0m]4;0
 32
 R8
-l92
+l112
 L14
-V8_iA`@glR4W@GF6Y9cmzg1
-!s100 TG@GVhMC[1^[z3e4RTD962
+VG:4@@3BK40^I>Ug5GNVcP1
+!s100 =:^CECC_B`a4`o1i570_C1
 R7
 !i10b 1
 R9
@@ -112,7 +112,7 @@ R22
 R12
 R13
 Etest_mult
-Z23 w1575728710
+Z23 w1575733581
 R1
 R2
 R3

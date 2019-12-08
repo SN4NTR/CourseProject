@@ -13,37 +13,70 @@ END mult_function;
 
 ARCHITECTURE mult_function_beh OF mult_function IS
 
+	FUNCTION fill_array_with_zeros(arr : int_array(0 TO N - 1)) RETURN int_array IS
+		VARIABLE arr_with_zeros : int_array(0 TO N - 1);
+	BEGIN
+		FOR i IN 0 TO arr'length - 1 LOOP
+			arr_with_zeros(i) := 0;
+		END LOOP;
+
+		RETURN arr_with_zeros;
+	END FUNCTION;
+
+	FUNCTION std_logic_to_integer(arr : std_logic_array(0 TO N - 1)) RETURN int_array IS
+		VARIABLE arr_to_integer : int_array(0 TO N - 1);
+	BEGIN
+		FOR i IN 0 TO arr'length - 1 LOOP
+			IF (arr(i) = '1') THEN
+				arr_to_integer(i) := 1;
+			ELSE
+				arr_to_integer(i) := 0;
+			END IF;
+		END LOOP;
+
+		RETURN arr_to_integer;
+	END FUNCTION;
+
+	FUNCTION integer_to_std_logic(arr1, arr2 : int_array(0 TO N - 1)) RETURN std_logic_array IS
+		VARIABLE arr_to_std_logic : std_logic_array(0 TO (N * 2) - 1);
+	BEGIN
+		FOR i IN 0 TO arr1'length - 1 LOOP
+			IF (arr1(i) = 1) THEN
+				arr_to_std_logic(i) := '1';
+			ELSE
+				arr_to_std_logic(i) := '0';
+			END IF;
+		END LOOP;
+
+		FOR i IN 0 TO arr2'length - 1 LOOP
+			IF (arr2(i) = 1) THEN
+				arr_to_std_logic(i + N) := '1';
+			ELSE
+				arr_to_std_logic(i + N) := '0';
+			END IF;
+		END LOOP;
+
+		RETURN arr_to_std_logic;
+	END FUNCTION;
+
 	FUNCTION multiply(rg1, rg2 : std_logic_array(0 TO N - 1)) RETURN std_logic_array IS
-		VARIABLE rg1Copy : int_array (0 TO N - 1);
-		VARIABLE rg2Copy : int_array (0 TO N - 1);
+		VARIABLE rg1_copy : int_array (0 TO N - 1);
+		VARIABLE rg2_copy : int_array (0 TO N - 1);
 		VARIABLE rg3 : int_array (0 TO N - 1);
 		VARIABLE result : std_logic_array (0 TO (N * 2) - 1);
 		VARIABLE counter : INTEGER := N;
 		VARIABLE buff : INTEGER := 0;
-		VARIABLE rg3LastElement : INTEGER := 0;
+		VARIABLE rg3_last_element : INTEGER := 0;
 
 	BEGIN
-
-		FOR i IN 0 TO N - 1 LOOP
-			IF (rg1(i) = '1') THEN
-				rg1Copy(i) := 1;
-			ELSE
-				rg1Copy(i) := 0;
-			END IF;
-
-			IF (rg2(i) = '1') THEN
-				rg2Copy(i) := 1;
-			ELSE
-				rg2Copy(i) := 0;
-			END IF;
-
-			rg3(i) := 0;
-		END LOOP;
+		rg1_copy := std_logic_to_integer(rg1);
+		rg2_copy := std_logic_to_integer(rg2);
+		rg3 := fill_array_with_zeros(rg3);
 
 		WHILE counter > 0 LOOP
-			IF (rg2Copy(N - 1) = 1) THEN
+			IF (rg2_copy(N - 1) = 1) THEN
 				FOR i IN rg3'length - 1 DOWNTO 0 LOOP
-					rg3(i) := rg3(i) + rg1Copy(i);
+					rg3(i) := rg3(i) + rg1_copy(i);
 
 					IF (buff /= 0) THEN
 						rg3(i) := rg3(i) + buff;
@@ -56,35 +89,22 @@ ARCHITECTURE mult_function_beh OF mult_function IS
 				END LOOP;
 			END IF;
 
-			rg3LastElement := rg3(N - 1);
+			rg3_last_element := rg3(N - 1);
 
 			FOR i IN rg3'length - 1 DOWNTO 1 LOOP
 				rg3(i) := rg3(i - 1);
 			END LOOP;
 			rg3(0) := 0;
 
-			FOR i IN rg2Copy'length - 1 DOWNTO 1 LOOP
-				rg2Copy(i) := rg2Copy(i - 1);
+			FOR i IN rg2_copy'length - 1 DOWNTO 1 LOOP
+				rg2_copy(i) := rg2_copy(i - 1);
 			END LOOP;
-			rg2Copy(0) := rg3LastElement;
+			rg2_copy(0) := rg3_last_element;
 
 			counter := counter - 1;
 		END LOOP;
 
-		FOR i IN 0 TO rg3'length - 1 LOOP
-			IF (rg3(i) = 1) THEN
-				result(i) := '1';
-			ELSE
-				result(i) := '0';
-			END IF;
-		END LOOP;
-		FOR i IN 0 TO rg2'length - 1 LOOP
-			IF (rg2Copy(i) = 1) THEN
-				result(i + N) := '1';
-			ELSE
-				result(i + N) := '0';
-			END IF;
-		END LOOP;
+		result := integer_to_std_logic(rg3, rg2_copy);
 
 		RETURN result;
 	END multiply;
