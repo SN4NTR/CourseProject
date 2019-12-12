@@ -1,0 +1,128 @@
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>ModelSim Coverage Report</title>
+  <link rel="StyleSheet" media="screen" href="../css/hdl2html.css"/>
+</head>
+<body id="hdl2html">
+  <tt>
+<pre>
+<a name="1"><q-n>     1  </q-n></a><q-w>LIBRARY</q-w> ieee;
+<a name="2"><q-n>     2  </q-n></a><q-w>USE</q-w> ieee.std_logic_1164.<q-w>ALL</q-w>;
+<a name="3"><q-n>     3  </q-n></a>
+<a name="4"><q-n>     4  </q-n></a><q-w>LIBRARY</q-w> work;
+<a name="5"><q-n>     5  </q-n></a><q-w>USE</q-w> work.project_package.<q-w>ALL</q-w>;
+<a name="6"><q-n>     6  </q-n></a>
+<a name="7"><q-n>     7  </q-n></a><q-w>ENTITY</q-w> mult_function <q-w>IS</q-w>
+<a name="8"><q-n>     8  </q-n></a>	<q-w>PORT</q-w> (
+<a name="9"><q-n>     9  </q-n></a>		rg1, rg2 : <q-a>IN</q-w> <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> N - 1);
+<a name="10"><q-n>     10  </q-n></a>		result : <q-a>OUT</q-w> <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> (N * 2) - 1));
+<a name="11"><q-n>     11  </q-n></a><q-w>END</q-w> mult_function;
+<a name="12"><q-n>     12  </q-n></a>
+<a name="13"><q-n>     13  </q-n></a><q-w>ARCHITECTURE</q-w> mult_function_beh <q-w>OF</q-w> mult_function <q-w>IS</q-w>
+<a name="14"><q-n>     14  </q-n></a>
+<a name="15"><q-n>     15  </q-n></a>	<q-w>FUNCTION</q-w> fill_array_with_zeros(arr : int_array(0 <q-w>TO</q-w> N - 1)) <q-w>RETURN</q-w> int_array <q-w>IS</q-w>
+<a name="16"><q-n>     16  </q-n></a>		<q-w>VARIABLE</q-w> arr_with_zeros : int_array(0 <q-w>TO</q-w> N - 1);
+<a name="17"><q-n>     17  </q-n></a>	<q-w>BEGIN</q-w>
+<a name="18"><q-n>     18  </q-n></a>		<q-w>FOR</q-w> i <q-a>IN</q-w> 0 <q-w>TO</q-w> arr'<q-a>length</q-w> - 1 <q-w>LOOP</q-w>
+<a name="19"><q-n>     19  </q-n></a>			arr_with_zeros(i) := 0;
+<a name="20"><q-n>     20  </q-n></a>		<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="21"><q-n>     21  </q-n></a>
+<a name="22"><q-n>     22  </q-n></a>		<q-w>RETURN</q-w> arr_with_zeros;
+<a name="23"><q-n>     23  </q-n></a>	<q-w>END</q-w> <q-w>FUNCTION</q-w>;
+<a name="24"><q-n>     24  </q-n></a>
+<a name="25"><q-n>     25  </q-n></a>	<q-w>FUNCTION</q-w> std_logic_to_integer(arr : <q-t>std_logic_vector</q-w>(0 <q-w>TO</q-w> N - 1)) <q-w>RETURN</q-w> int_array <q-w>IS</q-w>
+<a name="26"><q-n>     26  </q-n></a>		<q-w>VARIABLE</q-w> arr_to_integer : int_array(0 <q-w>TO</q-w> N - 1);
+<a name="27"><q-n>     27  </q-n></a>	<q-w>BEGIN</q-w>
+<a name="28"><q-n>     28  </q-n></a>		<q-w>FOR</q-w> i <q-a>IN</q-w> 0 <q-w>TO</q-w> arr'<q-a>length</q-w> - 1 <q-w>LOOP</q-w>
+<a name="29"><q-n>     29  </q-n></a>			<q-w>IF</q-w> (arr(i) = '1') <q-w>THEN</q-w>
+<a name="30"><q-n>     30  </q-n></a>				arr_to_integer(i) := 1;
+<a name="31"><q-n>     31  </q-n></a>			<q-w>ELSE</q-w>
+<a name="32"><q-n>     32  </q-n></a>				arr_to_integer(i) := 0;
+<a name="33"><q-n>     33  </q-n></a>			<q-w>END</q-w> <q-w>IF</q-w>;
+<a name="34"><q-n>     34  </q-n></a>		<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="35"><q-n>     35  </q-n></a>
+<a name="36"><q-n>     36  </q-n></a>		<q-w>RETURN</q-w> arr_to_integer;
+<a name="37"><q-n>     37  </q-n></a>	<q-w>END</q-w> <q-w>FUNCTION</q-w>;
+<a name="38"><q-n>     38  </q-n></a>
+<a name="39"><q-n>     39  </q-n></a>	<q-w>FUNCTION</q-w> integer_to_std_logic(arr1, arr2 : int_array(0 <q-w>TO</q-w> N - 1)) <q-w>RETURN</q-w> <q-t>std_logic_vector</q-w> <q-w>IS</q-w>
+<a name="40"><q-n>     40  </q-n></a>		<q-w>VARIABLE</q-w> arr_to_std_logic : <q-t>std_logic_vector</q-w>(0 <q-w>TO</q-w> (N * 2) - 1);
+<a name="41"><q-n>     41  </q-n></a>	<q-w>BEGIN</q-w>
+<a name="42"><q-n>     42  </q-n></a>		<q-w>FOR</q-w> i <q-a>IN</q-w> 0 <q-w>TO</q-w> arr1'<q-a>length</q-w> - 1 <q-w>LOOP</q-w>
+<a name="43"><q-n>     43  </q-n></a>			<q-w>IF</q-w> (arr1(i) = 1) <q-w>THEN</q-w>
+<a name="44"><q-n>     44  </q-n></a>				arr_to_std_logic(i) := '1';
+<a name="45"><q-n>     45  </q-n></a>			<q-w>ELSE</q-w>
+<a name="46"><q-n>     46  </q-n></a>				arr_to_std_logic(i) := '0';
+<a name="47"><q-n>     47  </q-n></a>			<q-w>END</q-w> <q-w>IF</q-w>;
+<a name="48"><q-n>     48  </q-n></a>		<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="49"><q-n>     49  </q-n></a>
+<a name="50"><q-n>     50  </q-n></a>		<q-w>FOR</q-w> i <q-a>IN</q-w> 0 <q-w>TO</q-w> arr2'<q-a>length</q-w> - 1 <q-w>LOOP</q-w>
+<a name="51"><q-n>     51  </q-n></a>			<q-w>IF</q-w> (arr2(i) = 1) <q-w>THEN</q-w>
+<a name="52"><q-n>     52  </q-n></a>				arr_to_std_logic(i + N) := '1';
+<a name="53"><q-n>     53  </q-n></a>			<q-w>ELSE</q-w>
+<a name="54"><q-n>     54  </q-n></a>				arr_to_std_logic(i + N) := '0';
+<a name="55"><q-n>     55  </q-n></a>			<q-w>END</q-w> <q-w>IF</q-w>;
+<a name="56"><q-n>     56  </q-n></a>		<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="57"><q-n>     57  </q-n></a>
+<a name="58"><q-n>     58  </q-n></a>		<q-w>RETURN</q-w> arr_to_std_logic;
+<a name="59"><q-n>     59  </q-n></a>	<q-w>END</q-w> <q-w>FUNCTION</q-w>;
+<a name="60"><q-n>     60  </q-n></a>
+<a name="61"><q-n>     61  </q-n></a>	<q-w>FUNCTION</q-w> multiply(rg1, rg2 : <q-t>std_logic_vector</q-w>(0 <q-w>TO</q-w> N - 1)) <q-w>RETURN</q-w> <q-t>std_logic_vector</q-w> <q-w>IS</q-w>
+<a name="62"><q-n>     62  </q-n></a>		<q-w>VARIABLE</q-w> rg1_copy : int_array (0 <q-w>TO</q-w> N - 1);
+<a name="63"><q-n>     63  </q-n></a>		<q-w>VARIABLE</q-w> rg2_copy : int_array (0 <q-w>TO</q-w> N - 1);
+<a name="64"><q-n>     64  </q-n></a>		<q-w>VARIABLE</q-w> rg3 : int_array (0 <q-w>TO</q-w> N - 1);
+<a name="65"><q-n>     65  </q-n></a>		<q-w>VARIABLE</q-w> result : <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> (N * 2) - 1);
+<a name="66"><q-n>     66  </q-n></a>		<q-w>VARIABLE</q-w> counter : <q-t>INTEGER</q-w> := N;
+<a name="67"><q-n>     67  </q-n></a>		<q-w>VARIABLE</q-w> buff : <q-t>INTEGER</q-w> := 0;
+<a name="68"><q-n>     68  </q-n></a>		<q-w>VARIABLE</q-w> rg3_last_element : <q-t>INTEGER</q-w> := 0;
+<a name="69"><q-n>     69  </q-n></a>
+<a name="70"><q-n>     70  </q-n></a>	<q-w>BEGIN</q-w>
+<a name="71"><q-n>     71  </q-n></a>		rg1_copy := std_logic_to_integer(rg1);
+<a name="72"><q-n>     72  </q-n></a>		rg2_copy := std_logic_to_integer(rg2);
+<a name="73"><q-n>     73  </q-n></a>		rg3 := fill_array_with_zeros(rg3);
+<a name="74"><q-n>     74  </q-n></a>
+<a name="75"><q-n>     75  </q-n></a>		<q-w>WHILE</q-w> counter &gt; 0 <q-w>LOOP</q-w>
+<a name="76"><q-n>     76  </q-n></a>			<q-w>IF</q-w> (rg2_copy(N - 1) = 1) <q-w>THEN</q-w>
+<a name="77"><q-n>     77  </q-n></a>				<q-w>FOR</q-w> i <q-a>IN</q-w> rg3'<q-a>length</q-w> - 1 <q-w>DOWNTO</q-w> 0 <q-w>LOOP</q-w>
+<a name="78"><q-n>     78  </q-n></a>					rg3(i) := rg3(i) + rg1_copy(i);
+<a name="79"><q-n>     79  </q-n></a>
+<a name="80"><q-n>     80  </q-n></a>					<q-w>IF</q-w> (buff /= 0) <q-w>THEN</q-w>
+<a name="81"><q-n>     81  </q-n></a>						rg3(i) := rg3(i) + buff;
+<a name="82"><q-n>     82  </q-n></a>						buff := buff - 1;
+<a name="83"><q-n>     83  </q-n></a>					<q-w>END</q-w> <q-w>IF</q-w>;
+<a name="84"><q-n>     84  </q-n></a>					<q-w>IF</q-w> (rg3(i) &gt; 1) <q-w>THEN</q-w>
+<a name="85"><q-n>     85  </q-n></a>						buff := buff + 1;
+<a name="86"><q-n>     86  </q-n></a>						rg3(i) := rg3(i) - (buff + 1);
+<a name="87"><q-n>     87  </q-n></a>					<q-w>END</q-w> <q-w>IF</q-w>;
+<a name="88"><q-n>     88  </q-n></a>				<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="89"><q-n>     89  </q-n></a>			<q-w>END</q-w> <q-w>IF</q-w>;
+<a name="90"><q-n>     90  </q-n></a>
+<a name="91"><q-n>     91  </q-n></a>			rg3_last_element := rg3(N - 1);
+<a name="92"><q-n>     92  </q-n></a>
+<a name="93"><q-n>     93  </q-n></a>			<q-w>FOR</q-w> i <q-a>IN</q-w> rg3'<q-a>length</q-w> - 1 <q-w>DOWNTO</q-w> 1 <q-w>LOOP</q-w>
+<a name="94"><q-n>     94  </q-n></a>				rg3(i) := rg3(i - 1);
+<a name="95"><q-n>     95  </q-n></a>			<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="96"><q-n>     96  </q-n></a>			rg3(0) := 0;
+<a name="97"><q-n>     97  </q-n></a>
+<a name="98"><q-n>     98  </q-n></a>			<q-w>FOR</q-w> i <q-a>IN</q-w> rg2_copy'<q-a>length</q-w> - 1 <q-w>DOWNTO</q-w> 1 <q-w>LOOP</q-w>
+<a name="99"><q-n>     99  </q-n></a>				rg2_copy(i) := rg2_copy(i - 1);
+<a name="100"><q-n>     100  </q-n></a>			<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="101"><q-n>     101  </q-n></a>			rg2_copy(0) := rg3_last_element;
+<a name="102"><q-n>     102  </q-n></a>
+<a name="103"><q-n>     103  </q-n></a>			counter := counter - 1;
+<a name="104"><q-n>     104  </q-n></a>		<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="105"><q-n>     105  </q-n></a>
+<a name="106"><q-n>     106  </q-n></a>		result := integer_to_std_logic(rg3, rg2_copy);
+<a name="107"><q-n>     107  </q-n></a>
+<a name="108"><q-n>     108  </q-n></a>		<q-w>RETURN</q-w> result;
+<a name="109"><q-n>     109  </q-n></a>	<q-w>END</q-w> multiply;
+<a name="110"><q-n>     110  </q-n></a>
+<a name="111"><q-n>     111  </q-n></a><q-w>BEGIN</q-w>
+<a name="112"><q-n>     112  </q-n></a>	result &lt;= multiply(rg1, rg2);
+<a name="113"><q-n>     113  </q-n></a><q-w>END</q-w> mult_function_beh;</pre>
+</tt>
+
+  
+</body>
+</html>

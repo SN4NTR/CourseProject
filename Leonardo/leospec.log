@@ -1,0 +1,311 @@
+LeonardoSpectrum Level 3 - 2010a.7 (Release Production Release, compiled Jun 30 2010 at 15:35:03)
+Copyright 1990-2010 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2010 Compuware Corporation
+
+--
+-- Welcome to LeonardoSpectrum Level 3
+-- Run By Admin@MICROSOF-EB27CD
+-- Run Started On Fri Dec 06 12:20:37 Московское время (зима) 2019
+--
+Info, Working Directory is now 'Z:/Work/Sokolov'
+Info, History file moved to new working directory
+Info, Log file moved to new working directory
+-- Reading file C:\MGC\LeoSpec\LS2010a_7\\data\standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file Z:/WORK/SOKOLOV/function.vhd into library work
+-- Reading file C:\MGC\LeoSpec\LS2010a_7\\data\std_1164.vhd for unit std_logic_1164
+-- Loading package std_logic_1164 into library ieee
+"Z:/WORK/SOKOLOV/function.vhd",line 5: Warning, const1 is not declared in library work.
+"Z:/WORK/SOKOLOV/function.vhd",line 6: Warning, output is not declared in library work.
+"Z:/WORK/SOKOLOV/function.vhd",line 10: Error, matrix1 is not a known type.
+"Z:/WORK/SOKOLOV/function.vhd",line 11: Error, matrix2 is not a known type.
+"Z:/WORK/SOKOLOV/function.vhd",line 13: Error, out_s is not a known type.
+Error in file Z:/WORK/SOKOLOV/function.vhd.
+-- Error found in VHDL source
+-- Reading vhdl file Z:/WORK/SOKOLOV/type.vhd into library work
+-- Loading package Const1 into library work
+"Z:/WORK/SOKOLOV/type.vhd",line 17: Info, Enumerated type out_s with 2 elements encoded as binary.
+Encodings for out_s values
+   value    out_s[0]
+====================
+     Implicated  0
+  NotImplicated  1
+
+-- Loading package output into library work
+-- Reading vhdl file Z:/WORK/SOKOLOV/function.vhd into library work
+-- Loading entity levi into library work
+-- Loading architecture eren of levi into library work
+-- Compiling root entity levi(eren)
+"Z:/WORK/SOKOLOV/function.vhd",line 21: Warning, initial value for i is ignored for synthesis.
+"Z:/WORK/SOKOLOV/function.vhd",line 21: Warning, initial value for l is ignored for synthesis.
+"Z:/WORK/SOKOLOV/function.vhd",line 22: Warning, initial value for j is ignored for synthesis.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 40: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 40: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 48: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, i is not assigned under reset; need loops to preserve its value.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, l is not assigned under reset; need loops to preserve its value.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, T is not assigned under reset; need loops to preserve its value.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, j is not assigned under reset; need loops to preserve its value.
+-- Boundary optimization.
+-- Start pre-optimization for design .work.levi.eren
+"Z:/WORK/SOKOLOV/function.vhd", line 38:Info, Inferred counter instance 'k3' of type 'counter_up_cnt_en_sclear_aclear_clock_32'
+"Z:/WORK/SOKOLOV/function.vhd", line 36:Info, Inferred counter instance 'j' of type 'counter_dn_sload_clock_clk_en_32'
+"Z:/WORK/SOKOLOV/function.vhd", line 54:Info, Inferred counter instance 'l' of type 'counter_up_cnt_en_sclear_clock_clk_en_32'
+"Z:/WORK/SOKOLOV/function.vhd", line 61:Info, Inferred counter instance 'i' of type 'counter_up_cnt_en_clock_32'
+-- Start pre-optimization for design .work.levi.eren
+Info: optimize: library 'power' has not yet been loaded, it will now be loaded
+Reading library file `C:\MGC\LeoSpec\LS2010a_7\\lib\power.syn`...
+Library version = 2.0.0
+Info: setting encoding to auto
+NO wire table is found
+-- Optimizing netlist .work.levi.eren
+INFO: swapping set and reset on instance reg_OutP, to match target library D-FlipFlop cells
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+-- Start timing optimization for design .work.levi.eren
+No critical paths to optimize at this level
+Info, Library power is already loaded. Setting it as target
+Info: setting encoding to auto
+-- Reading vhdl file Z:/WORK/SOKOLOV/type.vhd into library work
+-- Loading package Const1 into library work
+"Z:/WORK/SOKOLOV/type.vhd",line 4: Warning, replacing Const1 in HDL library work.
+"Z:/WORK/SOKOLOV/type.vhd",line 17: Info, Enumerated type out_s with 2 elements encoded as binary.
+Encodings for out_s values
+   value    out_s[0]
+====================
+     Implicated  0
+  NotImplicated  1
+
+-- Loading package output into library work
+"Z:/WORK/SOKOLOV/type.vhd",line 15: Warning, replacing output in HDL library work.
+-- Reading vhdl file Z:/WORK/SOKOLOV/function.vhd into library work
+-- Loading entity levi into library work
+"Z:/WORK/SOKOLOV/function.vhd",line 8: Warning, replacing levi in HDL library work.
+-- Loading architecture eren of levi into library work
+"Z:/WORK/SOKOLOV/function.vhd",line 17: Warning, replacing eren of entity levi.
+-- Compiling root entity levi(eren)
+"Z:/WORK/SOKOLOV/function.vhd",line 21: Warning, initial value for i is ignored for synthesis.
+"Z:/WORK/SOKOLOV/function.vhd",line 21: Warning, initial value for l is ignored for synthesis.
+"Z:/WORK/SOKOLOV/function.vhd",line 22: Warning, initial value for j is ignored for synthesis.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 34: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 37: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 40: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 40: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 1 TO 4.
+"Z:/WORK/SOKOLOV/function.vhd",line 48: Warning, index value -2147483648 TO 2147483647 could be out of prefix index constraint 0 TO 1.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, i is not assigned under reset; need loops to preserve its value.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, l is not assigned under reset; need loops to preserve its value.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, T is not assigned under reset; need loops to preserve its value.
+"Z:/WORK/SOKOLOV/function.vhd",line 29: Warning, j is not assigned under reset; need loops to preserve its value.
+-- Info, replacing levi(eren)
+-- Boundary optimization.
+-- Start pre-optimization for design .work.levi.eren
+"Z:/WORK/SOKOLOV/function.vhd", line 38:Info, Inferred counter instance 'k3' of type 'counter_up_cnt_en_sclear_aclear_clock_32'
+"Z:/WORK/SOKOLOV/function.vhd", line 36:Info, Inferred counter instance 'j' of type 'counter_dn_sload_clock_clk_en_32'
+"Z:/WORK/SOKOLOV/function.vhd", line 54:Info, Inferred counter instance 'l' of type 'counter_up_cnt_en_sclear_clock_clk_en_32'
+"Z:/WORK/SOKOLOV/function.vhd", line 61:Info, Inferred counter instance 'i' of type 'counter_up_cnt_en_clock_32'
+-- Start pre-optimization for design .work.levi.eren
+NO wire table is found
+-- Optimizing netlist .work.levi.eren
+INFO: swapping set and reset on instance reg_OutP, to match target library D-FlipFlop cells
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+-- Start timing optimization for design .work.levi.eren
+No critical paths to optimize at this level
+
+*******************************************************
+
+Cell: levi    View: eren    Library: work
+
+*******************************************************
+
+
+ Cell    Library  References     Total Area
+
+A2       power     7 x    435   3047 um_2
+DFF      power    67 x   2355 157769 um_2
+DFFR     power    33 x   2779  91702 um_2
+IX1      power     5 x    346   1730 um_2
+IX4      power     1 x    575    575 um_2
+N        power    10 x    223   2232 um_2
+NA       power   115 x    307  35294 um_2
+NA3      power    17 x    407   6925 um_2
+NA3O     power    33 x    530  17493 um_2
+NA4      power     8 x    491   3928 um_2
+NAO      power    91 x    435  39607 um_2
+NAO3     power    20 x    491   9821 um_2
+NO       power    50 x    268  13392 um_2
+NO3      power     1 x    396    396 um_2
+NO3A     power    28 x    491  13749 um_2
+NO4      power    22 x    446   9821 um_2
+NOA      power    22 x    363   7979 um_2
+NOAA     power     8 x    485   3884 um_2
+NX2      power    11 x    268   2946 um_2
+NX4      power    10 x    446   4464 um_2
+O2       power     6 x    407   2444 um_2
+XNOR2    power     2 x    742   1484 um_2
+XOR2     power     3 x    692   2076 um_2
+
+ Number of ports :                      19
+ Number of nets :                      640
+ Number of instances :                 570
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of um_2 :                   432757
+ Number of accumulated instances :     570
+
+*******************************************************
+
+Cell: levi    View: eren    Library: work
+
+*******************************************************
+
+
+ Cell    Library  References     Total Area
+
+A2       power     7 x    435   3047 um_2
+DFF      power    67 x   2355 157769 um_2
+DFFR     power    33 x   2779  91702 um_2
+IX1      power     5 x    346   1730 um_2
+IX4      power     1 x    575    575 um_2
+N        power    10 x    223   2232 um_2
+NA       power   115 x    307  35294 um_2
+NA3      power    17 x    407   6925 um_2
+NA3O     power    33 x    530  17493 um_2
+NA4      power     8 x    491   3928 um_2
+NAO      power    91 x    435  39607 um_2
+NAO3     power    20 x    491   9821 um_2
+NO       power    50 x    268  13392 um_2
+NO3      power     1 x    396    396 um_2
+NO3A     power    28 x    491  13749 um_2
+NO4      power    22 x    446   9821 um_2
+NOA      power    22 x    363   7979 um_2
+NOAA     power     8 x    485   3884 um_2
+NX2      power    11 x    268   2946 um_2
+NX4      power    10 x    446   4464 um_2
+O2       power     6 x    407   2444 um_2
+XNOR2    power     2 x    742   1484 um_2
+XOR2     power     3 x    692   2076 um_2
+
+ Number of ports :                      19
+ Number of nets :                      640
+ Number of instances :                 570
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of um_2 :                   432757
+ Number of accumulated instances :     570
+NO wire table is found
+
+
+
+                        Critical Path Report
+
+Critical path #1, (unconstrained path)
+NAME                               GATE              ARRIVAL              LOAD
+------------------------------------------------------------------------------
+clock information not specified
+delay thru clock network                             0.00 (ideal)
+
+
+reg_j(0)/NQ                        DFF         0.00  1.81 up             0.07
+ix3916/Y                           NA          0.51  2.32 dn             0.07
+ix3927/Y                           NO          0.66  2.98 up             0.07
+ix63/Y                             NA          0.51  3.49 dn             0.07
+ix3944/Y                           NO          0.66  4.15 up             0.07
+ix99/Y                             NA          0.51  4.66 dn             0.07
+ix3963/Y                           NO          0.66  5.32 up             0.07
+ix135/Y                            NA          0.51  5.83 dn             0.07
+ix3983/Y                           NO          0.66  6.49 up             0.07
+ix171/Y                            NA          0.51  7.00 dn             0.07
+ix4000/Y                           NO          0.66  7.66 up             0.07
+ix207/Y                            NA          0.51  8.17 dn             0.07
+ix4018/Y                           NO          0.66  8.83 up             0.07
+ix243/Y                            NA          0.51  9.34 dn             0.07
+ix4035/Y                           NO          0.66  10.00 up             0.07
+ix279/Y                            NA          0.51  10.51 dn             0.07
+ix4053/Y                           NO          0.66  11.17 up             0.07
+ix315/Y                            NA          0.51  11.68 dn             0.07
+ix4070/Y                           NO          0.66  12.34 up             0.07
+ix351/Y                            NA          0.51  12.85 dn             0.07
+ix4089/Y                           NO          0.66  13.51 up             0.07
+ix387/Y                            NA          0.51  14.02 dn             0.07
+ix4106/Y                           NO          0.66  14.68 up             0.07
+ix423/Y                            NA          0.51  15.19 dn             0.07
+ix4125/Y                           NO          0.66  15.85 up             0.07
+ix459/Y                            NA          0.51  16.36 dn             0.07
+ix4142/Y                           NO          0.66  17.02 up             0.07
+ix495/Y                            NA          0.51  17.53 dn             0.07
+ix4161/Y                           NO          0.66  18.19 up             0.07
+ix531/Y                            NA          0.51  18.70 dn             0.07
+ix4178/Y                           NO          0.66  19.36 up             0.07
+ix551/Y                            XNOR2       0.57  19.94 up             0.02
+ix4187/Y                           NA3         0.58  20.52 dn             0.02
+ix3194/Y                           NAO         0.31  20.83 up             0.04
+reg_j(31)/D                        DFF         0.00  20.83 up             0.00
+data arrival time                                    20.83
+
+
+data required time                                not specified
+------------------------------------------------------------------------------
+data required time                                not specified
+data arrival time                                    20.83
+                                                  ----------
+                                               unconstrained path
+------------------------------------------------------------------------------
+
+
+Info, Working Directory is now 'Z:/Work/MrMIRON'
+Info, History file moved to new working directory
+Info, Log file moved to new working directory
+-- Reading vhdl file Z:/WORK/MRMIRON/type.vhd into library work
+-- Loading package project_package into library work
+-- Reading vhdl file Z:/WORK/MRMIRON/fun.vhd into library work
+-- Loading entity mult_function into library work
+-- Loading architecture mult_function_beh of mult_function into library work
+-- Compiling root entity mult_function(mult_function_beh)
+-- Boundary optimization.
+-- Start pre-optimization for design .work.mult_function.mult_function_beh
+-- Start pre-optimization for design .work.mult_function.mult_function_beh
+NO wire table is found
+-- Optimizing netlist .work.mult_function.mult_function_beh
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:07 Mapping
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+-- Start timing optimization for design .work.mult_function.mult_function_beh
+No critical paths to optimize at this level

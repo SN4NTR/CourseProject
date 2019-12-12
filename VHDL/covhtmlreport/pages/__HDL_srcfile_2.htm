@@ -1,0 +1,69 @@
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>ModelSim Coverage Report</title>
+  <link rel="StyleSheet" media="screen" href="../css/hdl2html.css"/>
+</head>
+<body id="hdl2html">
+  <tt>
+<pre>
+<a name="1"><q-n>     1  </q-n></a><q-w>LIBRARY</q-w> ieee;
+<a name="2"><q-n>     2  </q-n></a><q-w>USE</q-w> ieee.std_logic_1164.<q-w>ALL</q-w>;
+<a name="3"><q-n>     3  </q-n></a><q-w>USE</q-w> ieee.std_logic_textio.<q-w>ALL</q-w>;
+<a name="4"><q-n>     4  </q-n></a><q-w>USE</q-w> ieee.numeric_std.<q-w>ALL</q-w>;
+<a name="5"><q-n>     5  </q-n></a><q-w>USE</q-w> std.textio.<q-w>ALL</q-w>;
+<a name="6"><q-n>     6  </q-n></a>
+<a name="7"><q-n>     7  </q-n></a><q-w>LIBRARY</q-w> work;
+<a name="8"><q-n>     8  </q-n></a><q-w>USE</q-w> work.project_package.<q-w>ALL</q-w>;
+<a name="9"><q-n>     9  </q-n></a>
+<a name="10"><q-n>     10  </q-n></a><q-w>ENTITY</q-w> test_mult <q-w>IS</q-w>
+<a name="11"><q-n>     11  </q-n></a><q-w>END</q-w> test_mult;
+<a name="12"><q-n>     12  </q-n></a>
+<a name="13"><q-n>     13  </q-n></a><q-w>ARCHITECTURE</q-w> test_beh <q-w>OF</q-w> test_mult <q-w>IS</q-w>
+<a name="14"><q-n>     14  </q-n></a>	<q-w>COMPONENT</q-w> mult_function <q-w>IS</q-w>
+<a name="15"><q-n>     15  </q-n></a>		<q-w>PORT</q-w> (
+<a name="16"><q-n>     16  </q-n></a>			rg1, rg2 : <q-a>IN</q-w> <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> N - 1);
+<a name="17"><q-n>     17  </q-n></a>			result : <q-a>OUT</q-w> <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> (N * 2) - 1));
+<a name="18"><q-n>     18  </q-n></a>	<q-w>END</q-w> <q-w>COMPONENT</q-w>;
+<a name="19"><q-n>     19  </q-n></a>
+<a name="20"><q-n>     20  </q-n></a>	<q-w>SIGNAL</q-w> rg1, rg2 : <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> N - 1);
+<a name="21"><q-n>     21  </q-n></a>	<q-w>SIGNAL</q-w> result : <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> (N * 2) - 1);
+<a name="22"><q-n>     22  </q-n></a>
+<a name="23"><q-n>     23  </q-n></a>	<q-w>CONSTANT</q-w> f_name : <q-t>STRING</q-w> := <q-l>"input_data.txt"</q-l>;
+<a name="24"><q-n>     24  </q-n></a>	<q-w>FILE</q-w> f_source : <q-t>text</q-w>;
+<a name="25"><q-n>     25  </q-n></a>
+<a name="26"><q-n>     26  </q-n></a><q-w>BEGIN</q-w>
+<a name="27"><q-n>     27  </q-n></a>
+<a name="28"><q-n>     28  </q-n></a>	mult_func_call : mult_function <q-w>PORT</q-w> <q-w>MAP</q-w>(rg1 =&gt; rg1, rg2 =&gt; rg2, result =&gt; result);
+<a name="29"><q-n>     29  </q-n></a>
+<a name="30"><q-n>     30  </q-n></a>	<q-w>PROCESS</q-w>
+<a name="31"><q-n>     31  </q-n></a>		<q-w>VARIABLE</q-w> f_line : <q-t>line</q-w>;
+<a name="32"><q-n>     32  </q-n></a>		<q-w>VARIABLE</q-w> rg1_line : <q-t>std_logic_vector</q-w>(0 <q-w>TO</q-w> N - 1);
+<a name="33"><q-n>     33  </q-n></a>		<q-w>VARIABLE</q-w> rg2_line : <q-t>std_logic_vector</q-w>(0 <q-w>TO</q-w> N - 1);
+<a name="34"><q-n>     34  </q-n></a>		<q-w>VARIABLE</q-w> space_char : <q-t>CHARACTER</q-w>;
+<a name="35"><q-n>     35  </q-n></a>
+<a name="36"><q-n>     36  </q-n></a>	<q-w>BEGIN</q-w>
+<a name="37"><q-n>     37  </q-n></a>		file_open(f_source, f_name, read_mode);
+<a name="38"><q-n>     38  </q-n></a>
+<a name="39"><q-n>     39  </q-n></a>		<q-w>WHILE</q-w> (<q-w>NOT</q-w> endfile(f_source)) <q-w>LOOP</q-w>
+<a name="40"><q-n>     40  </q-n></a>			readline(f_source, f_line);
+<a name="41"><q-n>     41  </q-n></a>			read(f_line, rg1_line);
+<a name="42"><q-n>     42  </q-n></a>			read(f_line, space_char);
+<a name="43"><q-n>     43  </q-n></a>			read(f_line, rg2_line);
+<a name="44"><q-n>     44  </q-n></a>
+<a name="45"><q-n>     45  </q-n></a>			rg1 &lt;= rg1_line;
+<a name="46"><q-n>     46  </q-n></a>			rg2 &lt;= rg2_line;
+<a name="47"><q-n>     47  </q-n></a>
+<a name="48"><q-n>     48  </q-n></a>			<q-w>WAIT</q-w> <q-w>FOR</q-w> 50 ns;
+<a name="49"><q-n>     49  </q-n></a>		<q-w>END</q-w> <q-w>LOOP</q-w>;
+<a name="50"><q-n>     50  </q-n></a>
+<a name="51"><q-n>     51  </q-n></a>		file_close(f_source);
+<a name="52"><q-n>     52  </q-n></a>
+<a name="53"><q-n>     53  </q-n></a>	<q-w>END</q-w> <q-w>PROCESS</q-w>;
+<a name="54"><q-n>     54  </q-n></a><q-w>END</q-w> test_beh;</pre>
+</tt>
+
+  
+</body>
+</html>

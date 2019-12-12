@@ -1,0 +1,339 @@
+Coverage Report by file with details
+
+=================================================================================
+=== File: D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd
+=================================================================================
+Statement Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           50        50         0     100.0
+
+================================Statement Details================================
+
+Statement Coverage for file D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd --
+
+    1                                                LIBRARY ieee;
+    2                                                USE ieee.std_logic_1164.ALL;
+    3                                                
+    4                                                LIBRARY work;
+    5                                                USE work.project_package.ALL;
+    6                                                
+    7                                                ENTITY mult_function IS
+    8                                                	PORT (
+    9                                                		rg1, rg2 : IN std_logic_vector (0 TO N - 1);
+    10                                               		result : OUT std_logic_vector (0 TO (N * 2) - 1));
+    11                                               END mult_function;
+    12                                               
+    13                                               ARCHITECTURE mult_function_beh OF mult_function IS
+    14                                               
+    15                                               	FUNCTION fill_array_with_zeros(arr : int_array(0 TO N - 1)) RETURN int_array IS
+    16                                               		VARIABLE arr_with_zeros : int_array(0 TO N - 1);
+    17                                               	BEGIN
+    18              1                    2585133     		FOR i IN 0 TO arr'length - 1 LOOP
+    18              2                   10340532     
+    19              1                   10340532     			arr_with_zeros(i) := 0;
+    20              1                   10340532     		END LOOP;
+    21                                               
+    22              1                    2585133     		RETURN arr_with_zeros;
+    23                                               	END FUNCTION;
+    24                                               
+    25                                               	FUNCTION std_logic_to_integer(arr : std_logic_vector(0 TO N - 1)) RETURN int_array IS
+    26                                               		VARIABLE arr_to_integer : int_array(0 TO N - 1);
+    27                                               	BEGIN
+    28              1                    5170266     		FOR i IN 0 TO arr'length - 1 LOOP
+    28              2                   20681064     
+    29                                               			IF (arr(i) = '1') THEN
+    30              1                    8863298     				arr_to_integer(i) := 1;
+    31                                               			ELSE
+    32              1                   11817766     				arr_to_integer(i) := 0;
+    33                                               			END IF;
+    34              1                   20681064     		END LOOP;
+    35                                               
+    36              1                    5170266     		RETURN arr_to_integer;
+    37                                               	END FUNCTION;
+    38                                               
+    39                                               	FUNCTION integer_to_std_logic(arr1, arr2 : int_array(0 TO N - 1)) RETURN std_logic_vector IS
+    40                                               		VARIABLE arr_to_std_logic : std_logic_vector(0 TO (N * 2) - 1);
+    41                                               	BEGIN
+    42              1                    2585133     		FOR i IN 0 TO arr1'length - 1 LOOP
+    42              2                   10340532     
+    43                                               			IF (arr1(i) = 1) THEN
+    44              1                    1107909     				arr_to_std_logic(i) := '1';
+    45                                               			ELSE
+    46              1                    9232623     				arr_to_std_logic(i) := '0';
+    47                                               			END IF;
+    48              1                   10340532     		END LOOP;
+    49                                               
+    50              1                    2585133     		FOR i IN 0 TO arr2'length - 1 LOOP
+    50              2                   10340532     
+    51                                               			IF (arr2(i) = 1) THEN
+    52              1                    4748199     				arr_to_std_logic(i + N) := '1';
+    53                                               			ELSE
+    54              1                    5592333     				arr_to_std_logic(i + N) := '0';
+    55                                               			END IF;
+    56              1                   10340532     		END LOOP;
+    57                                               
+    58              1                    2585133     		RETURN arr_to_std_logic;
+    59                                               	END FUNCTION;
+    60                                               
+    61                                               	FUNCTION multiply(rg1, rg2 : std_logic_vector(0 TO N - 1)) RETURN std_logic_vector IS
+    62                                               		VARIABLE rg1_copy : int_array (0 TO N - 1);
+    63                                               		VARIABLE rg2_copy : int_array (0 TO N - 1);
+    64                                               		VARIABLE rg3 : int_array (0 TO N - 1);
+    65                                               		VARIABLE result : std_logic_vector (0 TO (N * 2) - 1);
+    66                                               		VARIABLE counter : INTEGER := N;
+    67                                               		VARIABLE buff : INTEGER := 0;
+    68                                               		VARIABLE rg3_last_element : INTEGER := 0;
+    69                                               
+    70                                               	BEGIN
+    71              1                    2585133     		rg1_copy := std_logic_to_integer(rg1);
+    72              1                    2585133     		rg2_copy := std_logic_to_integer(rg2);
+    73              1                    2585133     		rg3 := fill_array_with_zeros(rg3);
+    74                                               
+    75              1                   12925665     		WHILE counter > 0 LOOP
+    76                                               			IF (rg2_copy(N - 1) = 1) THEN
+    77              1                    4431653     				FOR i IN rg3'length - 1 DOWNTO 0 LOOP
+    77              2                   17726612     
+    78              1                   17726612     					rg3(i) := rg3(i) + rg1_copy(i);
+    79                                               
+    80                                               					IF (buff /= 0) THEN
+    81              1                    1740994     						rg3(i) := rg3(i) + buff;
+    82              1                    1740994     						buff := buff - 1;
+    83                                               					END IF;
+    84                                               					IF (rg3(i) > 1) THEN
+    85              1                    1740994     						buff := buff + 1;
+    86              1                    1740994     						rg3(i) := rg3(i) - (buff + 1);
+    87                                               					END IF;
+    88              1                   17726612     				END LOOP;
+    89                                               			END IF;
+    90                                               
+    91              1                   10340532     			rg3_last_element := rg3(N - 1);
+    92                                               
+    93              1                   10340532     			FOR i IN rg3'length - 1 DOWNTO 1 LOOP
+    93              2                   31021596     
+    94              1                   31021596     				rg3(i) := rg3(i - 1);
+    95              1                   31021596     			END LOOP;
+    96              1                   10340532     			rg3(0) := 0;
+    97                                               
+    98              1                   10340532     			FOR i IN rg2_copy'length - 1 DOWNTO 1 LOOP
+    98              2                   31021596     
+    99              1                   31021596     				rg2_copy(i) := rg2_copy(i - 1);
+    100             1                   31021596     			END LOOP;
+    101             1                   10340532     			rg2_copy(0) := rg3_last_element;
+    102                                              
+    103             1                   10340532     			counter := counter - 1;
+    104             1                   10340532     		END LOOP;
+    105                                              
+    106             1                    2585133     		result := integer_to_std_logic(rg3, rg2_copy);
+    107                                              
+    108             1                    2585133     		RETURN result;
+    109                                              	END multiply;
+    110                                              
+    111                                              BEGIN
+    112             1                    2585133     	result <= multiply(rg1, rg2);
+    113                                              END mult_function_beh;
+
+Branch Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                        12        12         0     100.0
+
+================================Branch Details================================
+
+Branch Coverage for file D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd --
+
+------------------------------------IF Branch------------------------------------
+    29                                  20681064     Count coming in to IF
+    29              1                    8863298     			IF (arr(i) = '1') THEN
+    31              1                   11817766     			ELSE
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    43                                  10340532     Count coming in to IF
+    43              1                    1107909     			IF (arr1(i) = 1) THEN
+    45              1                    9232623     			ELSE
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    51                                  10340532     Count coming in to IF
+    51              1                    4748199     			IF (arr2(i) = 1) THEN
+    53              1                    5592333     			ELSE
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    76                                  10340532     Count coming in to IF
+    76              1                    4431653     			IF (rg2_copy(N - 1) = 1) THEN
+                                         5908879     All False Count
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    80                                  17726612     Count coming in to IF
+    80              1                    1740994     					IF (buff /= 0) THEN
+                                        15985618     All False Count
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    84                                  17726612     Count coming in to IF
+    84              1                    1740994     					IF (rg3(i) > 1) THEN
+                                        15985618     All False Count
+Branch totals: 2 hits of 2 branches = 100.0%
+
+
+Condition Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Condition Terms              0         0         0     100.0
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms             0         0         0     100.0
+Toggle Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Toggle Bins                     32        24         8      75.0
+
+================================Toggle Details================================
+
+Toggle Coverage for File D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd --
+
+       Line                                   Node      1H->0L      0L->1H  "Coverage"
+--------------------------------------------------------------------------------------
+          9                                 rg2(3)           1           1      100.00 
+          9                                 rg2(2)           1           1      100.00 
+          9                                 rg2(1)           1           1      100.00 
+          9                                 rg2(0)           0           0        0.00 
+          9                                 rg1(3)           1           1      100.00 
+          9                                 rg1(2)           1           1      100.00 
+          9                                 rg1(1)           1           1      100.00 
+          9                                 rg1(0)           0           0        0.00 
+         10                              result(7)           1           1      100.00 
+         10                              result(6)           1           1      100.00 
+         10                              result(5)           1           1      100.00 
+         10                              result(4)           1           1      100.00 
+         10                              result(3)           1           1      100.00 
+         10                              result(2)           1           1      100.00 
+         10                              result(1)           0           0        0.00 
+         10                              result(0)           0           0        0.00 
+
+Total Node Count     =         16 
+Toggled Node Count   =         12 
+Untoggled Node Count =          4 
+
+Toggle Coverage      =       75.0% (24 of 32 bins)
+
+=================================================================================
+=== File: D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd
+=================================================================================
+Statement Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           12        12         0     100.0
+
+================================Statement Details================================
+
+Statement Coverage for file D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd --
+
+    1                                                LIBRARY ieee;
+    2                                                USE ieee.std_logic_1164.ALL;
+    3                                                USE ieee.std_logic_textio.ALL;
+    4                                                USE ieee.numeric_std.ALL;
+    5                                                USE std.textio.ALL;
+    6                                                
+    7                                                LIBRARY work;
+    8                                                USE work.project_package.ALL;
+    9                                                
+    10                                               ENTITY test_mult IS
+    11                                               END test_mult;
+    12                                               
+    13                                               ARCHITECTURE test_beh OF test_mult IS
+    14                                               	COMPONENT mult_function IS
+    15                                               		PORT (
+    16                                               			rg1, rg2 : IN std_logic_vector (0 TO N - 1);
+    17                                               			result : OUT std_logic_vector (0 TO (N * 2) - 1));
+    18                                               	END COMPONENT;
+    19                                               
+    20                                               	SIGNAL rg1, rg2 : std_logic_vector (0 TO N - 1);
+    21                                               	SIGNAL result : std_logic_vector (0 TO (N * 2) - 1);
+    22                                               
+    23                                               	CONSTANT f_name : STRING := "input_data.txt";
+    24                                               	FILE f_source : text;
+    25                                               
+    26                                               BEGIN
+    27                                               
+    28                                               	mult_func_call : mult_function PORT MAP(rg1 => rg1, rg2 => rg2, result => result);
+    29                                               
+    30              1                          1     	PROCESS
+    31                                               		VARIABLE f_line : line;
+    32                                               		VARIABLE rg1_line : std_logic_vector(0 TO N - 1);
+    33                                               		VARIABLE rg2_line : std_logic_vector(0 TO N - 1);
+    34                                               		VARIABLE space_char : CHARACTER;
+    35                                               
+    36                                               	BEGIN
+    37              1                      52758     		file_open(f_source, f_name, read_mode);
+    38                                               
+    39              1                    2637889     		WHILE (NOT endfile(f_source)) LOOP
+    40              1                    2585132     			readline(f_source, f_line);
+    41              1                    2585132     			read(f_line, rg1_line);
+    42              1                    2585132     			read(f_line, space_char);
+    43              1                    2585132     			read(f_line, rg2_line);
+    44                                               
+    45              1                    2585132     			rg1 <= rg1_line;
+    46              1                    2585132     			rg2 <= rg2_line;
+    47                                               
+    48              1                    2585132     			WAIT FOR 50 ns;
+    49              1                    2585131     		END LOOP;
+    50                                               
+    51              1                      52757     		file_close(f_source);
+    52                                               
+    53                                               	END PROCESS;
+    54                                               END test_beh;
+
+Branch Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                         0         0         0     100.0
+Condition Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Condition Terms              0         0         0     100.0
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms             0         0         0     100.0
+Toggle Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Toggle Bins                     32        24         8      75.0
+
+================================Toggle Details================================
+
+Toggle Coverage for File D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd --
+
+       Line                                   Node      1H->0L      0L->1H  "Coverage"
+--------------------------------------------------------------------------------------
+         20                                 rg2(3)           1           1      100.00 
+         20                                 rg2(2)           1           1      100.00 
+         20                                 rg2(1)           1           1      100.00 
+         20                                 rg2(0)           0           0        0.00 
+         20                                 rg1(3)           1           1      100.00 
+         20                                 rg1(2)           1           1      100.00 
+         20                                 rg1(1)           1           1      100.00 
+         20                                 rg1(0)           0           0        0.00 
+         21                              result(7)           1           1      100.00 
+         21                              result(6)           1           1      100.00 
+         21                              result(5)           1           1      100.00 
+         21                              result(4)           1           1      100.00 
+         21                              result(3)           1           1      100.00 
+         21                              result(2)           1           1      100.00 
+         21                              result(1)           0           0        0.00 
+         21                              result(0)           0           0        0.00 
+
+Total Node Count     =         16 
+Toggled Node Count   =         12 
+Untoggled Node Count =          4 
+
+Toggle Coverage      =       75.0% (24 of 32 bins)
+
+
+Total Coverage By File (code coverage only, filtered view): 91.6%
+

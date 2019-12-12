@@ -12,8 +12,8 @@ END mult_function;
 
 ARCHITECTURE mult_function_beh OF mult_function IS
 
-	FUNCTION fill_array_with_zeros(arr : int_array(0 TO N - 1)) RETURN int_array IS
-		VARIABLE arr_with_zeros : int_array(0 TO N - 1);
+	FUNCTION fill_array_with_zeros(arr : int_array) RETURN int_array IS
+		VARIABLE arr_with_zeros : int_array;
 	BEGIN
 		FOR i IN 0 TO arr'length - 1 LOOP
 			arr_with_zeros(i) := 0;
@@ -23,7 +23,7 @@ ARCHITECTURE mult_function_beh OF mult_function IS
 	END FUNCTION;
 
 	FUNCTION std_logic_to_integer(arr : std_logic_vector(0 TO N - 1)) RETURN int_array IS
-		VARIABLE arr_to_integer : int_array(0 TO N - 1);
+		VARIABLE arr_to_integer : int_array;
 	BEGIN
 		FOR i IN 0 TO arr'length - 1 LOOP
 			IF (arr(i) = '1') THEN
@@ -36,7 +36,7 @@ ARCHITECTURE mult_function_beh OF mult_function IS
 		RETURN arr_to_integer;
 	END FUNCTION;
 
-	FUNCTION integer_to_std_logic(arr1, arr2 : int_array(0 TO N - 1)) RETURN std_logic_vector IS
+	FUNCTION integer_to_std_logic(arr1, arr2 : int_array) RETURN std_logic_vector IS
 		VARIABLE arr_to_std_logic : std_logic_vector(0 TO (N * 2) - 1);
 	BEGIN
 		FOR i IN 0 TO arr1'length - 1 LOOP
@@ -59,9 +59,9 @@ ARCHITECTURE mult_function_beh OF mult_function IS
 	END FUNCTION;
 
 	FUNCTION multiply(rg1, rg2 : std_logic_vector(0 TO N - 1)) RETURN std_logic_vector IS
-		VARIABLE rg1_copy : int_array (0 TO N - 1);
-		VARIABLE rg2_copy : int_array (0 TO N - 1);
-		VARIABLE rg3 : int_array (0 TO N - 1);
+		VARIABLE rg1_copy : int_array;
+		VARIABLE rg2_copy : int_array;
+		VARIABLE rg3 : int_array;
 		VARIABLE result : std_logic_vector (0 TO (N * 2) - 1);
 		VARIABLE counter : INTEGER := N;
 		VARIABLE buff : INTEGER := 0;

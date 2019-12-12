@@ -1,0 +1,58 @@
+var g_data = {
+b45:[{dummy:0},
+{anchor:'cvg46',items:[{z:'			IF (arr(i) = \'1\') THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'29',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (arr(i) = \'1\') THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'29',h:'842018',c:'g'}
+,{cr:'c',t:'E',z:'			ELSE',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'31',h:'1122702',c:'g'}
+]}],
+b47:[{dummy:0},
+{anchor:'cvg48',items:[{z:'			IF (arr1(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'43',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (arr1(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'43',h:'105252',c:'g'}
+,{cr:'c',t:'E',z:'			ELSE',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'45',h:'877108',c:'g'}
+]},
+{anchor:'cvg49',items:[{z:'			IF (arr2(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'51',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (arr2(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'51',h:'451081',c:'g'}
+,{cr:'c',t:'E',z:'			ELSE',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'53',h:'531279',c:'g'}
+]}],
+b50:[{dummy:0},
+{anchor:'cvg51',items:[{z:'			IF (rg2_copy(N - 1) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'76',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (rg2_copy(N - 1) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'76',h:'421009',c:'g'}
+,{cr:'c',t:'A',z:'			IF (rg2_copy(N - 1) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'76',h:'561351',c:'g'}
+]},
+{anchor:'cvg52',items:[{z:'					IF (buff /= 0) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'80',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'					IF (buff /= 0) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'80',h:'165396',c:'g'}
+,{cr:'c',t:'A',z:'					IF (buff /= 0) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'80',h:'1518640',c:'g'}
+]},
+{anchor:'cvg53',items:[{z:'					IF (rg3(i) > 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'84',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'					IF (rg3(i) > 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'84',h:'165396',c:'g'}
+,{cr:'c',t:'A',z:'					IF (rg3(i) > 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'84',h:'1518640',c:'g'}
+]}],
+b75:[{dummy:0},
+{anchor:'cvg76',items:[{z:'			IF (arr(i) = \'1\') THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'29',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (arr(i) = \'1\') THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'29',h:'842018',c:'g'}
+,{cr:'c',t:'E',z:'			ELSE',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'31',h:'1122702',c:'g'}
+]}],
+b77:[{dummy:0},
+{anchor:'cvg78',items:[{z:'			IF (arr1(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'43',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (arr1(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'43',h:'105252',c:'g'}
+,{cr:'c',t:'E',z:'			ELSE',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'45',h:'877108',c:'g'}
+]},
+{anchor:'cvg79',items:[{z:'			IF (arr2(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'51',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (arr2(i) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'51',h:'451081',c:'g'}
+,{cr:'c',t:'E',z:'			ELSE',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'53',h:'531279',c:'g'}
+]}],
+b80:[{dummy:0},
+{anchor:'cvg81',items:[{z:'			IF (rg2_copy(N - 1) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'76',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'			IF (rg2_copy(N - 1) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'76',h:'421009',c:'g'}
+,{cr:'c',t:'A',z:'			IF (rg2_copy(N - 1) = 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'76',h:'561351',c:'g'}
+]},
+{anchor:'cvg82',items:[{z:'					IF (buff /= 0) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'80',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'					IF (buff /= 0) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'80',h:'165396',c:'g'}
+,{cr:'c',t:'A',z:'					IF (buff /= 0) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'80',h:'1518640',c:'g'}
+]},
+{anchor:'cvg83',items:[{z:'					IF (rg3(i) > 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'84',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'					IF (rg3(i) > 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'84',h:'165396',c:'g'}
+,{cr:'c',t:'A',z:'					IF (rg3(i) > 1) THEN',hf:'__HDL_srcfile_1.htm',f:'multiplier.vhd',l:'84',h:'1518640',c:'g'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);

@@ -12,3 +12,38 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_func
 map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
 par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_function.ngc" mult_function.ngd  
+map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
+par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_function.ngc" mult_function.ngd  
+map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
+par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_function.ngc" mult_function.ngd  
+map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
+par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_function.ngc" mult_function.ngd  
+map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
+par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_function.ngc" mult_function.ngd  
+map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
+par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_function.ngc" mult_function.ngd  
+map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
+par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/mult_function.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s1000-ftg256-4 "mult_function.ngc" mult_function.ngd  
+map -intstyle ise -p xa3s1000-ftg256-4 -cm area -ir off -pr off -c 100 -o mult_function_map.ncd mult_function.ngd mult_function.pcf 
+par -w -intstyle ise -ol high -t 1 mult_function_map.ncd mult_function.ncd mult_function.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_function.twx mult_function.ncd -o mult_function.twr mult_function.pcf 

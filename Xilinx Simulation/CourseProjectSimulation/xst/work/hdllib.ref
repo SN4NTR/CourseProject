@@ -1,5 +1,5 @@
-AR mult_function mult_function_beh "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/multiplier.vhd" sub00/vhpl02 1575730605
+AR mult_function mult_function_beh "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd" sub00/vhpl02 1576150121
 EN test_mult NULL "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/test.vhd" sub00/vhpl03 1575622865
-EN mult_function NULL "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/multiplier.vhd" sub00/vhpl01 1575730604
+EN mult_function NULL "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd" sub00/vhpl01 1576150120
 AR test_mult test_beh "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/test.vhd" sub00/vhpl04 1575622866
-PH project_package NULL "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/project_package.vhd" sub00/vhpl00 1575730603
+PH project_package NULL "D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd" sub00/vhpl00 1576150119

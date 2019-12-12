@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: mult_function.prj
 
@@ -104,24 +104,21 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/project_package.vhd" in Library work.
+Compiling vhdl file "D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd" in Library work.
 Package <project_package> compiled.
-Compiling vhdl file "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/multiplier.vhd" in Library work.
-Entity <mult_function> compiled.
-Entity <mult_function> (Architecture <mult_function_beh>) compiled.
+Compiling vhdl file "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd" in Library work.
+Architecture mult_function_beh of Entity mult_function is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <mult_function> in library <work> (architecture <mult_function_beh>) with generics.
-	N = 4
+Analyzing hierarchy for entity <mult_function> in library <work> (architecture <mult_function_beh>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing generic Entity <mult_function> in library <work> (Architecture <mult_function_beh>).
-	N = 4
+Analyzing Entity <mult_function> in library <work> (Architecture <mult_function_beh>).
 Entity <mult_function> analyzed. Unit <mult_function> generated.
 
 
@@ -132,166 +129,132 @@ Entity <mult_function> analyzed. Unit <mult_function> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <mult_function>.
-    Related source file is "D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/multiplier.vhd".
-    Found 16-bit adder for signal <$add0000> created at line 53.
-    Found 12-bit adder for signal <add0001$add0000> created at line 53.
-    Found 8-bit adder for signal <add0002$add0000> created at line 53.
-    Found 11-bit adder for signal <add0003$add0000> created at line 53.
-    Found 4-bit adder for signal <add0004$add0000> created at line 53.
-    Found 7-bit adder for signal <add0005$add0000> created at line 53.
-    Found 10-bit adder for signal <add0006$add0000> created at line 53.
-    Found 3-bit adder for signal <add0007$add0000> created at line 53.
-    Found 6-bit adder for signal <add0008$add0000> created at line 53.
-    Found 15-bit adder for signal <add0009$add0000> created at line 53.
-    Found 14-bit adder for signal <add0010$add0000> created at line 53.
-    Found 13-bit adder for signal <add0011$add0000> created at line 53.
-    Found 9-bit adder for signal <add0012$add0000> created at line 53.
-    Found 5-bit adder for signal <add0013$add0000> created at line 53.
-    Found 2-bit adder for signal <buff$add0001> created at line 53.
-    Found 3-bit subtractor for signal <buff$addsub0000> created at line 50.
-    Found 5-bit subtractor for signal <buff$addsub0001> created at line 50.
-    Found 6-bit subtractor for signal <buff$addsub0002> created at line 50.
-    Found 4-bit subtractor for signal <buff$addsub0003> created at line 50.
-    Found 7-bit subtractor for signal <buff$addsub0004> created at line 50.
-    Found 10-bit subtractor for signal <buff$addsub0005> created at line 50.
-    Found 8-bit subtractor for signal <buff$addsub0006> created at line 50.
-    Found 11-bit subtractor for signal <buff$addsub0007> created at line 50.
-    Found 9-bit subtractor for signal <buff$addsub0008> created at line 50.
-    Found 14-bit subtractor for signal <buff$addsub0009> created at line 50.
-    Found 12-bit subtractor for signal <buff$addsub0010> created at line 50.
-    Found 15-bit subtractor for signal <buff$addsub0011> created at line 50.
-    Found 13-bit subtractor for signal <buff$addsub0012> created at line 50.
-    Found 1-bit subtractor for signal <buff$sub0000> created at line 50.
-    Found 2-bit subtractor for signal <buff$sub0001> created at line 50.
-    Found 4-bit adder for signal <rg3_0$addsub0000> created at line 49.
-    Found 5-bit adder for signal <rg3_0$addsub0001> created at line 54.
-    Found 5-bit subtractor for signal <rg3_0$addsub0002> created at line 54.
-    Found 7-bit adder for signal <rg3_0$addsub0003> created at line 49.
-    Found 9-bit adder for signal <rg3_0$addsub0004> created at line 54.
-    Found 9-bit subtractor for signal <rg3_0$addsub0005> created at line 54.
-    Found 17-bit adder for signal <rg3_0$addsub0006> created at line 54.
-    Found 17-bit subtractor for signal <rg3_0$addsub0007> created at line 54.
-    Found 11-bit adder for signal <rg3_0$addsub0008> created at line 49.
-    Found 13-bit adder for signal <rg3_0$addsub0009> created at line 54.
-    Found 13-bit subtractor for signal <rg3_0$addsub0010> created at line 54.
-    Found 15-bit adder for signal <rg3_0$addsub0011> created at line 49.
-    Found 4-bit comparator greater for signal <rg3_0$cmp_gt0000> created at line 52.
-    Found 7-bit comparator greater for signal <rg3_0$cmp_gt0001> created at line 52.
-    Found 15-bit comparator greater for signal <rg3_0$cmp_gt0002> created at line 52.
-    Found 11-bit comparator greater for signal <rg3_0$cmp_gt0003> created at line 52.
-    Found 14-bit adder for signal <rg3_1$add0001> created at line 46.
-    Found 10-bit adder for signal <rg3_1$add0003> created at line 46.
-    Found 6-bit adder for signal <rg3_1$add0005> created at line 46.
-    Found 3-bit adder for signal <rg3_1$addsub0000> created at line 49.
-    Found 4-bit adder for signal <rg3_1$addsub0001> created at line 54.
-    Found 4-bit subtractor for signal <rg3_1$addsub0002> created at line 54.
-    Found 7-bit adder for signal <rg3_1$addsub0003> created at line 49.
-    Found 8-bit adder for signal <rg3_1$addsub0004> created at line 54.
-    Found 8-bit subtractor for signal <rg3_1$addsub0005> created at line 54.
-    Found 11-bit adder for signal <rg3_1$addsub0006> created at line 49.
-    Found 16-bit adder for signal <rg3_1$addsub0007> created at line 54.
-    Found 16-bit subtractor for signal <rg3_1$addsub0008> created at line 54.
-    Found 12-bit adder for signal <rg3_1$addsub0009> created at line 54.
-    Found 12-bit subtractor for signal <rg3_1$addsub0010> created at line 54.
-    Found 15-bit adder for signal <rg3_1$addsub0011> created at line 49.
-    Found 3-bit comparator greater for signal <rg3_1$cmp_gt0000> created at line 52.
-    Found 7-bit comparator greater for signal <rg3_1$cmp_gt0001> created at line 52.
-    Found 15-bit comparator greater for signal <rg3_1$cmp_gt0002> created at line 52.
-    Found 11-bit comparator greater for signal <rg3_1$cmp_gt0003> created at line 52.
-    Found 13-bit adder for signal <rg3_2$add0001> created at line 46.
-    Found 9-bit adder for signal <rg3_2$add0003> created at line 46.
-    Found 5-bit adder for signal <rg3_2$add0005> created at line 46.
-    Found 3-bit subtractor for signal <rg3_2$addsub0002> created at line 54.
-    Found 6-bit adder for signal <rg3_2$addsub0003> created at line 49.
-    Found 7-bit adder for signal <rg3_2$addsub0004> created at line 54.
-    Found 7-bit subtractor for signal <rg3_2$addsub0005> created at line 54.
-    Found 10-bit adder for signal <rg3_2$addsub0006> created at line 49.
-    Found 15-bit adder for signal <rg3_2$addsub0007> created at line 54.
-    Found 15-bit subtractor for signal <rg3_2$addsub0008> created at line 54.
-    Found 11-bit adder for signal <rg3_2$addsub0009> created at line 54.
-    Found 11-bit subtractor for signal <rg3_2$addsub0010> created at line 54.
-    Found 14-bit adder for signal <rg3_2$addsub0011> created at line 49.
-    Found 1-bit adder carry out for signal <rg3_2$addsub0012> created at line 49.
-    Found 2-bit adder carry out for signal <rg3_2$addsub0013> created at line 54.
-    Found 2-bit comparator greater for signal <rg3_2$cmp_gt0000> created at line 52.
-    Found 6-bit comparator greater for signal <rg3_2$cmp_gt0001> created at line 52.
-    Found 14-bit comparator greater for signal <rg3_2$cmp_gt0002> created at line 52.
-    Found 10-bit comparator greater for signal <rg3_2$cmp_gt0003> created at line 52.
-    Found 12-bit adder for signal <rg3_3$add0001> created at line 46.
-    Found 8-bit adder for signal <rg3_3$add0003> created at line 46.
-    Found 4-bit adder for signal <rg3_3$add0005> created at line 46.
-    Found 2-bit subtractor for signal <rg3_3$addsub0000> created at line 54.
-    Found 5-bit adder for signal <rg3_3$addsub0001> created at line 49.
-    Found 6-bit adder for signal <rg3_3$addsub0002> created at line 54.
-    Found 6-bit subtractor for signal <rg3_3$addsub0003> created at line 54.
-    Found 9-bit adder for signal <rg3_3$addsub0004> created at line 49.
-    Found 14-bit adder for signal <rg3_3$addsub0005> created at line 54.
-    Found 14-bit subtractor for signal <rg3_3$addsub0006> created at line 54.
-    Found 10-bit adder for signal <rg3_3$addsub0007> created at line 54.
-    Found 10-bit subtractor for signal <rg3_3$addsub0008> created at line 54.
-    Found 13-bit adder for signal <rg3_3$addsub0009> created at line 49.
-    Found 5-bit comparator greater for signal <rg3_3$cmp_gt0000> created at line 52.
-    Found 13-bit comparator greater for signal <rg3_3$cmp_gt0001> created at line 52.
-    Found 9-bit comparator greater for signal <rg3_3$cmp_gt0002> created at line 52.
+    Related source file is "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd".
+    Found 32-bit subtractor for signal <buff$addsub0000> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0001> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0002> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0003> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0004> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0005> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0006> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0007> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0008> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0009> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0010> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0011> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0012> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0013> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0014> created at line 82.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0000> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0001> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0002> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0003> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0004> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0005> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0006> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0007> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0008> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0009> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0010> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0011> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0012> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0013> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0014> created at line 84.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0007> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0016> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0025> created at line 76.
+    Found 32-bit adder for signal <rg3_0$add0003> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0004> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0005> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0006> created at line 85.
+    Found 2-bit adder for signal <rg3_0$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0003> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0004> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0005> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0006> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0007> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0008> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0011> created at line 81.
+    Found 2-bit comparator greater for signal <rg3_0$cmp_gt0000> created at line 84.
+    Found 32-bit adder for signal <rg3_1$add0000> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0001> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0004> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0005> created at line 85.
+    Found 2-bit adder for signal <rg3_1$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_1$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0009> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0010> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0011> created at line 78.
+    Found 2-bit adder for signal <rg3_1$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0009> created at line 80.
+    Found 32-bit adder for signal <rg3_2$add0000> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0001> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0002> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0003> created at line 85.
+    Found 2-bit adder for signal <rg3_2$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_2$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0009> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0010> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0011> created at line 78.
+    Found 2-bit adder for signal <rg3_2$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0009> created at line 80.
+    Found 32-bit adder for signal <rg3_3$add0000> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0001> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0002> created at line 85.
+    Found 2-bit subtractor for signal <rg3_3$addsub0000> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0007> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0008> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0009> created at line 78.
+    Found 2-bit adder for signal <rg3_3$mux0002> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0005> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0008> created at line 80.
     Summary:
 	inferred  85 Adder/Subtractor(s).
-	inferred  15 Comparator(s).
+	inferred  16 Comparator(s).
+	inferred  96 Multiplexer(s).
 Unit <mult_function> synthesized.
 
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
 # Adders/Subtractors                                   : 85
- 1-bit adder carry out                                 : 1
- 1-bit subtractor                                      : 1
- 10-bit adder                                          : 4
- 10-bit subtractor                                     : 2
- 11-bit adder                                          : 4
- 11-bit subtractor                                     : 2
- 12-bit adder                                          : 3
- 12-bit subtractor                                     : 2
- 13-bit adder                                          : 4
- 13-bit subtractor                                     : 2
- 14-bit adder                                          : 4
- 14-bit subtractor                                     : 2
- 15-bit adder                                          : 4
- 15-bit subtractor                                     : 2
- 16-bit adder                                          : 2
- 16-bit subtractor                                     : 1
- 17-bit adder                                          : 1
- 17-bit subtractor                                     : 1
- 2-bit adder                                           : 1
- 2-bit adder carry out                                 : 1
- 2-bit subtractor                                      : 2
- 3-bit adder                                           : 2
- 3-bit subtractor                                      : 2
- 4-bit adder                                           : 4
- 4-bit subtractor                                      : 2
- 5-bit adder                                           : 4
- 5-bit subtractor                                      : 2
- 6-bit adder                                           : 4
- 6-bit subtractor                                      : 2
- 7-bit adder                                           : 4
- 7-bit subtractor                                      : 2
- 8-bit adder                                           : 3
- 8-bit subtractor                                      : 2
- 9-bit adder                                           : 4
- 9-bit subtractor                                      : 2
-# Comparators                                          : 15
- 10-bit comparator greater                             : 1
- 11-bit comparator greater                             : 2
- 13-bit comparator greater                             : 1
- 14-bit comparator greater                             : 1
- 15-bit comparator greater                             : 2
- 2-bit comparator greater                              : 1
- 3-bit comparator greater                              : 1
- 4-bit comparator greater                              : 1
- 5-bit comparator greater                              : 1
- 6-bit comparator greater                              : 1
- 7-bit comparator greater                              : 2
- 9-bit comparator greater                              : 1
+ 2-bit adder                                           : 39
+ 2-bit subtractor                                      : 16
+ 32-bit adder                                          : 15
+ 32-bit subtractor                                     : 15
+# Comparators                                          : 16
+ 2-bit comparator greater                              : 16
+# Multiplexers                                         : 3
+ 32-bit 4-to-1 multiplexer                             : 3
 
 =========================================================================
 
@@ -304,64 +267,15 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 68
- 10-bit adder                                          : 3
- 10-bit subtractor                                     : 1
- 10-bit subtractor borrow in                           : 1
- 11-bit adder                                          : 3
- 11-bit subtractor                                     : 1
- 11-bit subtractor borrow in                           : 1
- 12-bit adder                                          : 2
- 12-bit subtractor                                     : 1
- 12-bit subtractor borrow in                           : 1
- 13-bit adder                                          : 3
- 13-bit subtractor                                     : 1
- 13-bit subtractor borrow in                           : 1
- 14-bit adder                                          : 3
- 14-bit subtractor                                     : 1
- 14-bit subtractor borrow in                           : 1
- 15-bit adder                                          : 3
- 15-bit subtractor                                     : 1
- 15-bit subtractor borrow in                           : 1
- 16-bit adder                                          : 1
- 16-bit subtractor borrow in                           : 1
- 17-bit subtractor borrow in                           : 1
- 2-bit adder                                           : 1
- 2-bit adder carry out                                 : 1
- 2-bit subtractor                                      : 1
- 3-bit adder                                           : 2
- 3-bit subtractor                                      : 2
- 4-bit adder                                           : 3
- 4-bit subtractor                                      : 1
- 4-bit subtractor borrow in                            : 1
- 5-bit adder                                           : 3
- 5-bit subtractor                                      : 1
- 5-bit subtractor borrow in                            : 1
- 6-bit adder                                           : 3
- 6-bit subtractor                                      : 1
- 6-bit subtractor borrow in                            : 1
- 7-bit adder                                           : 3
- 7-bit subtractor                                      : 1
- 7-bit subtractor borrow in                            : 1
- 8-bit adder                                           : 2
- 8-bit subtractor                                      : 1
- 8-bit subtractor borrow in                            : 1
- 9-bit adder                                           : 3
- 9-bit subtractor                                      : 1
- 9-bit subtractor borrow in                            : 1
-# Comparators                                          : 15
- 10-bit comparator greater                             : 1
- 11-bit comparator greater                             : 2
- 13-bit comparator greater                             : 1
- 14-bit comparator greater                             : 1
- 15-bit comparator greater                             : 2
- 2-bit comparator greater                              : 1
- 3-bit comparator greater                              : 1
- 4-bit comparator greater                              : 1
- 5-bit comparator greater                              : 1
- 6-bit comparator greater                              : 1
- 7-bit comparator greater                              : 2
- 9-bit comparator greater                              : 1
+# Adders/Subtractors                                   : 85
+ 2-bit adder                                           : 40
+ 2-bit subtractor                                      : 17
+ 32-bit adder                                          : 14
+ 32-bit subtractor                                     : 14
+# Comparators                                          : 16
+ 2-bit comparator greater                              : 16
+# Multiplexers                                         : 3
+ 32-bit 4-to-1 multiplexer                             : 3
 
 =========================================================================
 
@@ -373,24 +287,7 @@ Optimizing unit <mult_function> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block mult_function, actual ratio is 6.
-PACKER Warning: Lut Msub_rg3_3_addsub0003_Madd_lut<1>1 driving carry Msub_rg3_3_addsub0003_Madd_cy<1> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<1>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<1> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<2>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<2> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<4>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<4> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<5>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<5> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<6>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<6> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<7>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<7> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<8>11 driving carry Msub_rg3_3_addsub0008_Madd_cy<8> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<1>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<1> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<2>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<2> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<4>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<4> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<5>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<5> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<6>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<6> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<7>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<7> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<8>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<8> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<9>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<9> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_1_addsub0005_Madd_lut<2>1 driving carry Msub_rg3_1_addsub0005_Madd_cy<2> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
+Found area constraint ratio of 100 (+ 5) on block mult_function, actual ratio is 11.
 
 Final Macro Processing ...
 
@@ -425,46 +322,27 @@ Design Statistics
 # IOs                              : 16
 
 Cell Usage :
-# BELS                             : 1509
+# BELS                             : 2536
 #      GND                         : 1
-#      LUT1                        : 12
-#      LUT2                        : 105
-#      LUT3                        : 175
-#      LUT4                        : 433
-#      MULT_AND                    : 18
-#      MUXCY                       : 366
-#      MUXF5                       : 14
+#      LUT2                        : 356
+#      LUT3                        : 86
+#      LUT4                        : 743
+#      MUXCY                       : 692
+#      MUXF5                       : 17
 #      VCC                         : 1
-#      XORCY                       : 384
+#      XORCY                       : 640
 # IO Buffers                       : 16
 #      IBUF                        : 8
 #      OBUF                        : 8
 =========================================================================
-PACKER Warning: Lut Msub_rg3_3_addsub0003_Madd_lut<1>1 driving carry Msub_rg3_3_addsub0003_Madd_cy<1> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<1>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<1> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<2>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<2> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<4>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<4> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<5>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<5> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<6>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<6> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<7>1 driving carry Msub_rg3_3_addsub0008_Madd_cy<7> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_3_addsub0008_Madd_lut<8>11 driving carry Msub_rg3_3_addsub0008_Madd_cy<8> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<1>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<1> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<2>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<2> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<4>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<4> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<5>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<5> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<6>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<6> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<7>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<7> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<8>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<8> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_2_addsub0010_Madd_lut<9>1 driving carry Msub_rg3_2_addsub0010_Madd_cy<9> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
-PACKER Warning: Lut Msub_rg3_1_addsub0005_Madd_lut<2>1 driving carry Msub_rg3_1_addsub0005_Madd_cy<2> can not be packed with the carry due to conflict with the common signal requirement between the LUT inputs and the Carry DI/MAND pins. This would result in an extra LUT for a feedthrough.
 
 Device utilization summary:
 ---------------------------
 
 Selected Device : xa3s1000ftg256-4 
 
- Number of Slices:                      446  out of   7680     5%  
- Number of 4 input LUTs:                725  out of  15360     4%  
+ Number of Slices:                      665  out of   7680     8%  
+ Number of 4 input LUTs:               1185  out of  15360     7%  
  Number of IOs:                          16
  Number of bonded IOBs:                  16  out of    173     9%  
 
@@ -499,7 +377,7 @@ Speed Grade: -4
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 108.334ns
+   Maximum combinational path delay: 119.527ns
 
 Timing Detail:
 --------------
@@ -507,129 +385,216 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 6906700445781853200 / 7
+  Total number of paths / destination ports: 261501694177100640000000000000 / 7
 -------------------------------------------------------------------------
-Delay:               108.334ns (Levels of Logic = 98)
-  Source:            rg1<2> (PAD)
+Delay:               119.527ns (Levels of Logic = 185)
+  Source:            rg1<3> (PAD)
   Destination:       result<1> (PAD)
 
-  Data Path: rg1<2> to result<1>
+  Data Path: rg1<3> to result<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            21   0.821   1.854  rg1_2_IBUF (rg1_2_IBUF)
-     LUT3:I0->O            5   0.551   1.260  Madd_rg3_2_add0005_lut<0>1 (Madd_rg3_2_add0005_lut<0>)
-     LUT4:I0->O            1   0.551   0.000  Madd_rg3_2_addsub0003_lut<0> (Madd_rg3_2_addsub0003_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  Madd_rg3_2_addsub0003_cy<0> (Madd_rg3_2_addsub0003_cy<0>)
-     XORCY:CI->O           3   0.904   1.102  Madd_rg3_2_addsub0003_xor<1> (rg3_2_addsub0003<1>)
-     LUT4:I1->O           12   0.551   1.118  rg3_2_mux0003<1>1 (rg3_2_mux0003<1>)
-     MUXCY:DI->O           1   0.889   0.000  Msub_rg3_2_addsub0005_Madd_cy<1> (Msub_rg3_2_addsub0005_Madd_cy<1>)
-     XORCY:CI->O           1   0.904   0.996  Msub_rg3_2_addsub0005_Madd_xor<2> (rg3_2_addsub0005<2>)
-     LUT4:I1->O            4   0.551   1.256  rg3_2_mux0005<2>1 (Madd_rg3_3_add0003_lut<2>)
-     LUT4:I0->O            8   0.551   1.151  Madd_rg3_3_add0003_cy<2>11 (Madd_rg3_3_add0003_cy<2>)
-     LUT4:I2->O            5   0.551   1.260  Madd_rg3_3_add0003_cy<5>11 (Madd_rg3_3_add0003_cy<5>)
-     LUT4:I0->O            1   0.551   0.000  Madd_rg3_3_add0003_xor<6>111 (Madd_rg3_3_add0003_xor<6>11)
-     MUXCY:S->O            1   0.500   0.000  Madd_rg3_3_addsub0004_cy<6> (Madd_rg3_3_addsub0004_cy<6>)
-     XORCY:CI->O           2   0.904   0.945  Madd_rg3_3_addsub0004_xor<7> (rg3_3_addsub0004<7>)
-     LUT3:I2->O            2   0.551   1.216  rg3_3_mux0005<7>1 (rg3_3_mux0005<7>)
-     LUT3:I0->O            3   0.551   0.975  rg3_3_cmp_gt000212 (rg3_3_cmp_gt000212)
-     LUT4:I2->O            1   0.551   0.000  Madd_rg3_2_addsub0006_lut<0> (Madd_rg3_2_addsub0006_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  Madd_rg3_2_addsub0006_cy<0> (Madd_rg3_2_addsub0006_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_2_addsub0006_cy<1> (Madd_rg3_2_addsub0006_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_2_addsub0006_cy<2> (Madd_rg3_2_addsub0006_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_2_addsub0006_cy<3> (Madd_rg3_2_addsub0006_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_2_addsub0006_cy<4> (Madd_rg3_2_addsub0006_cy<4>)
-     XORCY:CI->O           2   0.904   0.945  Madd_rg3_2_addsub0006_xor<5> (rg3_2_addsub0006<5>)
-     LUT3:I2->O            2   0.551   0.903  rg3_2_mux0006<5>1 (rg3_2_mux0006<5>)
-     LUT4:I3->O            1   0.551   1.140  rg3_2_cmp_gt000316 (rg3_2_cmp_gt000316)
-     LUT4:I0->O           37   0.551   1.950  rg3_2_cmp_gt0003112 (rg3_2_cmp_gt00032)
-     LUT3:I2->O            1   0.551   0.000  Madd_rg3_1_addsub0006_lut<0> (Madd_rg3_1_addsub0006_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  Madd_rg3_1_addsub0006_cy<0> (Madd_rg3_1_addsub0006_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_1_addsub0006_cy<1> (Madd_rg3_1_addsub0006_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_1_addsub0006_cy<2> (Madd_rg3_1_addsub0006_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_1_addsub0006_cy<3> (Madd_rg3_1_addsub0006_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_1_addsub0006_cy<4> (Madd_rg3_1_addsub0006_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_1_addsub0006_cy<5> (Madd_rg3_1_addsub0006_cy<5>)
-     XORCY:CI->O           2   0.904   0.903  Madd_rg3_1_addsub0006_xor<6> (rg3_1_addsub0006<6>)
-     LUT4:I3->O            3   0.551   1.246  rg3_1_mux0006<6>1 (rg3_1_mux0006<6>)
-     LUT4:I0->O            1   0.551   1.140  rg3_1_cmp_gt000324 (rg3_1_cmp_gt000324)
-     LUT4:I0->O           43   0.551   2.111  rg3_1_cmp_gt0003225 (Msub_buff_addsub0007_cy<9>)
-     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_addsub0008_lut<0> (Madd_rg3_0_addsub0008_lut<0>)
-     MUXCY:S->O            0   0.500   0.000  Madd_rg3_0_addsub0008_cy<0> (Madd_rg3_0_addsub0008_cy<0>)
-     XORCY:CI->O          20   0.904   1.740  Madd_rg3_0_addsub0008_xor<1> (rg3_0_addsub0008<1>)
-     LUT2:I1->O           19   0.551   1.645  rg3_0_mux0006<1>1 (rg3_0_cmp_gt0003)
-     LUT4:I1->O            1   0.551   0.000  Madd_rg3_3_addsub0009_lut<0> (Madd_rg3_3_addsub0009_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  Madd_rg3_3_addsub0009_cy<0> (Madd_rg3_3_addsub0009_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<1> (Madd_rg3_3_addsub0009_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<2> (Madd_rg3_3_addsub0009_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<3> (Madd_rg3_3_addsub0009_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<4> (Madd_rg3_3_addsub0009_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<5> (Madd_rg3_3_addsub0009_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<6> (Madd_rg3_3_addsub0009_cy<6>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<7> (Madd_rg3_3_addsub0009_cy<7>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_3_addsub0009_cy<8> (Madd_rg3_3_addsub0009_cy<8>)
-     XORCY:CI->O           2   0.904   0.945  Madd_rg3_3_addsub0009_xor<9> (rg3_3_addsub0009<9>)
-     LUT3:I2->O            2   0.551   1.216  rg3_3_mux0008<9>1 (rg3_3_mux0008<9>)
-     LUT3:I0->O            1   0.551   0.000  Mcompar_rg3_3_cmp_gt0001_lut<2> (Mcompar_rg3_3_cmp_gt0001_lut<2>)
-     MUXCY:S->O            1   0.739   0.827  Mcompar_rg3_3_cmp_gt0001_cy<2> (Mcompar_rg3_3_cmp_gt0001_cy<2>)
-     LUT4:I3->O           32   0.551   2.192  Mcompar_rg3_3_cmp_gt0001_cy<3> (Mcompar_rg3_3_cmp_gt0001_cy<3>)
-     LUT4:I0->O            3   0.551   1.246  buff_mux0027<1>1 (buff_mux0027<1>)
-     LUT4:I0->O            1   0.551   0.000  rg3_2_and0002121 (rg3_2_and0002121)
-     MUXF5:I1->O           1   0.360   0.996  rg3_2_and000212_f5 (rg3_2_and000212)
-     LUT4:I1->O            1   0.551   0.827  rg3_2_and000259_SW0 (N174)
-     LUT4:I3->O           72   0.551   2.421  rg3_2_and000259 (rg3_2_and0002)
-     LUT3:I0->O            2   0.551   1.216  rg3_2_mux0009<1>1 (rg3_2_mux0009<1>)
-     LUT4:I0->O            1   0.551   0.000  Mcompar_rg3_2_cmp_gt0002_lut<0> (Mcompar_rg3_2_cmp_gt0002_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  Mcompar_rg3_2_cmp_gt0002_cy<0> (Mcompar_rg3_2_cmp_gt0002_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  Mcompar_rg3_2_cmp_gt0002_cy<1> (Mcompar_rg3_2_cmp_gt0002_cy<1>)
-     MUXCY:CI->O           1   0.303   0.827  Mcompar_rg3_2_cmp_gt0002_cy<2> (Mcompar_rg3_2_cmp_gt0002_cy<2>)
-     LUT4:I3->O           33   0.551   2.054  Mcompar_rg3_2_cmp_gt0002_cy<3> (Mcompar_rg3_2_cmp_gt0002_cy<3>)
-     LUT4:I1->O            1   0.551   1.140  buff_mux0029<0>1 (buff_mux0029<0>)
-     LUT4:I0->O            1   0.551   1.140  rg3_1_and000312 (rg3_1_and000312)
-     LUT4:I0->O           90   0.551   2.524  rg3_1_and000364 (rg3_1_and0003)
-     LUT3:I0->O            2   0.551   1.216  rg3_1_mux0009<1>1 (rg3_1_mux0009<1>)
-     LUT4:I0->O            1   0.551   0.000  Mcompar_rg3_1_cmp_gt0002_lut<0> (Mcompar_rg3_1_cmp_gt0002_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  Mcompar_rg3_1_cmp_gt0002_cy<0> (Mcompar_rg3_1_cmp_gt0002_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  Mcompar_rg3_1_cmp_gt0002_cy<1> (Mcompar_rg3_1_cmp_gt0002_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  Mcompar_rg3_1_cmp_gt0002_cy<2> (Mcompar_rg3_1_cmp_gt0002_cy<2>)
-     MUXCY:CI->O           1   0.303   0.827  Mcompar_rg3_1_cmp_gt0002_cy<3> (Mcompar_rg3_1_cmp_gt0002_cy<3>)
-     LUT4:I3->O           45   0.551   2.123  Mcompar_rg3_1_cmp_gt0002_cy<4> (Mcompar_rg3_1_cmp_gt0002_cy<4>)
-     LUT4:I1->O            1   0.551   1.140  buff_mux0031<1>1 (buff_mux0031<1>)
-     LUT4:I0->O            2   0.551   1.216  rg3_0_and000312 (rg3_0_and000312)
-     LUT4:I0->O           33   0.551   2.054  rg3_0_and000371 (rg3_0_and0003)
-     LUT2:I1->O            1   0.551   0.000  Madd__add0000_lut<0> (Madd__add0000_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  Madd__add0000_cy<0> (Madd__add0000_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  Madd__add0000_cy<1> (Madd__add0000_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  Madd__add0000_cy<2> (Madd__add0000_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  Madd__add0000_cy<3> (Madd__add0000_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  Madd__add0000_cy<4> (Madd__add0000_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  Madd__add0000_cy<5> (Madd__add0000_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  Madd__add0000_cy<6> (Madd__add0000_cy<6>)
-     MUXCY:CI->O           1   0.064   0.000  Madd__add0000_cy<7> (Madd__add0000_cy<7>)
-     XORCY:CI->O           1   0.904   0.996  Madd__add0000_xor<8> (_add0000<8>)
-     LUT3:I1->O            1   0.551   0.000  Msub_rg3_0_addsub0007_Madd_lut<8> (Msub_rg3_0_addsub0007_Madd_lut<8>)
-     MUXCY:S->O            1   0.500   0.000  Msub_rg3_0_addsub0007_Madd_cy<8> (Msub_rg3_0_addsub0007_Madd_cy<8>)
-     XORCY:CI->O           1   0.904   0.801  Msub_rg3_0_addsub0007_Madd_xor<9> (rg3_0_addsub0007<9>)
-     MUXF5:S->O            1   0.621   1.140  result0_1_cmp_eq0000129_f5 (result0_1_cmp_eq0000129)
-     LUT4:I0->O            1   0.551   0.000  result0_1_cmp_eq00001541 (result0_1_cmp_eq00001541)
-     MUXF5:I0->O           1   0.360   0.996  result0_1_cmp_eq0000154_f5 (result0_1_cmp_eq0000154)
-     LUT4:I1->O            1   0.551   0.801  result0_1_cmp_eq0000251 (result_1_OBUF)
+     IBUF:I->O            45   0.821   2.267  rg1_3_IBUF (rg1_3_IBUF)
+     LUT3:I0->O            1   0.551   0.000  Madd_rg3_3_mux0002_cy<0>111 (Madd_rg3_3_mux0002_cy<0>11)
+     MUXCY:S->O            1   0.500   0.000  Msub_buff_addsub0003_cy<0> (Msub_buff_addsub0003_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<1> (Msub_buff_addsub0003_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<2> (Msub_buff_addsub0003_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<3> (Msub_buff_addsub0003_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<4> (Msub_buff_addsub0003_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<5> (Msub_buff_addsub0003_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<6> (Msub_buff_addsub0003_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<7> (Msub_buff_addsub0003_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<8> (Msub_buff_addsub0003_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<9> (Msub_buff_addsub0003_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<10> (Msub_buff_addsub0003_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<11> (Msub_buff_addsub0003_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<12> (Msub_buff_addsub0003_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<13> (Msub_buff_addsub0003_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<14> (Msub_buff_addsub0003_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<15> (Msub_buff_addsub0003_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<16> (Msub_buff_addsub0003_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<17> (Msub_buff_addsub0003_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<18> (Msub_buff_addsub0003_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<19> (Msub_buff_addsub0003_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<20> (Msub_buff_addsub0003_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<21> (Msub_buff_addsub0003_cy<21>)
+     XORCY:CI->O           3   0.904   0.933  Msub_buff_addsub0003_xor<22> (buff_addsub0003<22>)
+     LUT4:I3->O            1   0.551   0.000  buff_mux0010<22>11 (buff_mux0010<22>1)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_2_add0001_cy<22> (Madd_rg3_2_add0001_cy<22>)
+     XORCY:CI->O           2   0.904   1.072  Madd_rg3_2_add0001_xor<23> (rg3_2_add0001<23>)
+     LUT4:I1->O            1   0.551   1.140  buff_mux0011<23>1 (buff_mux0011<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0004_wg_lut<0> (buff_and0004_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0004_wg_cy<0> (buff_and0004_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<1> (buff_and0004_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<2> (buff_and0004_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<3> (buff_and0004_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<4> (buff_and0004_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<5> (buff_and0004_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<6> (buff_and0004_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.438  buff_and0004_wg_cy<7> (buff_and0004)
+     LUT3:I1->O            3   0.551   1.102  rg3_1_mux0012<0>1 (rg3_1_mux0012<0>)
+     LUT3:I1->O           65   0.551   2.381  Madd_rg3_1_mux0003_xor<1>11 (rg3_1_mux0003<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0013<23>1 (buff_mux0013<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0006_wg_lut<0> (buff_and0006_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0006_wg_cy<0> (buff_and0006_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<1> (buff_and0006_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<2> (buff_and0006_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<3> (buff_and0006_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<4> (buff_and0006_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<5> (buff_and0006_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<6> (buff_and0006_wg_cy<6>)
+     MUXCY:CI->O          68   0.303   2.254  buff_and0006_wg_cy<7> (buff_and0006)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0005_lut<0> (Madd_rg3_0_add0005_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0005_cy<0> (Madd_rg3_0_add0005_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<1> (Madd_rg3_0_add0005_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<2> (Madd_rg3_0_add0005_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<3> (Madd_rg3_0_add0005_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<4> (Madd_rg3_0_add0005_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<5> (Madd_rg3_0_add0005_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<6> (Madd_rg3_0_add0005_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<7> (Madd_rg3_0_add0005_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<8> (Madd_rg3_0_add0005_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<9> (Madd_rg3_0_add0005_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<10> (Madd_rg3_0_add0005_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<11> (Madd_rg3_0_add0005_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<12> (Madd_rg3_0_add0005_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<13> (Madd_rg3_0_add0005_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<14> (Madd_rg3_0_add0005_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<15> (Madd_rg3_0_add0005_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<16> (Madd_rg3_0_add0005_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<17> (Madd_rg3_0_add0005_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<18> (Madd_rg3_0_add0005_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<19> (Madd_rg3_0_add0005_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<20> (Madd_rg3_0_add0005_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<21> (Madd_rg3_0_add0005_cy<21>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<22> (Madd_rg3_0_add0005_cy<22>)
+     XORCY:CI->O           2   0.904   0.903  Madd_rg3_0_add0005_xor<23> (rg3_0_add0005<23>)
+     LUT4:I3->O            3   0.551   1.246  Mmux_buff_mux0016321 (buff_mux0016<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0008_wg_lut<0> (buff_and0008_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0008_wg_cy<0> (buff_and0008_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<1> (buff_and0008_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<2> (buff_and0008_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<3> (buff_and0008_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<4> (buff_and0008_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<5> (buff_and0008_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<6> (buff_and0008_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0008_wg_cy<7> (buff_and0008)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_3_mux0005_lut<1>11 (Madd_rg3_3_mux0005_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_3_mux0005_lut<1>1_f5 (Madd_rg3_3_mux0005_lut<1>)
+     LUT4:I0->O            1   0.551   0.000  Madd_rg3_3_mux0005_xor<1>111 (Madd_rg3_3_mux0005_xor<1>11)
+     MUXF5:I1->O          65   0.360   2.381  Madd_rg3_3_mux0005_xor<1>11_f5 (rg3_3_mux0005<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0018<23>1 (buff_mux0018<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0010_wg_lut<0> (buff_and0010_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0010_wg_cy<0> (buff_and0010_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<1> (buff_and0010_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<2> (buff_and0010_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<3> (buff_and0010_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<4> (buff_and0010_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<5> (buff_and0010_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<6> (buff_and0010_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0010_wg_cy<7> (buff_and0010)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0006_lut<1>1 (Madd_rg3_2_mux0006_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_2_mux0006_xor<1>11 (rg3_2_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0020<23>1 (buff_mux0020<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0007_wg_lut<0> (buff_and0007_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0007_wg_cy<0> (buff_and0007_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<1> (buff_and0007_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<2> (buff_and0007_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<3> (buff_and0007_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<4> (buff_and0007_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<5> (buff_and0007_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<6> (buff_and0007_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0007_wg_cy<7> (buff_and0007)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_1_mux0006_lut<1>1 (Madd_rg3_1_mux0006_lut<1>)
+     LUT3:I0->O           66   0.551   2.387  Madd_rg3_1_mux0006_xor<1>11 (rg3_1_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0022<23>1 (buff_mux0022<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0009_wg_lut<0> (buff_and0009_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0009_wg_cy<0> (buff_and0009_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<1> (buff_and0009_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<2> (buff_and0009_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<3> (buff_and0009_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<4> (buff_and0009_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<5> (buff_and0009_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<6> (buff_and0009_wg_cy<6>)
+     MUXCY:CI->O          67   0.303   2.249  buff_and0009_wg_cy<7> (buff_and0009)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0006_lut<0> (Madd_rg3_0_add0006_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0006_cy<0> (Madd_rg3_0_add0006_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<1> (Madd_rg3_0_add0006_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<2> (Madd_rg3_0_add0006_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<3> (Madd_rg3_0_add0006_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<4> (Madd_rg3_0_add0006_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<5> (Madd_rg3_0_add0006_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<6> (Madd_rg3_0_add0006_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<7> (Madd_rg3_0_add0006_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<8> (Madd_rg3_0_add0006_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<9> (Madd_rg3_0_add0006_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<10> (Madd_rg3_0_add0006_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<11> (Madd_rg3_0_add0006_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<12> (Madd_rg3_0_add0006_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<13> (Madd_rg3_0_add0006_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<14> (Madd_rg3_0_add0006_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<15> (Madd_rg3_0_add0006_cy<15>)
+     XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0006_xor<16> (rg3_0_add0006<16>)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux002516_SW2 (N166)
+     LUT3:I0->O            1   0.551   0.996  Mmux_buff_mux002516 (buff_mux0025<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0012_wg_lut<2> (buff_and0012_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0012_wg_cy<2> (buff_and0012_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<3> (buff_and0012_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<4> (buff_and0012_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<5> (buff_and0012_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<6> (buff_and0012_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0012_wg_cy<7> (buff_and0012)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_3_mux0008_lut<1>1_SW0 (N186)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_3_mux0008_lut<1>1 (Madd_rg3_3_mux0008_lut<1>)
+     LUT2:I0->O           65   0.551   2.381  Madd_rg3_3_mux0008_xor<1>11 (rg3_3_mux0008<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0027<23>1 (buff_mux0027<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0014_wg_lut<0> (buff_and0014_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0014_wg_cy<0> (buff_and0014_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<1> (buff_and0014_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<2> (buff_and0014_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<3> (buff_and0014_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<4> (buff_and0014_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<5> (buff_and0014_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<6> (buff_and0014_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.576  buff_and0014_wg_cy<7> (buff_and0014)
+     LUT4:I0->O            1   0.551   0.996  Madd_rg3_2_mux0009_xor<1>11_SW0 (N202)
+     LUT2:I1->O           65   0.551   2.381  Madd_rg3_2_mux0009_xor<1>11 (rg3_2_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0029<23>1 (buff_mux0029<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0011_wg_lut<0> (buff_and0011_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0011_wg_cy<0> (buff_and0011_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<1> (buff_and0011_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<2> (buff_and0011_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<3> (buff_and0011_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<4> (buff_and0011_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<5> (buff_and0011_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<6> (buff_and0011_wg_cy<6>)
+     MUXCY:CI->O          45   0.303   1.996  buff_and0011_wg_cy<7> (buff_and0011)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_1_mux0009_lut<1>11 (Madd_rg3_1_mux0009_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_1_mux0009_lut<1>1_f5 (Madd_rg3_1_mux0009_lut<1>)
+     LUT3:I0->O            4   0.551   1.256  Madd_rg3_1_mux0009_xor<1>11 (rg3_1_mux0009<1>)
+     LUT3:I0->O            1   0.551   1.140  buff_and00137 (buff_and00137)
+     LUT4:I0->O            1   0.551   0.996  buff_and001330 (buff_and001330)
+     LUT4:I1->O            1   0.551   1.140  buff_and001368 (buff_and001368)
+     LUT4:I0->O            1   0.551   1.140  buff_and0013510 (buff_and0013)
+     LUT4:I0->O            1   0.551   0.000  arr_to_std_logic_1_cmp_eq00001 (arr_to_std_logic_1_cmp_eq0000)
+     MUXF5:I1->O           1   0.360   0.801  arr_to_std_logic_1_cmp_eq0000_f5 (result_1_OBUF)
      OBUF:I->O                 5.644          result_1_OBUF (result<1>)
     ----------------------------------------
-    Total                    108.334ns (48.597ns logic, 59.737ns route)
-                                       (44.9% logic, 55.1% route)
+    Total                    119.527ns (51.481ns logic, 68.046ns route)
+                                       (43.1% logic, 56.9% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.05 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.17 secs
  
 --> 
 
-Total memory usage is 4553500 kilobytes
+Total memory usage is 4553472 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
 

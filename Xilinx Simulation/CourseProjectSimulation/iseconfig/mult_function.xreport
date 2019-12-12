@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-07T17:56:34</DateModified>
+  <DateModified>2019-12-12T14:28:36</DateModified>
   <ModuleName>mult_function</ModuleName>
-  <SummaryTimeStamp>2019-12-06T12:01:11</SummaryTimeStamp>
+  <SummaryTimeStamp>2019-12-12T14:28:35</SummaryTimeStamp>
   <SavedFilePath>D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation/iseconfig/mult_function.xreport</SavedFilePath>
   <ImplementationReportsDirectory>D:/SN4NTR/BSUIR/Course Project/Xilinx Simulation/CourseProjectSimulation\</ImplementationReportsDirectory>
-  <DateInitialized>2019-12-06T12:16:01</DateInitialized>
+  <DateInitialized>2019-12-08T22:32:47</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

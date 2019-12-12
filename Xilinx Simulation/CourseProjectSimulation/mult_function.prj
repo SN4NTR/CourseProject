@@ -1,2 +1,2 @@
-vhdl work "../project_package.vhd"
-vhdl work "../multiplier.vhd"
+vhdl work "../../VHDL/project_package.vhd"
+vhdl work "../../VHDL/multiplier.vhd"

@@ -44,55 +44,55 @@ Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-rg1<0>         |result<1>      |   98.773|
-rg1<0>         |result<2>      |   87.488|
-rg1<0>         |result<3>      |   73.776|
-rg1<0>         |result<4>      |   60.320|
-rg1<0>         |result<5>      |   30.714|
-rg1<1>         |result<1>      |   99.796|
-rg1<1>         |result<2>      |   88.511|
-rg1<1>         |result<3>      |   74.799|
-rg1<1>         |result<4>      |   61.343|
-rg1<1>         |result<5>      |   31.737|
-rg1<2>         |result<1>      |  102.558|
-rg1<2>         |result<2>      |   91.273|
-rg1<2>         |result<3>      |   77.561|
-rg1<2>         |result<4>      |   64.105|
-rg1<2>         |result<5>      |   34.499|
-rg1<2>         |result<6>      |   16.718|
-rg1<3>         |result<1>      |   99.554|
-rg1<3>         |result<2>      |   88.269|
-rg1<3>         |result<3>      |   74.557|
-rg1<3>         |result<4>      |   61.101|
-rg1<3>         |result<5>      |   31.495|
-rg1<3>         |result<6>      |   15.404|
-rg1<3>         |result<7>      |   11.098|
-rg2<0>         |result<1>      |   11.292|
-rg2<0>         |result<2>      |   14.790|
-rg2<0>         |result<3>      |   12.770|
-rg2<0>         |result<4>      |   14.812|
-rg2<1>         |result<1>      |   64.414|
-rg2<1>         |result<2>      |   53.129|
-rg2<1>         |result<3>      |   39.417|
-rg2<1>         |result<4>      |   25.400|
-rg2<1>         |result<5>      |   10.142|
-rg2<2>         |result<1>      |   98.533|
-rg2<2>         |result<2>      |   87.248|
-rg2<2>         |result<3>      |   73.536|
-rg2<2>         |result<4>      |   60.080|
-rg2<2>         |result<5>      |   30.474|
-rg2<2>         |result<6>      |    9.078|
-rg2<3>         |result<1>      |   99.884|
-rg2<3>         |result<2>      |   88.599|
-rg2<3>         |result<3>      |   74.887|
-rg2<3>         |result<4>      |   61.431|
-rg2<3>         |result<5>      |   31.825|
-rg2<3>         |result<6>      |   14.508|
-rg2<3>         |result<7>      |   10.157|
+rg1<0>         |result<1>      |  112.595|
+rg1<0>         |result<2>      |  107.229|
+rg1<0>         |result<3>      |   99.075|
+rg1<0>         |result<4>      |   88.048|
+rg1<0>         |result<5>      |   44.674|
+rg1<1>         |result<1>      |  115.783|
+rg1<1>         |result<2>      |  110.417|
+rg1<1>         |result<3>      |  102.263|
+rg1<1>         |result<4>      |   91.236|
+rg1<1>         |result<5>      |   47.862|
+rg1<2>         |result<1>      |  122.129|
+rg1<2>         |result<2>      |  116.763|
+rg1<2>         |result<3>      |  108.609|
+rg1<2>         |result<4>      |   97.582|
+rg1<2>         |result<5>      |   54.208|
+rg1<2>         |result<6>      |    7.542|
+rg1<3>         |result<1>      |  123.387|
+rg1<3>         |result<2>      |  118.021|
+rg1<3>         |result<3>      |  109.867|
+rg1<3>         |result<4>      |   98.840|
+rg1<3>         |result<5>      |   55.466|
+rg1<3>         |result<6>      |    7.910|
+rg1<3>         |result<7>      |    7.527|
+rg2<0>         |result<1>      |    9.824|
+rg2<0>         |result<2>      |    9.891|
+rg2<0>         |result<3>      |   12.249|
+rg2<0>         |result<4>      |   12.013|
+rg2<1>         |result<1>      |   50.019|
+rg2<1>         |result<2>      |   44.653|
+rg2<1>         |result<3>      |   36.499|
+rg2<1>         |result<4>      |   25.472|
+rg2<1>         |result<5>      |   12.206|
+rg2<2>         |result<1>      |   93.309|
+rg2<2>         |result<2>      |   87.943|
+rg2<2>         |result<3>      |   79.789|
+rg2<2>         |result<4>      |   68.762|
+rg2<2>         |result<5>      |   25.388|
+rg2<2>         |result<6>      |    7.799|
+rg2<3>         |result<1>      |  122.244|
+rg2<3>         |result<2>      |  116.878|
+rg2<3>         |result<3>      |  108.724|
+rg2<3>         |result<4>      |   97.697|
+rg2<3>         |result<5>      |   54.323|
+rg2<3>         |result<6>      |    7.336|
+rg2<3>         |result<7>      |    7.358|
 ---------------+---------------+---------+
 
 
-Analysis completed Sat Dec 07 17:57:21 2019 
+Analysis completed Thu Dec 12 14:29:02 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:

@@ -4,28 +4,24 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="4">
-<DesignStatistics TimeStamp="Sat Dec 07 17:57:07 2019"><group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="4">
+<DeviceUsageSummary rev="11">
+<DesignStatistics TimeStamp="Thu Dec 12 14:28:54 2019"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="11">
 <attrib name="value" value="16"/></item>
-<item name="AGG_IO" rev="4">
+<item name="AGG_IO" rev="11">
 <attrib name="value" value="16"/></item>
-<item name="AGG_SLICE" rev="4">
-<attrib name="value" value="401"/></item>
-<item name="NUM_4_INPUT_LUT" rev="4">
-<attrib name="value" value="777"/></item>
-<item name="NUM_BONDED_IOB" rev="4">
+<item name="AGG_SLICE" rev="11">
+<attrib name="value" value="616"/></item>
+<item name="NUM_4_INPUT_LUT" rev="11">
+<attrib name="value" value="1221"/></item>
+<item name="NUM_BONDED_IOB" rev="11">
 <attrib name="value" value="16"/></item>
-<item name="NUM_CYMUX" rev="4">
-<attrib name="value" value="358"/></item>
-<item name="NUM_LUT_RT" rev="4">
-<attrib name="value" value="15"/></item>
-<item name="NUM_MULTAND" rev="4">
-<attrib name="value" value="18"/></item>
-<item name="NUM_SLICEL" rev="4">
-<attrib name="value" value="401"/></item>
-<item name="NUM_XOR" rev="4">
-<attrib name="value" value="376"/></item>
+<item name="NUM_CYMUX" rev="11">
+<attrib name="value" value="692"/></item>
+<item name="NUM_SLICEL" rev="11">
+<attrib name="value" value="616"/></item>
+<item name="NUM_XOR" rev="11">
+<attrib name="value" value="640"/></item>
 </group>
 </DesignStatistics>
 <CmdHistory>
