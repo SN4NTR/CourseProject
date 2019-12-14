@@ -21,7 +21,7 @@
 <a name="11"><q-n>     11  </q-n></a><q-w>END</q-w> test_mult;
 <a name="12"><q-n>     12  </q-n></a>
 <a name="13"><q-n>     13  </q-n></a><q-w>ARCHITECTURE</q-w> test_beh <q-w>OF</q-w> test_mult <q-w>IS</q-w>
-<a name="14"><q-n>     14  </q-n></a>	<q-w>COMPONENT</q-w> mult_function <q-w>IS</q-w>
+<a name="14"><q-n>     14  </q-n></a>	<q-w>COMPONENT</q-w> multiplier <q-w>IS</q-w>
 <a name="15"><q-n>     15  </q-n></a>		<q-w>PORT</q-w> (
 <a name="16"><q-n>     16  </q-n></a>			rg1, rg2 : <q-a>IN</q-w> <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> N - 1);
 <a name="17"><q-n>     17  </q-n></a>			result : <q-a>OUT</q-w> <q-t>std_logic_vector</q-w> (0 <q-w>TO</q-w> (N * 2) - 1));
@@ -35,7 +35,7 @@
 <a name="25"><q-n>     25  </q-n></a>
 <a name="26"><q-n>     26  </q-n></a><q-w>BEGIN</q-w>
 <a name="27"><q-n>     27  </q-n></a>
-<a name="28"><q-n>     28  </q-n></a>	mult_func_call : mult_function <q-w>PORT</q-w> <q-w>MAP</q-w>(rg1 =&gt; rg1, rg2 =&gt; rg2, result =&gt; result);
+<a name="28"><q-n>     28  </q-n></a>	mult_func_call : multiplier <q-w>PORT</q-w> <q-w>MAP</q-w>(rg1 =&gt; rg1, rg2 =&gt; rg2, result =&gt; result);
 <a name="29"><q-n>     29  </q-n></a>
 <a name="30"><q-n>     30  </q-n></a>	<q-w>PROCESS</q-w>
 <a name="31"><q-n>     31  </q-n></a>		<q-w>VARIABLE</q-w> f_line : <q-t>line</q-w>;

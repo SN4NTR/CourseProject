@@ -1,0 +1,46 @@
+
+*******************************************************
+
+Cell: mult_function    View: mult_function_beh    Library: work
+
+*******************************************************
+
+
+ Cell               Library  References     Total Area
+
+GND                 xis3     1 x      1      1 GND
+IBUFG_LVDCI_25      xis3     8 x      1      8 IBUFG_LVDCI_25
+LUT2                xis3     3 x      1      3 Function Generators
+LUT3                xis3    10 x      1     10 Function Generators
+LUT4                xis3    12 x      1     12 Function Generators
+MUXF5               xis3     3 x      1      3 MUXF5
+OBUF_HSTL_III_18    xis3     8 x      1      8 OBUF_HSTL_III_18
+
+ Number of ports :                      16
+ Number of nets :                       53
+ Number of instances :                  45
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of Function Generators :        25
+ Number of GND :                         1
+ Number of IBUFG_LVDCI_25 :              8
+ Number of MUXF5 :                       3
+ Number of OBUF_HSTL_III_18 :            8
+ Number of gates :                      25
+ Number of accumulated instances :      45
+***********************************************
+Device Utilization for 3S50tq144
+***********************************************
+Resource                Used    Avail   Utilization
+-----------------------------------------------
+IOs                     16      97       16.49%
+Global Buffers          0       8         0.00%
+Function Generators     25      1536      1.63%
+CLB Slices              13      768       1.69%
+Dffs or Latches         0       1827      0.00%
+Block RAMs              0       4         0.00%
+Block Multipliers       0       4         0.00%
+Block Multiplier Dffs   0       144       0.00%
+
+-----------------------------------------------

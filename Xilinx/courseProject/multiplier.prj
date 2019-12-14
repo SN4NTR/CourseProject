@@ -1,0 +1,2 @@
+vhdl work "../../VHDL/project_package.vhd"
+vhdl work "../../VHDL/multiplier.vhd"

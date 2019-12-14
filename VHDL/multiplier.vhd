@@ -4,13 +4,13 @@ USE ieee.std_logic_1164.ALL;
 LIBRARY work;
 USE work.project_package.ALL;
 
-ENTITY mult_function IS
+ENTITY multiplier IS
 	PORT (
 		rg1, rg2 : IN std_logic_vector (0 TO N - 1);
 		result : OUT std_logic_vector (0 TO (N * 2) - 1));
-END mult_function;
+END multiplier;
 
-ARCHITECTURE mult_function_beh OF mult_function IS
+ARCHITECTURE mult_function_beh OF multiplier IS
 
 	FUNCTION fill_array_with_zeros(arr : int_array) RETURN int_array IS
 		VARIABLE arr_with_zeros : int_array;

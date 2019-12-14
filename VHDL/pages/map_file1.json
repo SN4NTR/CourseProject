@@ -6,8 +6,8 @@ var g_data = {'dummy':{null},
 '/test_mult/mult_func_call':{h:'24',s:1,t:1,z:1},
 'work.test_mult(test_beh)':{h:'2',s:1,t:1,z:1},
 '/test_mult':{h:'4',s:1,t:1,z:1},
-'work.mult_function(mult_function_beh)::fill_array_with_zeros':{h:'74',s:1,z:1},
-'work.mult_function(mult_function_beh)::std_logic_to_integer':{h:'75',s:1,b:1,z:1},
-'work.mult_function(mult_function_beh)::integer_to_std_logic':{h:'77',s:1,b:1,z:1},
-'work.mult_function(mult_function_beh)::multiply':{h:'80',s:1,b:1,z:1},
-'work.mult_function(mult_function_beh)':{h:'3',s:1,t:1,z:1}};
+'work.multiplier(mult_function_beh)::fill_array_with_zeros':{h:'74',s:1,z:1},
+'work.multiplier(mult_function_beh)::std_logic_to_integer':{h:'75',s:1,b:1,z:1},
+'work.multiplier(mult_function_beh)::integer_to_std_logic':{h:'77',s:1,b:1,z:1},
+'work.multiplier(mult_function_beh)::multiply':{h:'80',s:1,b:1,z:1},
+'work.multiplier(mult_function_beh)':{h:'3',s:1,t:1,z:1}};

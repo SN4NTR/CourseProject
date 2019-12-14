@@ -1,0 +1,37 @@
+
+
+
+
+
+                        Critical Path Report
+
+Critical path #1, (unconstrained path)
+NAME                                 GATE              ARRIVAL              LOAD
+--------------------------------------------------------------------------------
+rg1(1)/                                          0.00  0.00 up             1.30
+rg1_ibuf(1)/O                        IBUFG_LVDCI_25  0.94  0.94 up             9.00
+nx114/O                              LUT4        0.85  1.78 up             2.40
+a(1)_dup_2432/O                      LUT4        0.85  2.63 up             2.40
+nx115/O                              LUT3        0.85  3.48 up             2.70
+b(0)_dup_2578/O                      LUT3        0.85  4.32 up             2.40
+b(0)_dup_2599/O                      LUT3        0.85  5.17 up             2.40
+a(1)_dup_2458/O                      LUT3        0.85  6.01 up             2.40
+nx116/O                              LUT2        0.85  6.86 up             1.30
+ix3030/O                             MUXF5       0.45  7.31 up             2.40
+b(0)_dup_2656/O                      LUT3        0.85  8.15 up             2.40
+b(0)_dup_2678/O                      LUT3        0.85  9.00 up             2.40
+a(1)_dup_2489/O                      LUT3        0.85  9.85 up             1.30
+result_dup0(1)/O                     LUT3        0.85  10.69 up             1.30
+result_obuf(1)/O                     OBUF_HSTL_III_18  0.83  11.53 up             1.30
+result(1)/                                       0.00  11.53 up             0.00
+data arrival time                                      11.53
+
+data required time                                  not specified
+--------------------------------------------------------------------------------
+data required time                                  not specified
+data arrival time                                      11.53
+                                                    ----------
+                                                 unconstrained path
+--------------------------------------------------------------------------------
+
+

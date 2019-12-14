@@ -11,7 +11,7 @@ ENTITY test_mult IS
 END test_mult;
 
 ARCHITECTURE test_beh OF test_mult IS
-	COMPONENT mult_function IS
+	COMPONENT multiplier IS
 		PORT (
 			rg1, rg2 : IN std_logic_vector (0 TO N - 1);
 			result : OUT std_logic_vector (0 TO (N * 2) - 1));
@@ -25,7 +25,7 @@ ARCHITECTURE test_beh OF test_mult IS
 
 BEGIN
 
-	mult_func_call : mult_function PORT MAP(rg1 => rg1, rg2 => rg2, result => result);
+	mult_func_call : multiplier PORT MAP(rg1 => rg1, rg2 => rg2, result => result);
 
 	PROCESS
 		VARIABLE f_line : line;

@@ -38,7 +38,7 @@ data:[
 }
 }
 },
-z24:{prod:'ModelSim',reporttype:'in',scopes:[{s:'4',b:'1',val:'test_mult'},{link:'z.htm?f=1&s=24',val:'mult_func_call'}],du:{val:'work.mult_function(mult_function_beh)',link:'z.htm?f=1&s=24'},lang:'VHDL',src:{lnk:'__HDL_srcfile_2.htm#28',z:'test.vhd'},summaryTables:{
+z24:{prod:'ModelSim',reporttype:'in',scopes:[{s:'4',b:'1',val:'test_mult'},{link:'z.htm?f=1&s=24',val:'mult_func_call'}],du:{val:'work.multiplier(mult_function_beh)',link:'z.htm?f=1&s=24'},lang:'VHDL',src:{lnk:'__HDL_srcfile_2.htm#28',z:'test.vhd'},summaryTables:{
 headers:['Statement', 'Branch', 'Toggle'],
 instances:[{parent:'0',ln:'TOTAL',covs:[{class:'bgGreen', val:'91.66'},{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'bgYellow', val:'75.00'}]},
 {parent:'0',ln:'mult_func_call',covs:[{class:'bgGreen', val:'91.66'},{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'bgYellow', val:'75.00'}]},
@@ -102,7 +102,7 @@ data:[
 }
 }
 },
-z74:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.mult_function(mult_function_beh)'},{link:'z.htm?f=1&s=74',val:'fill_array_with_zeros'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#15',z:'multiplier.vhd'},summaryTables:{loctable:{
+z74:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.multiplier(mult_function_beh)'},{link:'z.htm?f=1&s=74',val:'fill_array_with_zeros'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#15',z:'multiplier.vhd'},summaryTables:{loctable:{
 headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
 totalhits:{class:'odd_r', val:'100.00%'},avgw:{class:'bgGreen', val:'100.00%'},
 data:[
@@ -111,7 +111,7 @@ data:[
 }
 }
 },
-z75:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.mult_function(mult_function_beh)'},{link:'z.htm?f=1&s=75',val:'std_logic_to_integer'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#25',z:'multiplier.vhd'},summaryTables:{loctable:{
+z75:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.multiplier(mult_function_beh)'},{link:'z.htm?f=1&s=75',val:'std_logic_to_integer'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#25',z:'multiplier.vhd'},summaryTables:{loctable:{
 headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
 totalhits:{class:'odd_r', val:'100.00%'},avgw:{class:'bgGreen', val:'100.00%'},
 data:[
@@ -121,7 +121,7 @@ data:[
 }
 }
 },
-z77:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.mult_function(mult_function_beh)'},{link:'z.htm?f=1&s=77',val:'integer_to_std_logic'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#39',z:'multiplier.vhd'},summaryTables:{loctable:{
+z77:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.multiplier(mult_function_beh)'},{link:'z.htm?f=1&s=77',val:'integer_to_std_logic'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#39',z:'multiplier.vhd'},summaryTables:{loctable:{
 headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
 totalhits:{class:'odd_r', val:'100.00%'},avgw:{class:'bgGreen', val:'100.00%'},
 data:[
@@ -131,7 +131,7 @@ data:[
 }
 }
 },
-z80:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.mult_function(mult_function_beh)'},{link:'z.htm?f=1&s=80',val:'multiply'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#61',z:'multiplier.vhd'},summaryTables:{loctable:{
+z80:{prod:'ModelSim',reporttype:'in',scopes:[{s:'54',b:'1',val:'work.multiplier(mult_function_beh)'},{link:'z.htm?f=1&s=80',val:'multiply'}],lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#61',z:'multiplier.vhd'},summaryTables:{loctable:{
 headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
 totalhits:{class:'odd_r', val:'100.00%'},avgw:{class:'bgGreen', val:'100.00%'},
 data:[
@@ -141,9 +141,9 @@ data:[
 }
 }
 },
-z3:{prod:'ModelSim',reporttype:'du',duname:'work.mult_function(mult_function_beh)',lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#13',z:'multiplier.vhd'},summaryTables:{
+z3:{prod:'ModelSim',reporttype:'du',duname:'work.multiplier(mult_function_beh)',lang:'VHDL',src:{lnk:'__HDL_srcfile_1.htm#13',z:'multiplier.vhd'},summaryTables:{
 headers:['Statement', 'Branch', 'Toggle'],
-instances:[{parent:'0',ln:'work.mult_function(mult_function_beh)',covs:[{class:'bgGreen', val:'91.66'},{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'bgYellow', val:'75.00'}]},
+instances:[{parent:'0',ln:'work.multiplier(mult_function_beh)',covs:[{class:'bgGreen', val:'91.66'},{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'bgYellow', val:'75.00'}]},
 {parent:'1',link:'z.htm?f=1&s=74',ln:'fill_array_with_zeros',covs:[{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'even', val:'--'},{class:'even', val:'--'}]},
 {parent:'1',link:'z.htm?f=1&s=75',ln:'std_logic_to_integer',covs:[{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'odd', val:'--'}]},
 {parent:'1',link:'z.htm?f=1&s=77',ln:'integer_to_std_logic',covs:[{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'bgGreen', val:'100.00'},{class:'even', val:'--'}]},

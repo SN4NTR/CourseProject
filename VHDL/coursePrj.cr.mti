@@ -1,11 +1,11 @@
-{D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd} {1 {vcom -work work -2008 -explicit -cover sbcet3 -vopt -stats=none {D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd}
+{D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd} {1 {vcom -work work -2008 -explicit -cover sbcet3 -vopt -stats=none {D:\SN4NTR\BSUIR\Course Project\VHDL\multiplier.vhd}
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package project_package
--- Compiling entity mult_function
--- Compiling architecture mult_function_beh of mult_function
+-- Compiling entity multiplier
+-- Compiling architecture mult_function_beh of multiplier
 
 } {} {}} {D:/SN4NTR/BSUIR/Course Project/VHDL/test.vhd} {1 {vcom -work work -2008 -explicit -cover sbcet3 -vopt -stats=none {D:\SN4NTR\BSUIR\Course Project\VHDL\test.vhd}
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
@@ -18,7 +18,7 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling entity test_mult
 -- Compiling architecture test_beh of test_mult
 
-} {} {}} {D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd} {1 {vcom -work work -2008 -explicit -cover sbcet3 -vopt -stats=none {D:\SN4NTR\BSUIR\Course Project\VHDL\project_package.vhd}
+} {} {}} {D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd} {1 {vcom -work work -2008 -explicit -cover sbcet3 -vopt -stats=none {D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd}
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO

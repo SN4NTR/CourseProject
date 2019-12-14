@@ -1,0 +1,11 @@
+V3 5
+FL "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd" 2019/12/14.00:17:54 P.20131013
+EN work/multiplier 1576274130 \
+      FL "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd" \
+      PB ieee/std_logic_1164 1381692176 PH work/project_package 1576274129
+AR work/multiplier/mult_function_beh 1576274131 \
+      FL "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd" EN work/multiplier 1576274130
+FL "D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd" 2019/12/12.14:27:02 P.20131013
+PH work/project_package 1576274129 \
+      FL "D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd" \
+      PB ieee/std_logic_1164 1381692176
