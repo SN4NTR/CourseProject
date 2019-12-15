@@ -8,3 +8,33 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "multiplier
 map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
 par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "multiplier.ngc" multiplier.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "multiplier.ngc" multiplier.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "multiplier.ngc" multiplier.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "multiplier.ngc" multiplier.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "multiplier.ngc" multiplier.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.xst" -ofn "D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "multiplier.ngc" multiplier.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 

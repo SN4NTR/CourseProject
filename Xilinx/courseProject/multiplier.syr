@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: multiplier.prj
@@ -105,6 +105,7 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "D:/SN4NTR/BSUIR/Course Project/VHDL/project_package.vhd" in Library work.
+Package <project_package> compiled.
 Compiling vhdl file "D:/SN4NTR/BSUIR/Course Project/VHDL/multiplier.vhd" in Library work.
 Architecture mult_function_beh of Entity multiplier is up to date.
 
@@ -144,6 +145,90 @@ Synthesizing Unit <multiplier>.
     Found 32-bit subtractor for signal <buff$addsub0012> created at line 82.
     Found 32-bit subtractor for signal <buff$addsub0013> created at line 82.
     Found 32-bit subtractor for signal <buff$addsub0014> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0015> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0016> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0017> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0018> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0019> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0020> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0021> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0022> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0023> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0024> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0025> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0026> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0027> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0028> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0029> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0030> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0031> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0032> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0033> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0034> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0035> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0036> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0037> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0038> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0039> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0040> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0041> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0042> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0043> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0044> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0045> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0046> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0047> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0048> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0049> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0050> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0051> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0052> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0053> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0054> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0055> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0056> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0057> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0058> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0059> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0060> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0061> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0062> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0063> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0064> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0065> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0066> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0067> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0068> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0069> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0070> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0071> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0072> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0073> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0074> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0075> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0076> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0077> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0078> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0079> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0080> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0081> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0082> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0083> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0084> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0085> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0086> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0087> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0088> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0089> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0090> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0091> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0092> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0093> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0094> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0095> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0096> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0097> created at line 82.
+    Found 32-bit subtractor for signal <buff$addsub0098> created at line 82.
     Found 2-bit comparator greater for signal <buff$cmp_gt0000> created at line 84.
     Found 2-bit comparator greater for signal <buff$cmp_gt0001> created at line 84.
     Found 2-bit comparator greater for signal <buff$cmp_gt0002> created at line 84.
@@ -159,30 +244,150 @@ Synthesizing Unit <multiplier>.
     Found 2-bit comparator greater for signal <buff$cmp_gt0012> created at line 84.
     Found 2-bit comparator greater for signal <buff$cmp_gt0013> created at line 84.
     Found 2-bit comparator greater for signal <buff$cmp_gt0014> created at line 84.
-    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0007> created at line 76.
-    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0016> created at line 76.
-    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0025> created at line 76.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0015> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0016> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0017> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0018> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0019> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0020> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0021> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0022> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0023> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0024> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0025> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0026> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0027> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0028> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0029> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0030> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0031> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0032> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0033> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0034> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0035> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0036> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0037> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0038> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0039> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0040> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0041> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0042> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0043> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0044> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0045> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0046> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0047> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0048> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0049> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0050> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0051> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0052> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0053> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0054> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0055> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0056> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0057> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0058> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0059> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0060> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0061> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0062> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0063> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0064> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0065> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0066> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0067> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0068> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0069> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0070> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0071> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0072> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0073> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0074> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0075> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0076> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0077> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0078> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0079> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0080> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0081> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0082> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0083> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0084> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0085> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0086> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0087> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0088> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0089> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0090> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0091> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0092> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0093> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0094> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0095> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0096> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0097> created at line 84.
+    Found 2-bit comparator greater for signal <buff$cmp_gt0098> created at line 84.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0019> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0040> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0061> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0082> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0103> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0124> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0145> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0166> created at line 76.
+    Found 32-bit 4-to-1 multiplexer for signal <buff$mux0187> created at line 76.
+    Found 32-bit adder for signal <rg3_0$add0000> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0001> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0002> created at line 85.
     Found 32-bit adder for signal <rg3_0$add0003> created at line 85.
     Found 32-bit adder for signal <rg3_0$add0004> created at line 85.
     Found 32-bit adder for signal <rg3_0$add0005> created at line 85.
     Found 32-bit adder for signal <rg3_0$add0006> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0007> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0008> created at line 85.
+    Found 32-bit adder for signal <rg3_0$add0009> created at line 85.
     Found 2-bit adder for signal <rg3_0$addsub0000> created at line 81.
     Found 2-bit adder for signal <rg3_0$addsub0001> created at line 86.
     Found 2-bit subtractor for signal <rg3_0$addsub0002> created at line 86.
     Found 2-bit adder for signal <rg3_0$addsub0003> created at line 81.
     Found 2-bit adder for signal <rg3_0$addsub0004> created at line 86.
     Found 2-bit subtractor for signal <rg3_0$addsub0005> created at line 86.
-    Found 2-bit adder for signal <rg3_0$addsub0006> created at line 86.
-    Found 2-bit subtractor for signal <rg3_0$addsub0007> created at line 86.
-    Found 2-bit adder for signal <rg3_0$addsub0008> created at line 81.
-    Found 2-bit adder for signal <rg3_0$addsub0009> created at line 86.
-    Found 2-bit subtractor for signal <rg3_0$addsub0010> created at line 86.
-    Found 2-bit adder for signal <rg3_0$addsub0011> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0006> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0009> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0010> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0011> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0012> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0015> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0016> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0017> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0018> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0021> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0022> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0023> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0024> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0025> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0026> created at line 86.
+    Found 2-bit adder for signal <rg3_0$addsub0027> created at line 81.
+    Found 2-bit adder for signal <rg3_0$addsub0028> created at line 86.
+    Found 2-bit subtractor for signal <rg3_0$addsub0029> created at line 86.
     Found 2-bit comparator greater for signal <rg3_0$cmp_gt0000> created at line 84.
     Found 32-bit adder for signal <rg3_1$add0000> created at line 85.
     Found 32-bit adder for signal <rg3_1$add0001> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0002> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0003> created at line 85.
     Found 32-bit adder for signal <rg3_1$add0004> created at line 85.
     Found 32-bit adder for signal <rg3_1$add0005> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0006> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0007> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0008> created at line 85.
+    Found 32-bit adder for signal <rg3_1$add0009> created at line 85.
     Found 2-bit adder for signal <rg3_1$addsub0000> created at line 81.
     Found 2-bit adder for signal <rg3_1$addsub0001> created at line 86.
     Found 2-bit subtractor for signal <rg3_1$addsub0002> created at line 86.
@@ -192,16 +397,46 @@ Synthesizing Unit <multiplier>.
     Found 2-bit subtractor for signal <rg3_1$addsub0006> created at line 86.
     Found 2-bit adder for signal <rg3_1$addsub0007> created at line 86.
     Found 2-bit subtractor for signal <rg3_1$addsub0008> created at line 86.
-    Found 2-bit adder for signal <rg3_1$addsub0009> created at line 78.
-    Found 2-bit adder for signal <rg3_1$addsub0010> created at line 78.
-    Found 2-bit adder for signal <rg3_1$addsub0011> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_1$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_1$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_1$addsub0029> created at line 78.
     Found 2-bit adder for signal <rg3_1$mux0003> created at line 80.
     Found 2-bit adder for signal <rg3_1$mux0006> created at line 80.
     Found 2-bit adder for signal <rg3_1$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_1$mux0027> created at line 80.
     Found 32-bit adder for signal <rg3_2$add0000> created at line 85.
     Found 32-bit adder for signal <rg3_2$add0001> created at line 85.
     Found 32-bit adder for signal <rg3_2$add0002> created at line 85.
     Found 32-bit adder for signal <rg3_2$add0003> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0004> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0005> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0006> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0007> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0008> created at line 85.
+    Found 32-bit adder for signal <rg3_2$add0009> created at line 85.
     Found 2-bit adder for signal <rg3_2$addsub0000> created at line 81.
     Found 2-bit adder for signal <rg3_2$addsub0001> created at line 86.
     Found 2-bit subtractor for signal <rg3_2$addsub0002> created at line 86.
@@ -211,32 +446,380 @@ Synthesizing Unit <multiplier>.
     Found 2-bit subtractor for signal <rg3_2$addsub0006> created at line 86.
     Found 2-bit adder for signal <rg3_2$addsub0007> created at line 86.
     Found 2-bit subtractor for signal <rg3_2$addsub0008> created at line 86.
-    Found 2-bit adder for signal <rg3_2$addsub0009> created at line 78.
-    Found 2-bit adder for signal <rg3_2$addsub0010> created at line 78.
-    Found 2-bit adder for signal <rg3_2$addsub0011> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_2$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_2$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_2$addsub0029> created at line 78.
     Found 2-bit adder for signal <rg3_2$mux0003> created at line 80.
     Found 2-bit adder for signal <rg3_2$mux0006> created at line 80.
     Found 2-bit adder for signal <rg3_2$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_2$mux0027> created at line 80.
     Found 32-bit adder for signal <rg3_3$add0000> created at line 85.
     Found 32-bit adder for signal <rg3_3$add0001> created at line 85.
     Found 32-bit adder for signal <rg3_3$add0002> created at line 85.
-    Found 2-bit subtractor for signal <rg3_3$addsub0000> created at line 86.
+    Found 32-bit adder for signal <rg3_3$add0003> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0004> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0005> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0006> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0007> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0009> created at line 85.
+    Found 32-bit adder for signal <rg3_3$add0010> created at line 85.
+    Found 2-bit adder for signal <rg3_3$addsub0000> created at line 81.
     Found 2-bit adder for signal <rg3_3$addsub0001> created at line 86.
     Found 2-bit subtractor for signal <rg3_3$addsub0002> created at line 86.
     Found 2-bit adder for signal <rg3_3$addsub0003> created at line 86.
     Found 2-bit subtractor for signal <rg3_3$addsub0004> created at line 86.
     Found 2-bit adder for signal <rg3_3$addsub0005> created at line 86.
     Found 2-bit subtractor for signal <rg3_3$addsub0006> created at line 86.
-    Found 2-bit adder for signal <rg3_3$addsub0007> created at line 78.
-    Found 2-bit adder for signal <rg3_3$addsub0008> created at line 78.
-    Found 2-bit adder for signal <rg3_3$addsub0009> created at line 78.
-    Found 2-bit adder for signal <rg3_3$mux0002> created at line 80.
-    Found 2-bit adder for signal <rg3_3$mux0005> created at line 80.
-    Found 2-bit adder for signal <rg3_3$mux0008> created at line 80.
+    Found 2-bit adder for signal <rg3_3$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_3$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_3$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_3$addsub0029> created at line 78.
+    Found 2-bit adder for signal <rg3_3$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_3$mux0027> created at line 80.
+    Found 32-bit adder for signal <rg3_4$add0000> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0001> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0002> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0010> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0011> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0012> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0013> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0014> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0015> created at line 85.
+    Found 32-bit adder for signal <rg3_4$add0016> created at line 85.
+    Found 2-bit adder for signal <rg3_4$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_4$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_4$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_4$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_4$addsub0029> created at line 78.
+    Found 2-bit adder for signal <rg3_4$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_4$mux0027> created at line 80.
+    Found 32-bit adder for signal <rg3_5$add0010> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0011> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0012> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0013> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0014> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0015> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0016> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0017> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0018> created at line 85.
+    Found 32-bit adder for signal <rg3_5$add0019> created at line 85.
+    Found 2-bit adder for signal <rg3_5$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_5$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_5$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_5$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_5$addsub0029> created at line 78.
+    Found 2-bit adder for signal <rg3_5$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_5$mux0027> created at line 80.
+    Found 32-bit adder for signal <rg3_6$add0010> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0011> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0012> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0013> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0014> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0015> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0016> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0017> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0018> created at line 85.
+    Found 32-bit adder for signal <rg3_6$add0019> created at line 85.
+    Found 2-bit adder for signal <rg3_6$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_6$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_6$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_6$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_6$addsub0029> created at line 78.
+    Found 2-bit adder for signal <rg3_6$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_6$mux0027> created at line 80.
+    Found 32-bit adder for signal <rg3_7$add0010> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0011> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0012> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0013> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0014> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0015> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0016> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0017> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0018> created at line 85.
+    Found 32-bit adder for signal <rg3_7$add0019> created at line 85.
+    Found 2-bit adder for signal <rg3_7$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_7$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_7$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_7$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_7$addsub0029> created at line 78.
+    Found 2-bit adder for signal <rg3_7$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_7$mux0027> created at line 80.
+    Found 32-bit adder for signal <rg3_8$add0010> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0011> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0012> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0013> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0014> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0015> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0016> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0017> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0018> created at line 85.
+    Found 32-bit adder for signal <rg3_8$add0019> created at line 85.
+    Found 2-bit adder for signal <rg3_8$addsub0000> created at line 81.
+    Found 2-bit adder for signal <rg3_8$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0019> created at line 86.
+    Found 2-bit subtractor for signal <rg3_8$addsub0020> created at line 86.
+    Found 2-bit adder for signal <rg3_8$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0028> created at line 78.
+    Found 2-bit adder for signal <rg3_8$addsub0029> created at line 78.
+    Found 2-bit adder for signal <rg3_8$mux0003> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0006> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0009> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0012> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0015> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0018> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0021> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0024> created at line 80.
+    Found 2-bit adder for signal <rg3_8$mux0027> created at line 80.
+    Found 32-bit adder for signal <rg3_9$add0009> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0010> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0011> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0012> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0013> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0014> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0015> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0016> created at line 85.
+    Found 32-bit adder for signal <rg3_9$add0017> created at line 85.
+    Found 2-bit subtractor for signal <rg3_9$addsub0000> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0001> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0002> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0003> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0004> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0005> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0006> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0007> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0008> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0009> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0010> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0011> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0012> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0013> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0014> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0015> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0016> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0017> created at line 86.
+    Found 2-bit subtractor for signal <rg3_9$addsub0018> created at line 86.
+    Found 2-bit adder for signal <rg3_9$addsub0019> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0020> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0021> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0022> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0023> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0024> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0025> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0026> created at line 78.
+    Found 2-bit adder for signal <rg3_9$addsub0027> created at line 78.
+    Found 2-bit adder for signal <rg3_9$mux0002> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0005> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0008> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0011> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0014> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0017> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0020> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0023> created at line 80.
+    Found 2-bit adder for signal <rg3_9$mux0026> created at line 80.
     Summary:
-	inferred  85 Adder/Subtractor(s).
-	inferred  16 Comparator(s).
-	inferred  96 Multiplexer(s).
+	inferred 577 Adder/Subtractor(s).
+	inferred 100 Comparator(s).
+	inferred 288 Multiplexer(s).
 Unit <multiplier> synthesized.
 
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -245,15 +828,15 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 85
- 2-bit adder                                           : 39
- 2-bit subtractor                                      : 16
- 32-bit adder                                          : 15
- 32-bit subtractor                                     : 15
-# Comparators                                          : 16
- 2-bit comparator greater                              : 16
-# Multiplexers                                         : 3
- 32-bit 4-to-1 multiplexer                             : 3
+# Adders/Subtractors                                   : 577
+ 2-bit adder                                           : 279
+ 2-bit subtractor                                      : 100
+ 32-bit adder                                          : 99
+ 32-bit subtractor                                     : 99
+# Comparators                                          : 100
+ 2-bit comparator greater                              : 100
+# Multiplexers                                         : 9
+ 32-bit 4-to-1 multiplexer                             : 9
 
 =========================================================================
 
@@ -266,15 +849,15 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 85
- 2-bit adder                                           : 40
- 2-bit subtractor                                      : 17
- 32-bit adder                                          : 14
- 32-bit subtractor                                     : 14
-# Comparators                                          : 16
- 2-bit comparator greater                              : 16
-# Multiplexers                                         : 3
- 32-bit 4-to-1 multiplexer                             : 3
+# Adders/Subtractors                                   : 577
+ 2-bit adder                                           : 280
+ 2-bit subtractor                                      : 101
+ 32-bit adder                                          : 98
+ 32-bit subtractor                                     : 98
+# Comparators                                          : 100
+ 2-bit comparator greater                              : 100
+# Multiplexers                                         : 9
+ 32-bit 4-to-1 multiplexer                             : 9
 
 =========================================================================
 
@@ -286,7 +869,7 @@ Optimizing unit <multiplier> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block multiplier, actual ratio is 10.
+Found area constraint ratio of 100 (+ 5) on block multiplier, actual ratio is 94.
 
 Final Macro Processing ...
 
@@ -318,21 +901,21 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 16
+# IOs                              : 40
 
 Cell Usage :
-# BELS                             : 2536
+# BELS                             : 22305
 #      GND                         : 1
-#      LUT2                        : 356
-#      LUT3                        : 86
-#      LUT4                        : 743
-#      MUXCY                       : 692
-#      MUXF5                       : 17
+#      LUT2                        : 3016
+#      LUT3                        : 669
+#      LUT4                        : 6741
+#      MUXCY                       : 6152
+#      MUXF5                       : 93
 #      VCC                         : 1
-#      XORCY                       : 640
-# IO Buffers                       : 16
-#      IBUF                        : 8
-#      OBUF                        : 8
+#      XORCY                       : 5632
+# IO Buffers                       : 40
+#      IBUF                        : 20
+#      OBUF                        : 20
 =========================================================================
 
 Device utilization summary:
@@ -340,10 +923,10 @@ Device utilization summary:
 
 Selected Device : 3s1000ft256-4 
 
- Number of Slices:                      646  out of   7680     8%  
- Number of 4 input LUTs:               1185  out of  15360     7%  
- Number of IOs:                          16
- Number of bonded IOBs:                  16  out of    173     9%  
+ Number of Slices:                     5530  out of   7680    72%  
+ Number of 4 input LUTs:              10426  out of  15360    67%  
+ Number of IOs:                          40
+ Number of bonded IOBs:                  40  out of    173    23%  
 
 ---------------------------
 Partition Resource Summary:
@@ -376,7 +959,7 @@ Speed Grade: -4
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 119.527ns
+   Maximum combinational path delay: 948.940ns
 
 Timing Detail:
 --------------
@@ -384,66 +967,698 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 261501694177100640000000000000 / 7
+  Total number of paths / destination ports: 961380558893016900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 / 19
 -------------------------------------------------------------------------
-Delay:               119.527ns (Levels of Logic = 185)
-  Source:            rg1<3> (PAD)
+Delay:               948.940ns (Levels of Logic = 1234)
+  Source:            rg1<9> (PAD)
   Destination:       result<1> (PAD)
 
-  Data Path: rg1<3> to result<1>
+  Data Path: rg1<9> to result<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            45   0.821   2.267  rg1_3_IBUF (rg1_3_IBUF)
-     LUT3:I0->O            1   0.551   0.000  Madd_rg3_3_mux0002_cy<0>111 (Madd_rg3_3_mux0002_cy<0>11)
-     MUXCY:S->O            1   0.500   0.000  Msub_buff_addsub0003_cy<0> (Msub_buff_addsub0003_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<1> (Msub_buff_addsub0003_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<2> (Msub_buff_addsub0003_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<3> (Msub_buff_addsub0003_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<4> (Msub_buff_addsub0003_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<5> (Msub_buff_addsub0003_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<6> (Msub_buff_addsub0003_cy<6>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<7> (Msub_buff_addsub0003_cy<7>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<8> (Msub_buff_addsub0003_cy<8>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<9> (Msub_buff_addsub0003_cy<9>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<10> (Msub_buff_addsub0003_cy<10>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<11> (Msub_buff_addsub0003_cy<11>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<12> (Msub_buff_addsub0003_cy<12>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<13> (Msub_buff_addsub0003_cy<13>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<14> (Msub_buff_addsub0003_cy<14>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<15> (Msub_buff_addsub0003_cy<15>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<16> (Msub_buff_addsub0003_cy<16>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<17> (Msub_buff_addsub0003_cy<17>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<18> (Msub_buff_addsub0003_cy<18>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<19> (Msub_buff_addsub0003_cy<19>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<20> (Msub_buff_addsub0003_cy<20>)
-     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0003_cy<21> (Msub_buff_addsub0003_cy<21>)
-     XORCY:CI->O           3   0.904   0.933  Msub_buff_addsub0003_xor<22> (buff_addsub0003<22>)
-     LUT4:I3->O            1   0.551   0.000  buff_mux0010<22>11 (buff_mux0010<22>1)
-     MUXCY:S->O            1   0.500   0.000  Madd_rg3_2_add0001_cy<22> (Madd_rg3_2_add0001_cy<22>)
-     XORCY:CI->O           2   0.904   1.072  Madd_rg3_2_add0001_xor<23> (rg3_2_add0001<23>)
-     LUT4:I1->O            1   0.551   1.140  buff_mux0011<23>1 (buff_mux0011<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0004_wg_lut<0> (buff_and0004_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0004_wg_cy<0> (buff_and0004_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<1> (buff_and0004_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<2> (buff_and0004_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<3> (buff_and0004_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<4> (buff_and0004_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<5> (buff_and0004_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0004_wg_cy<6> (buff_and0004_wg_cy<6>)
-     MUXCY:CI->O         100   0.303   2.438  buff_and0004_wg_cy<7> (buff_and0004)
-     LUT3:I1->O            3   0.551   1.102  rg3_1_mux0012<0>1 (rg3_1_mux0012<0>)
+     IBUF:I->O            62   0.821   2.364  rg1_9_IBUF (rg1_9_IBUF)
+     LUT3:I0->O            1   0.551   0.000  Madd_rg3_9_mux0002_cy<0>111 (Madd_rg3_9_mux0002_cy<0>11)
+     MUXCY:S->O            1   0.500   0.000  Msub_buff_addsub0010_cy<0> (Msub_buff_addsub0010_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<1> (Msub_buff_addsub0010_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<2> (Msub_buff_addsub0010_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<3> (Msub_buff_addsub0010_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<4> (Msub_buff_addsub0010_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<5> (Msub_buff_addsub0010_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<6> (Msub_buff_addsub0010_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<7> (Msub_buff_addsub0010_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<8> (Msub_buff_addsub0010_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<9> (Msub_buff_addsub0010_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<10> (Msub_buff_addsub0010_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<11> (Msub_buff_addsub0010_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<12> (Msub_buff_addsub0010_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<13> (Msub_buff_addsub0010_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<14> (Msub_buff_addsub0010_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<15> (Msub_buff_addsub0010_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<16> (Msub_buff_addsub0010_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<17> (Msub_buff_addsub0010_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<18> (Msub_buff_addsub0010_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<19> (Msub_buff_addsub0010_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<20> (Msub_buff_addsub0010_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_buff_addsub0010_cy<21> (Msub_buff_addsub0010_cy<21>)
+     XORCY:CI->O           3   0.904   0.933  Msub_buff_addsub0010_xor<22> (buff_addsub0010<22>)
+     LUT4:I3->O            1   0.551   0.000  buff_mux0022<22>11 (buff_mux0022<22>1)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_8_add0011_cy<22> (Madd_rg3_8_add0011_cy<22>)
+     XORCY:CI->O           2   0.904   1.072  Madd_rg3_8_add0011_xor<23> (rg3_8_add0011<23>)
+     LUT4:I1->O            1   0.551   1.140  buff_mux0023<23>1 (buff_mux0023<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0011_wg_lut<0> (buff_and0011_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0011_wg_cy<0> (buff_and0011_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<1> (buff_and0011_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<2> (buff_and0011_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<3> (buff_and0011_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<4> (buff_and0011_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<5> (buff_and0011_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<6> (buff_and0011_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.432  buff_and0011_wg_cy<7> (buff_and0011)
+     LUT3:I1->O            3   0.551   1.102  rg3_7_mux0030<0>1 (rg3_7_mux0030<0>)
+     LUT3:I1->O           64   0.551   2.375  Madd_rg3_7_mux0003_xor<1>11 (rg3_7_mux0003<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0025<23>1 (buff_mux0025<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0013_wg_lut<0> (buff_and0013_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0013_wg_cy<0> (buff_and0013_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0013_wg_cy<1> (buff_and0013_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0013_wg_cy<2> (buff_and0013_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0013_wg_cy<3> (buff_and0013_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0013_wg_cy<4> (buff_and0013_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0013_wg_cy<5> (buff_and0013_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0013_wg_cy<6> (buff_and0013_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.432  buff_and0013_wg_cy<7> (buff_and0013)
+     LUT3:I1->O            3   0.551   1.102  rg3_6_mux0030<0>1 (rg3_6_mux0030<0>)
+     LUT3:I1->O           64   0.551   2.375  Madd_rg3_6_mux0003_xor<1>11 (rg3_6_mux0003<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0027<23>1 (buff_mux0027<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0015_wg_lut<0> (buff_and0015_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0015_wg_cy<0> (buff_and0015_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0015_wg_cy<1> (buff_and0015_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0015_wg_cy<2> (buff_and0015_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0015_wg_cy<3> (buff_and0015_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0015_wg_cy<4> (buff_and0015_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0015_wg_cy<5> (buff_and0015_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0015_wg_cy<6> (buff_and0015_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.432  buff_and0015_wg_cy<7> (buff_and0015)
+     LUT3:I1->O            3   0.551   1.102  rg3_5_mux0030<0>1 (rg3_5_mux0030<0>)
+     LUT3:I1->O           64   0.551   2.375  Madd_rg3_5_mux0003_xor<1>11 (rg3_5_mux0003<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0029<23>1 (buff_mux0029<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0012_wg_lut<0> (buff_and0012_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0012_wg_cy<0> (buff_and0012_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<1> (buff_and0012_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<2> (buff_and0012_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<3> (buff_and0012_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<4> (buff_and0012_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<5> (buff_and0012_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<6> (buff_and0012_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.432  buff_and0012_wg_cy<7> (buff_and0012)
+     LUT3:I1->O            3   0.551   1.102  rg3_4_mux0030<0>1 (rg3_4_mux0030<0>)
+     LUT3:I1->O           64   0.551   2.375  Madd_rg3_4_mux0003_xor<1>11 (rg3_4_mux0003<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0031<23>1 (buff_mux0031<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0014_wg_lut<0> (buff_and0014_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0014_wg_cy<0> (buff_and0014_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<1> (buff_and0014_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<2> (buff_and0014_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<3> (buff_and0014_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<4> (buff_and0014_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<5> (buff_and0014_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<6> (buff_and0014_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.432  buff_and0014_wg_cy<7> (buff_and0014)
+     LUT3:I1->O            3   0.551   1.102  rg3_3_mux0030<0>1 (rg3_3_mux0030<0>)
+     LUT3:I1->O           64   0.551   2.375  Madd_rg3_3_mux0003_xor<1>11 (rg3_3_mux0003<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0033<23>1 (buff_mux0033<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0016_wg_lut<0> (buff_and0016_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0016_wg_cy<0> (buff_and0016_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0016_wg_cy<1> (buff_and0016_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0016_wg_cy<2> (buff_and0016_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0016_wg_cy<3> (buff_and0016_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0016_wg_cy<4> (buff_and0016_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0016_wg_cy<5> (buff_and0016_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0016_wg_cy<6> (buff_and0016_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.432  buff_and0016_wg_cy<7> (buff_and0016)
+     LUT3:I1->O            3   0.551   1.102  rg3_2_mux0030<0>1 (rg3_2_mux0030<0>)
+     LUT3:I1->O           64   0.551   2.375  Madd_rg3_2_mux0003_xor<1>11 (rg3_2_mux0003<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0035<23>1 (buff_mux0035<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0018_wg_lut<0> (buff_and0018_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0018_wg_cy<0> (buff_and0018_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0018_wg_cy<1> (buff_and0018_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0018_wg_cy<2> (buff_and0018_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0018_wg_cy<3> (buff_and0018_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0018_wg_cy<4> (buff_and0018_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0018_wg_cy<5> (buff_and0018_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0018_wg_cy<6> (buff_and0018_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.438  buff_and0018_wg_cy<7> (buff_and0018)
+     LUT3:I1->O            3   0.551   1.102  rg3_1_mux0030<0>1 (rg3_1_mux0030<0>)
      LUT3:I1->O           65   0.551   2.381  Madd_rg3_1_mux0003_xor<1>11 (rg3_1_mux0003<1>)
-     LUT4:I0->O            1   0.551   1.140  buff_mux0013<23>1 (buff_mux0013<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0006_wg_lut<0> (buff_and0006_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0006_wg_cy<0> (buff_and0006_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<1> (buff_and0006_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<2> (buff_and0006_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<3> (buff_and0006_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<4> (buff_and0006_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<5> (buff_and0006_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0006_wg_cy<6> (buff_and0006_wg_cy<6>)
-     MUXCY:CI->O          68   0.303   2.254  buff_and0006_wg_cy<7> (buff_and0006)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0037<23>1 (buff_mux0037<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0020_wg_lut<0> (buff_and0020_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0020_wg_cy<0> (buff_and0020_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0020_wg_cy<1> (buff_and0020_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0020_wg_cy<2> (buff_and0020_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0020_wg_cy<3> (buff_and0020_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0020_wg_cy<4> (buff_and0020_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0020_wg_cy<5> (buff_and0020_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0020_wg_cy<6> (buff_and0020_wg_cy<6>)
+     MUXCY:CI->O          67   0.303   2.249  buff_and0020_wg_cy<7> (buff_and0020)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0001_lut<0> (Madd_rg3_0_add0001_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0001_cy<0> (Madd_rg3_0_add0001_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<1> (Madd_rg3_0_add0001_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<2> (Madd_rg3_0_add0001_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<3> (Madd_rg3_0_add0001_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<4> (Madd_rg3_0_add0001_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<5> (Madd_rg3_0_add0001_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<6> (Madd_rg3_0_add0001_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<7> (Madd_rg3_0_add0001_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<8> (Madd_rg3_0_add0001_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<9> (Madd_rg3_0_add0001_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<10> (Madd_rg3_0_add0001_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<11> (Madd_rg3_0_add0001_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<12> (Madd_rg3_0_add0001_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<13> (Madd_rg3_0_add0001_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<14> (Madd_rg3_0_add0001_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<15> (Madd_rg3_0_add0001_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<16> (Madd_rg3_0_add0001_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<17> (Madd_rg3_0_add0001_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<18> (Madd_rg3_0_add0001_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<19> (Madd_rg3_0_add0001_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<20> (Madd_rg3_0_add0001_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<21> (Madd_rg3_0_add0001_cy<21>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0001_cy<22> (Madd_rg3_0_add0001_cy<22>)
+     XORCY:CI->O           2   0.904   0.903  Madd_rg3_0_add0001_xor<23> (rg3_0_add0001<23>)
+     LUT4:I3->O            3   0.551   1.246  Mmux_buff_mux0040321 (buff_mux0040<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0017_wg_lut<0> (buff_and0017_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0017_wg_cy<0> (buff_and0017_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0017_wg_cy<1> (buff_and0017_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0017_wg_cy<2> (buff_and0017_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0017_wg_cy<3> (buff_and0017_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0017_wg_cy<4> (buff_and0017_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0017_wg_cy<5> (buff_and0017_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0017_wg_cy<6> (buff_and0017_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0017_wg_cy<7> (buff_and0017)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_9_mux0005_lut<1>11 (Madd_rg3_9_mux0005_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_9_mux0005_lut<1>1_f5 (Madd_rg3_9_mux0005_lut<1>)
+     LUT4:I0->O            1   0.551   0.000  Madd_rg3_9_mux0005_xor<1>112 (Madd_rg3_9_mux0005_xor<1>111)
+     MUXF5:I0->O          65   0.360   2.381  Madd_rg3_9_mux0005_xor<1>11_f5 (rg3_9_mux0005<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0042<23>1 (buff_mux0042<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0019_wg_lut<0> (buff_and0019_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0019_wg_cy<0> (buff_and0019_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0019_wg_cy<1> (buff_and0019_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0019_wg_cy<2> (buff_and0019_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0019_wg_cy<3> (buff_and0019_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0019_wg_cy<4> (buff_and0019_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0019_wg_cy<5> (buff_and0019_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0019_wg_cy<6> (buff_and0019_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0019_wg_cy<7> (buff_and0019)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_8_mux0006_lut<1>1 (Madd_rg3_8_mux0006_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_8_mux0006_xor<1>11 (rg3_8_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0044<23>1 (buff_mux0044<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0021_wg_lut<0> (buff_and0021_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0021_wg_cy<0> (buff_and0021_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0021_wg_cy<1> (buff_and0021_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0021_wg_cy<2> (buff_and0021_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0021_wg_cy<3> (buff_and0021_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0021_wg_cy<4> (buff_and0021_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0021_wg_cy<5> (buff_and0021_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0021_wg_cy<6> (buff_and0021_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0021_wg_cy<7> (buff_and0021)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_7_mux0006_lut<1>1 (Madd_rg3_7_mux0006_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_7_mux0006_xor<1>11 (rg3_7_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0046<23>1 (buff_mux0046<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0024_wg_lut<0> (buff_and0024_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0024_wg_cy<0> (buff_and0024_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0024_wg_cy<1> (buff_and0024_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0024_wg_cy<2> (buff_and0024_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0024_wg_cy<3> (buff_and0024_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0024_wg_cy<4> (buff_and0024_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0024_wg_cy<5> (buff_and0024_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0024_wg_cy<6> (buff_and0024_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0024_wg_cy<7> (buff_and0024)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_6_mux0006_lut<1>1 (Madd_rg3_6_mux0006_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_6_mux0006_xor<1>11 (rg3_6_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0048<23>1 (buff_mux0048<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0027_wg_lut<0> (buff_and0027_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0027_wg_cy<0> (buff_and0027_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0027_wg_cy<1> (buff_and0027_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0027_wg_cy<2> (buff_and0027_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0027_wg_cy<3> (buff_and0027_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0027_wg_cy<4> (buff_and0027_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0027_wg_cy<5> (buff_and0027_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0027_wg_cy<6> (buff_and0027_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0027_wg_cy<7> (buff_and0027)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_5_mux0006_lut<1>1 (Madd_rg3_5_mux0006_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_5_mux0006_xor<1>11 (rg3_5_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0050<23>1 (buff_mux0050<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0022_wg_lut<0> (buff_and0022_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0022_wg_cy<0> (buff_and0022_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0022_wg_cy<1> (buff_and0022_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0022_wg_cy<2> (buff_and0022_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0022_wg_cy<3> (buff_and0022_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0022_wg_cy<4> (buff_and0022_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0022_wg_cy<5> (buff_and0022_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0022_wg_cy<6> (buff_and0022_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0022_wg_cy<7> (buff_and0022)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_4_mux0006_lut<1>1 (Madd_rg3_4_mux0006_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_4_mux0006_xor<1>11 (rg3_4_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0052<23>1 (buff_mux0052<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0025_wg_lut<0> (buff_and0025_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0025_wg_cy<0> (buff_and0025_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0025_wg_cy<1> (buff_and0025_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0025_wg_cy<2> (buff_and0025_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0025_wg_cy<3> (buff_and0025_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0025_wg_cy<4> (buff_and0025_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0025_wg_cy<5> (buff_and0025_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0025_wg_cy<6> (buff_and0025_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0025_wg_cy<7> (buff_and0025)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_3_mux0006_lut<1>1 (Madd_rg3_3_mux0006_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_3_mux0006_xor<1>11 (rg3_3_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0054<23>1 (buff_mux0054<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0029_wg_lut<0> (buff_and0029_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0029_wg_cy<0> (buff_and0029_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0029_wg_cy<1> (buff_and0029_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0029_wg_cy<2> (buff_and0029_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0029_wg_cy<3> (buff_and0029_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0029_wg_cy<4> (buff_and0029_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0029_wg_cy<5> (buff_and0029_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0029_wg_cy<6> (buff_and0029_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0029_wg_cy<7> (buff_and0029)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0006_lut<1>1 (Madd_rg3_2_mux0006_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_2_mux0006_xor<1>11 (rg3_2_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0056<23>1 (buff_mux0056<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0032_wg_lut<0> (buff_and0032_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0032_wg_cy<0> (buff_and0032_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0032_wg_cy<1> (buff_and0032_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0032_wg_cy<2> (buff_and0032_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0032_wg_cy<3> (buff_and0032_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0032_wg_cy<4> (buff_and0032_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0032_wg_cy<5> (buff_and0032_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0032_wg_cy<6> (buff_and0032_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0032_wg_cy<7> (buff_and0032)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_1_mux0006_lut<1>11 (Madd_rg3_1_mux0006_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_1_mux0006_lut<1>1_f5 (Madd_rg3_1_mux0006_lut<1>)
+     LUT3:I0->O           68   0.551   2.398  Madd_rg3_1_mux0006_xor<1>11 (rg3_1_mux0006<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0058<23>1 (buff_mux0058<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0037_wg_lut<0> (buff_and0037_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0037_wg_cy<0> (buff_and0037_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0037_wg_cy<1> (buff_and0037_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0037_wg_cy<2> (buff_and0037_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0037_wg_cy<3> (buff_and0037_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0037_wg_cy<4> (buff_and0037_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0037_wg_cy<5> (buff_and0037_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0037_wg_cy<6> (buff_and0037_wg_cy<6>)
+     MUXCY:CI->O          67   0.303   2.249  buff_and0037_wg_cy<7> (buff_and0037)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0002_lut<0> (Madd_rg3_0_add0002_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0002_cy<0> (Madd_rg3_0_add0002_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<1> (Madd_rg3_0_add0002_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<2> (Madd_rg3_0_add0002_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<3> (Madd_rg3_0_add0002_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<4> (Madd_rg3_0_add0002_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<5> (Madd_rg3_0_add0002_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<6> (Madd_rg3_0_add0002_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<7> (Madd_rg3_0_add0002_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<8> (Madd_rg3_0_add0002_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<9> (Madd_rg3_0_add0002_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<10> (Madd_rg3_0_add0002_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<11> (Madd_rg3_0_add0002_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<12> (Madd_rg3_0_add0002_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<13> (Madd_rg3_0_add0002_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<14> (Madd_rg3_0_add0002_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0002_cy<15> (Madd_rg3_0_add0002_cy<15>)
+     XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0002_xor<16> (rg3_0_add0002<16>)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux006116_SW2 (N1400)
+     LUT3:I0->O            3   0.551   1.102  Mmux_buff_mux006116 (buff_mux0061<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0033_wg_lut<2> (buff_and0033_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0033_wg_cy<2> (buff_and0033_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0033_wg_cy<3> (buff_and0033_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0033_wg_cy<4> (buff_and0033_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0033_wg_cy<5> (buff_and0033_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0033_wg_cy<6> (buff_and0033_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0033_wg_cy<7> (buff_and0033)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_9_mux0008_lut<1>1_SW0 (N1474)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_9_mux0008_lut<1>1 (Madd_rg3_9_mux0008_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_9_mux0008_xor<1>11 (rg3_9_mux0008<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0063<23>1 (buff_mux0063<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0036_wg_lut<0> (buff_and0036_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0036_wg_cy<0> (buff_and0036_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0036_wg_cy<1> (buff_and0036_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0036_wg_cy<2> (buff_and0036_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0036_wg_cy<3> (buff_and0036_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0036_wg_cy<4> (buff_and0036_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0036_wg_cy<5> (buff_and0036_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0036_wg_cy<6> (buff_and0036_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0036_wg_cy<7> (buff_and0036)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_8_mux0009_lut<0>11 (Madd_rg3_8_mux0009_lut<0>1)
+     MUXF5:I1->O           3   0.360   0.975  Madd_rg3_8_mux0009_lut<0>1_f5 (Madd_rg3_8_mux0009_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_8_mux0009_xor<1>11 (rg3_8_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0065<23>1 (buff_mux0065<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0041_wg_lut<0> (buff_and0041_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0041_wg_cy<0> (buff_and0041_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0041_wg_cy<1> (buff_and0041_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0041_wg_cy<2> (buff_and0041_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0041_wg_cy<3> (buff_and0041_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0041_wg_cy<4> (buff_and0041_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0041_wg_cy<5> (buff_and0041_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0041_wg_cy<6> (buff_and0041_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0041_wg_cy<7> (buff_and0041)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_7_mux0009_lut<1>1 (Madd_rg3_7_mux0009_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_7_mux0009_xor<1>11 (rg3_7_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0067<23>1 (buff_mux0067<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0045_wg_lut<0> (buff_and0045_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0045_wg_cy<0> (buff_and0045_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0045_wg_cy<1> (buff_and0045_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0045_wg_cy<2> (buff_and0045_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0045_wg_cy<3> (buff_and0045_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0045_wg_cy<4> (buff_and0045_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0045_wg_cy<5> (buff_and0045_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0045_wg_cy<6> (buff_and0045_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0045_wg_cy<7> (buff_and0045)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_6_mux0009_lut<1>1 (Madd_rg3_6_mux0009_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_6_mux0009_xor<1>11 (rg3_6_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0069<23>1 (buff_mux0069<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0039_wg_lut<0> (buff_and0039_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0039_wg_cy<0> (buff_and0039_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0039_wg_cy<1> (buff_and0039_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0039_wg_cy<2> (buff_and0039_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0039_wg_cy<3> (buff_and0039_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0039_wg_cy<4> (buff_and0039_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0039_wg_cy<5> (buff_and0039_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0039_wg_cy<6> (buff_and0039_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0039_wg_cy<7> (buff_and0039)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_5_mux0009_lut<1>1 (Madd_rg3_5_mux0009_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_5_mux0009_xor<1>11 (rg3_5_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0071<23>1 (buff_mux0071<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0043_wg_lut<0> (buff_and0043_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0043_wg_cy<0> (buff_and0043_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0043_wg_cy<1> (buff_and0043_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0043_wg_cy<2> (buff_and0043_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0043_wg_cy<3> (buff_and0043_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0043_wg_cy<4> (buff_and0043_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0043_wg_cy<5> (buff_and0043_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0043_wg_cy<6> (buff_and0043_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0043_wg_cy<7> (buff_and0043)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_4_mux0009_lut<1>1 (Madd_rg3_4_mux0009_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_4_mux0009_xor<1>11 (rg3_4_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0073<23>1 (buff_mux0073<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0046_wg_lut<0> (buff_and0046_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0046_wg_cy<0> (buff_and0046_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0046_wg_cy<1> (buff_and0046_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0046_wg_cy<2> (buff_and0046_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0046_wg_cy<3> (buff_and0046_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0046_wg_cy<4> (buff_and0046_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0046_wg_cy<5> (buff_and0046_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0046_wg_cy<6> (buff_and0046_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0046_wg_cy<7> (buff_and0046)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_3_mux0009_lut<1>1 (Madd_rg3_3_mux0009_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_3_mux0009_xor<1>11 (rg3_3_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0075<23>1 (buff_mux0075<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0050_wg_lut<0> (buff_and0050_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0050_wg_cy<0> (buff_and0050_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0050_wg_cy<1> (buff_and0050_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0050_wg_cy<2> (buff_and0050_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0050_wg_cy<3> (buff_and0050_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0050_wg_cy<4> (buff_and0050_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0050_wg_cy<5> (buff_and0050_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0050_wg_cy<6> (buff_and0050_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0050_wg_cy<7> (buff_and0050)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0009_lut<1>1 (Madd_rg3_2_mux0009_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_2_mux0009_xor<1>11 (rg3_2_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0077<23>1 (buff_mux0077<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0054_wg_lut<0> (buff_and0054_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0054_wg_cy<0> (buff_and0054_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0054_wg_cy<1> (buff_and0054_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0054_wg_cy<2> (buff_and0054_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0054_wg_cy<3> (buff_and0054_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0054_wg_cy<4> (buff_and0054_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0054_wg_cy<5> (buff_and0054_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0054_wg_cy<6> (buff_and0054_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0054_wg_cy<7> (buff_and0054)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_1_mux0009_lut<1>11 (Madd_rg3_1_mux0009_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_1_mux0009_lut<1>1_f5 (Madd_rg3_1_mux0009_lut<1>)
+     LUT3:I0->O           68   0.551   2.398  Madd_rg3_1_mux0009_xor<1>11 (rg3_1_mux0009<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0079<23>1 (buff_mux0079<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0048_wg_lut<0> (buff_and0048_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0048_wg_cy<0> (buff_and0048_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0048_wg_cy<1> (buff_and0048_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0048_wg_cy<2> (buff_and0048_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0048_wg_cy<3> (buff_and0048_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0048_wg_cy<4> (buff_and0048_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0048_wg_cy<5> (buff_and0048_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0048_wg_cy<6> (buff_and0048_wg_cy<6>)
+     MUXCY:CI->O          67   0.303   2.249  buff_and0048_wg_cy<7> (buff_and0048)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0003_lut<0> (Madd_rg3_0_add0003_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0003_cy<0> (Madd_rg3_0_add0003_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<1> (Madd_rg3_0_add0003_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<2> (Madd_rg3_0_add0003_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<3> (Madd_rg3_0_add0003_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<4> (Madd_rg3_0_add0003_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<5> (Madd_rg3_0_add0003_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<6> (Madd_rg3_0_add0003_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<7> (Madd_rg3_0_add0003_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<8> (Madd_rg3_0_add0003_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<9> (Madd_rg3_0_add0003_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<10> (Madd_rg3_0_add0003_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<11> (Madd_rg3_0_add0003_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<12> (Madd_rg3_0_add0003_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<13> (Madd_rg3_0_add0003_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<14> (Madd_rg3_0_add0003_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0003_cy<15> (Madd_rg3_0_add0003_cy<15>)
+     XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0003_xor<16> (rg3_0_add0003<16>)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux008216_SW2 (N1398)
+     LUT3:I0->O            3   0.551   1.102  Mmux_buff_mux008216 (buff_mux0082<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0053_wg_lut<2> (buff_and0053_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0053_wg_cy<2> (buff_and0053_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0053_wg_cy<3> (buff_and0053_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0053_wg_cy<4> (buff_and0053_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0053_wg_cy<5> (buff_and0053_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0053_wg_cy<6> (buff_and0053_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0053_wg_cy<7> (buff_and0053)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_9_mux0011_lut<1>1_SW0 (N1466)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_9_mux0011_lut<1>1 (Madd_rg3_9_mux0011_lut<1>)
+     LUT2:I0->O           65   0.551   2.381  Madd_rg3_9_mux0011_xor<1>11 (rg3_9_mux0011<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0084<23>1 (buff_mux0084<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0057_wg_lut<0> (buff_and0057_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0057_wg_cy<0> (buff_and0057_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0057_wg_cy<1> (buff_and0057_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0057_wg_cy<2> (buff_and0057_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0057_wg_cy<3> (buff_and0057_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0057_wg_cy<4> (buff_and0057_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0057_wg_cy<5> (buff_and0057_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0057_wg_cy<6> (buff_and0057_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0057_wg_cy<7> (buff_and0057)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_8_mux0012_lut<0>11 (Madd_rg3_8_mux0012_lut<0>1)
+     MUXF5:I1->O           3   0.360   0.975  Madd_rg3_8_mux0012_lut<0>1_f5 (Madd_rg3_8_mux0012_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_8_mux0012_xor<1>11 (rg3_8_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0086<23>1 (buff_mux0086<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0061_wg_lut<0> (buff_and0061_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0061_wg_cy<0> (buff_and0061_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0061_wg_cy<1> (buff_and0061_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0061_wg_cy<2> (buff_and0061_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0061_wg_cy<3> (buff_and0061_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0061_wg_cy<4> (buff_and0061_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0061_wg_cy<5> (buff_and0061_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0061_wg_cy<6> (buff_and0061_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0061_wg_cy<7> (buff_and0061)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_7_mux0012_lut<1>1 (Madd_rg3_7_mux0012_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_7_mux0012_xor<1>11 (rg3_7_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0088<23>1 (buff_mux0088<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0065_wg_lut<0> (buff_and0065_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0065_wg_cy<0> (buff_and0065_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0065_wg_cy<1> (buff_and0065_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0065_wg_cy<2> (buff_and0065_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0065_wg_cy<3> (buff_and0065_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0065_wg_cy<4> (buff_and0065_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0065_wg_cy<5> (buff_and0065_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0065_wg_cy<6> (buff_and0065_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0065_wg_cy<7> (buff_and0065)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_6_mux0012_lut<1>1 (Madd_rg3_6_mux0012_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_6_mux0012_xor<1>11 (rg3_6_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0090<23>1 (buff_mux0090<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0059_wg_lut<0> (buff_and0059_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0059_wg_cy<0> (buff_and0059_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0059_wg_cy<1> (buff_and0059_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0059_wg_cy<2> (buff_and0059_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0059_wg_cy<3> (buff_and0059_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0059_wg_cy<4> (buff_and0059_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0059_wg_cy<5> (buff_and0059_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0059_wg_cy<6> (buff_and0059_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0059_wg_cy<7> (buff_and0059)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_5_mux0012_lut<1>1 (Madd_rg3_5_mux0012_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_5_mux0012_xor<1>11 (rg3_5_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0092<23>1 (buff_mux0092<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0063_wg_lut<0> (buff_and0063_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0063_wg_cy<0> (buff_and0063_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0063_wg_cy<1> (buff_and0063_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0063_wg_cy<2> (buff_and0063_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0063_wg_cy<3> (buff_and0063_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0063_wg_cy<4> (buff_and0063_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0063_wg_cy<5> (buff_and0063_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0063_wg_cy<6> (buff_and0063_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0063_wg_cy<7> (buff_and0063)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_4_mux0012_lut<1>1 (Madd_rg3_4_mux0012_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_4_mux0012_xor<1>11 (rg3_4_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0094<23>1 (buff_mux0094<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0068_wg_lut<0> (buff_and0068_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0068_wg_cy<0> (buff_and0068_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0068_wg_cy<1> (buff_and0068_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0068_wg_cy<2> (buff_and0068_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0068_wg_cy<3> (buff_and0068_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0068_wg_cy<4> (buff_and0068_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0068_wg_cy<5> (buff_and0068_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0068_wg_cy<6> (buff_and0068_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0068_wg_cy<7> (buff_and0068)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_3_mux0012_lut<1>1 (Madd_rg3_3_mux0012_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_3_mux0012_xor<1>11 (rg3_3_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0096<23>1 (buff_mux0096<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0072_wg_lut<0> (buff_and0072_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0072_wg_cy<0> (buff_and0072_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0072_wg_cy<1> (buff_and0072_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0072_wg_cy<2> (buff_and0072_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0072_wg_cy<3> (buff_and0072_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0072_wg_cy<4> (buff_and0072_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0072_wg_cy<5> (buff_and0072_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0072_wg_cy<6> (buff_and0072_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0072_wg_cy<7> (buff_and0072)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0012_lut<1>1 (Madd_rg3_2_mux0012_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_2_mux0012_xor<1>11 (rg3_2_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0098<23>1 (buff_mux0098<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0076_wg_lut<0> (buff_and0076_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0076_wg_cy<0> (buff_and0076_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0076_wg_cy<1> (buff_and0076_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0076_wg_cy<2> (buff_and0076_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0076_wg_cy<3> (buff_and0076_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0076_wg_cy<4> (buff_and0076_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0076_wg_cy<5> (buff_and0076_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0076_wg_cy<6> (buff_and0076_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0076_wg_cy<7> (buff_and0076)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_1_mux0012_lut<1>11 (Madd_rg3_1_mux0012_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_1_mux0012_lut<1>1_f5 (Madd_rg3_1_mux0012_lut<1>)
+     LUT3:I0->O           68   0.551   2.398  Madd_rg3_1_mux0012_xor<1>11 (rg3_1_mux0012<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0100<23>1 (buff_mux0100<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0023_wg_lut<0> (buff_and0023_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0023_wg_cy<0> (buff_and0023_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0023_wg_cy<1> (buff_and0023_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0023_wg_cy<2> (buff_and0023_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0023_wg_cy<3> (buff_and0023_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0023_wg_cy<4> (buff_and0023_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0023_wg_cy<5> (buff_and0023_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0023_wg_cy<6> (buff_and0023_wg_cy<6>)
+     MUXCY:CI->O          67   0.303   2.249  buff_and0023_wg_cy<7> (buff_and0023)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0004_lut<0> (Madd_rg3_0_add0004_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0004_cy<0> (Madd_rg3_0_add0004_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<1> (Madd_rg3_0_add0004_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<2> (Madd_rg3_0_add0004_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<3> (Madd_rg3_0_add0004_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<4> (Madd_rg3_0_add0004_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<5> (Madd_rg3_0_add0004_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<6> (Madd_rg3_0_add0004_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<7> (Madd_rg3_0_add0004_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<8> (Madd_rg3_0_add0004_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<9> (Madd_rg3_0_add0004_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<10> (Madd_rg3_0_add0004_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<11> (Madd_rg3_0_add0004_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<12> (Madd_rg3_0_add0004_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<13> (Madd_rg3_0_add0004_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<14> (Madd_rg3_0_add0004_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0004_cy<15> (Madd_rg3_0_add0004_cy<15>)
+     XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0004_xor<16> (rg3_0_add0004<16>)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux010316_SW2 (N1390)
+     LUT3:I0->O            3   0.551   1.102  Mmux_buff_mux010316 (buff_mux0103<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0026_wg_lut<2> (buff_and0026_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0026_wg_cy<2> (buff_and0026_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0026_wg_cy<3> (buff_and0026_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0026_wg_cy<4> (buff_and0026_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0026_wg_cy<5> (buff_and0026_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0026_wg_cy<6> (buff_and0026_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0026_wg_cy<7> (buff_and0026)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_9_mux0014_lut<1>1_SW0 (N1464)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_9_mux0014_lut<1>1 (Madd_rg3_9_mux0014_lut<1>)
+     LUT2:I0->O           65   0.551   2.381  Madd_rg3_9_mux0014_xor<1>11 (rg3_9_mux0014<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0105<23>1 (buff_mux0105<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0030_wg_lut<0> (buff_and0030_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0030_wg_cy<0> (buff_and0030_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0030_wg_cy<1> (buff_and0030_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0030_wg_cy<2> (buff_and0030_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0030_wg_cy<3> (buff_and0030_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0030_wg_cy<4> (buff_and0030_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0030_wg_cy<5> (buff_and0030_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0030_wg_cy<6> (buff_and0030_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0030_wg_cy<7> (buff_and0030)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_8_mux0015_lut<0>11 (Madd_rg3_8_mux0015_lut<0>1)
+     MUXF5:I1->O           3   0.360   0.975  Madd_rg3_8_mux0015_lut<0>1_f5 (Madd_rg3_8_mux0015_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_8_mux0015_xor<1>11 (rg3_8_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0107<23>1 (buff_mux0107<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0034_wg_lut<0> (buff_and0034_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0034_wg_cy<0> (buff_and0034_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0034_wg_cy<1> (buff_and0034_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0034_wg_cy<2> (buff_and0034_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0034_wg_cy<3> (buff_and0034_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0034_wg_cy<4> (buff_and0034_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0034_wg_cy<5> (buff_and0034_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0034_wg_cy<6> (buff_and0034_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0034_wg_cy<7> (buff_and0034)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_7_mux0015_lut<1>1 (Madd_rg3_7_mux0015_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_7_mux0015_xor<1>11 (rg3_7_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0109<23>1 (buff_mux0109<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0028_wg_lut<0> (buff_and0028_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0028_wg_cy<0> (buff_and0028_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0028_wg_cy<1> (buff_and0028_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0028_wg_cy<2> (buff_and0028_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0028_wg_cy<3> (buff_and0028_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0028_wg_cy<4> (buff_and0028_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0028_wg_cy<5> (buff_and0028_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0028_wg_cy<6> (buff_and0028_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0028_wg_cy<7> (buff_and0028)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_6_mux0015_lut<1>1 (Madd_rg3_6_mux0015_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_6_mux0015_xor<1>11 (rg3_6_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0111<23>1 (buff_mux0111<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0031_wg_lut<0> (buff_and0031_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0031_wg_cy<0> (buff_and0031_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0031_wg_cy<1> (buff_and0031_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0031_wg_cy<2> (buff_and0031_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0031_wg_cy<3> (buff_and0031_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0031_wg_cy<4> (buff_and0031_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0031_wg_cy<5> (buff_and0031_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0031_wg_cy<6> (buff_and0031_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0031_wg_cy<7> (buff_and0031)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_5_mux0015_lut<1>1 (Madd_rg3_5_mux0015_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_5_mux0015_xor<1>11 (rg3_5_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0113<23>1 (buff_mux0113<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0035_wg_lut<0> (buff_and0035_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0035_wg_cy<0> (buff_and0035_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0035_wg_cy<1> (buff_and0035_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0035_wg_cy<2> (buff_and0035_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0035_wg_cy<3> (buff_and0035_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0035_wg_cy<4> (buff_and0035_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0035_wg_cy<5> (buff_and0035_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0035_wg_cy<6> (buff_and0035_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0035_wg_cy<7> (buff_and0035)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_4_mux0015_lut<1>1 (Madd_rg3_4_mux0015_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_4_mux0015_xor<1>11 (rg3_4_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0115<23>1 (buff_mux0115<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0040_wg_lut<0> (buff_and0040_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0040_wg_cy<0> (buff_and0040_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0040_wg_cy<1> (buff_and0040_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0040_wg_cy<2> (buff_and0040_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0040_wg_cy<3> (buff_and0040_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0040_wg_cy<4> (buff_and0040_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0040_wg_cy<5> (buff_and0040_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0040_wg_cy<6> (buff_and0040_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0040_wg_cy<7> (buff_and0040)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_3_mux0015_lut<1>1 (Madd_rg3_3_mux0015_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_3_mux0015_xor<1>11 (rg3_3_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0117<23>1 (buff_mux0117<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0044_wg_lut<0> (buff_and0044_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0044_wg_cy<0> (buff_and0044_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0044_wg_cy<1> (buff_and0044_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0044_wg_cy<2> (buff_and0044_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0044_wg_cy<3> (buff_and0044_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0044_wg_cy<4> (buff_and0044_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0044_wg_cy<5> (buff_and0044_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0044_wg_cy<6> (buff_and0044_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0044_wg_cy<7> (buff_and0044)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0015_lut<1>1 (Madd_rg3_2_mux0015_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_2_mux0015_xor<1>11 (rg3_2_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0119<23>1 (buff_mux0119<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0038_wg_lut<0> (buff_and0038_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0038_wg_cy<0> (buff_and0038_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0038_wg_cy<1> (buff_and0038_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0038_wg_cy<2> (buff_and0038_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0038_wg_cy<3> (buff_and0038_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0038_wg_cy<4> (buff_and0038_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0038_wg_cy<5> (buff_and0038_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0038_wg_cy<6> (buff_and0038_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0038_wg_cy<7> (buff_and0038)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_1_mux0015_lut<1>11 (Madd_rg3_1_mux0015_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_1_mux0015_lut<1>1_f5 (Madd_rg3_1_mux0015_lut<1>)
+     LUT3:I0->O           68   0.551   2.398  Madd_rg3_1_mux0015_xor<1>11 (rg3_1_mux0015<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0121<23>1 (buff_mux0121<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0042_wg_lut<0> (buff_and0042_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0042_wg_cy<0> (buff_and0042_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0042_wg_cy<1> (buff_and0042_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0042_wg_cy<2> (buff_and0042_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0042_wg_cy<3> (buff_and0042_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0042_wg_cy<4> (buff_and0042_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0042_wg_cy<5> (buff_and0042_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0042_wg_cy<6> (buff_and0042_wg_cy<6>)
+     MUXCY:CI->O          68   0.303   2.254  buff_and0042_wg_cy<7> (buff_and0042)
      LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0005_lut<0> (Madd_rg3_0_add0005_lut<0>)
      MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0005_cy<0> (Madd_rg3_0_add0005_cy<0>)
      MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<1> (Madd_rg3_0_add0005_cy<1>)
@@ -461,62 +1676,126 @@ Delay:               119.527ns (Levels of Logic = 185)
      MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<13> (Madd_rg3_0_add0005_cy<13>)
      MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<14> (Madd_rg3_0_add0005_cy<14>)
      MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<15> (Madd_rg3_0_add0005_cy<15>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<16> (Madd_rg3_0_add0005_cy<16>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<17> (Madd_rg3_0_add0005_cy<17>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<18> (Madd_rg3_0_add0005_cy<18>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<19> (Madd_rg3_0_add0005_cy<19>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<20> (Madd_rg3_0_add0005_cy<20>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<21> (Madd_rg3_0_add0005_cy<21>)
-     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0005_cy<22> (Madd_rg3_0_add0005_cy<22>)
-     XORCY:CI->O           2   0.904   0.903  Madd_rg3_0_add0005_xor<23> (rg3_0_add0005<23>)
-     LUT4:I3->O            3   0.551   1.246  Mmux_buff_mux0016321 (buff_mux0016<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0008_wg_lut<0> (buff_and0008_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0008_wg_cy<0> (buff_and0008_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<1> (buff_and0008_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<2> (buff_and0008_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<3> (buff_and0008_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<4> (buff_and0008_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<5> (buff_and0008_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0008_wg_cy<6> (buff_and0008_wg_cy<6>)
-     MUXCY:CI->O         100   0.303   2.311  buff_and0008_wg_cy<7> (buff_and0008)
-     LUT4:I2->O            1   0.551   0.000  Madd_rg3_3_mux0005_lut<1>11 (Madd_rg3_3_mux0005_lut<1>1)
-     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_3_mux0005_lut<1>1_f5 (Madd_rg3_3_mux0005_lut<1>)
-     LUT4:I0->O            1   0.551   0.000  Madd_rg3_3_mux0005_xor<1>111 (Madd_rg3_3_mux0005_xor<1>11)
-     MUXF5:I1->O          65   0.360   2.381  Madd_rg3_3_mux0005_xor<1>11_f5 (rg3_3_mux0005<1>)
-     LUT4:I0->O            1   0.551   1.140  buff_mux0018<23>1 (buff_mux0018<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0010_wg_lut<0> (buff_and0010_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0010_wg_cy<0> (buff_and0010_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<1> (buff_and0010_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<2> (buff_and0010_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<3> (buff_and0010_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<4> (buff_and0010_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<5> (buff_and0010_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0010_wg_cy<6> (buff_and0010_wg_cy<6>)
-     MUXCY:CI->O          99   0.303   2.305  buff_and0010_wg_cy<7> (buff_and0010)
-     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0006_lut<1>1 (Madd_rg3_2_mux0006_lut<1>)
-     LUT3:I0->O           65   0.551   2.381  Madd_rg3_2_mux0006_xor<1>11 (rg3_2_mux0006<1>)
-     LUT4:I0->O            1   0.551   1.140  buff_mux0020<23>1 (buff_mux0020<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0007_wg_lut<0> (buff_and0007_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0007_wg_cy<0> (buff_and0007_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<1> (buff_and0007_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<2> (buff_and0007_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<3> (buff_and0007_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<4> (buff_and0007_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<5> (buff_and0007_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0007_wg_cy<6> (buff_and0007_wg_cy<6>)
-     MUXCY:CI->O         100   0.303   2.311  buff_and0007_wg_cy<7> (buff_and0007)
-     LUT4:I2->O            2   0.551   1.216  Madd_rg3_1_mux0006_lut<1>1 (Madd_rg3_1_mux0006_lut<1>)
-     LUT3:I0->O           66   0.551   2.387  Madd_rg3_1_mux0006_xor<1>11 (rg3_1_mux0006<1>)
-     LUT4:I0->O            1   0.551   1.140  buff_mux0022<23>1 (buff_mux0022<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0009_wg_lut<0> (buff_and0009_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0009_wg_cy<0> (buff_and0009_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<1> (buff_and0009_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<2> (buff_and0009_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<3> (buff_and0009_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<4> (buff_and0009_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<5> (buff_and0009_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0009_wg_cy<6> (buff_and0009_wg_cy<6>)
-     MUXCY:CI->O          67   0.303   2.249  buff_and0009_wg_cy<7> (buff_and0009)
+     XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0005_xor<16> (rg3_0_add0005<16>)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux012416_SW2 (N1396)
+     LUT3:I0->O            3   0.551   1.102  Mmux_buff_mux012416 (buff_mux0124<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0047_wg_lut<2> (buff_and0047_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0047_wg_cy<2> (buff_and0047_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0047_wg_cy<3> (buff_and0047_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0047_wg_cy<4> (buff_and0047_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0047_wg_cy<5> (buff_and0047_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0047_wg_cy<6> (buff_and0047_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0047_wg_cy<7> (buff_and0047)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_9_mux0017_lut<1>1_SW0 (N1470)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_9_mux0017_lut<1>1 (Madd_rg3_9_mux0017_lut<1>)
+     LUT2:I0->O           65   0.551   2.381  Madd_rg3_9_mux0017_xor<1>11 (rg3_9_mux0017<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0126<23>1 (buff_mux0126<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0051_wg_lut<0> (buff_and0051_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0051_wg_cy<0> (buff_and0051_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0051_wg_cy<1> (buff_and0051_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0051_wg_cy<2> (buff_and0051_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0051_wg_cy<3> (buff_and0051_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0051_wg_cy<4> (buff_and0051_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0051_wg_cy<5> (buff_and0051_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0051_wg_cy<6> (buff_and0051_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0051_wg_cy<7> (buff_and0051)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_8_mux0018_lut<0>11 (Madd_rg3_8_mux0018_lut<0>1)
+     MUXF5:I1->O           3   0.360   0.975  Madd_rg3_8_mux0018_lut<0>1_f5 (Madd_rg3_8_mux0018_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_8_mux0018_xor<1>11 (rg3_8_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0128<23>1 (buff_mux0128<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0055_wg_lut<0> (buff_and0055_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0055_wg_cy<0> (buff_and0055_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0055_wg_cy<1> (buff_and0055_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0055_wg_cy<2> (buff_and0055_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0055_wg_cy<3> (buff_and0055_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0055_wg_cy<4> (buff_and0055_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0055_wg_cy<5> (buff_and0055_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0055_wg_cy<6> (buff_and0055_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0055_wg_cy<7> (buff_and0055)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_7_mux0018_lut<1>1 (Madd_rg3_7_mux0018_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_7_mux0018_xor<1>11 (rg3_7_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0130<23>1 (buff_mux0130<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0049_wg_lut<0> (buff_and0049_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0049_wg_cy<0> (buff_and0049_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0049_wg_cy<1> (buff_and0049_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0049_wg_cy<2> (buff_and0049_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0049_wg_cy<3> (buff_and0049_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0049_wg_cy<4> (buff_and0049_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0049_wg_cy<5> (buff_and0049_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0049_wg_cy<6> (buff_and0049_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0049_wg_cy<7> (buff_and0049)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_6_mux0018_lut<1>1 (Madd_rg3_6_mux0018_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_6_mux0018_xor<1>11 (rg3_6_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0132<23>1 (buff_mux0132<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0052_wg_lut<0> (buff_and0052_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0052_wg_cy<0> (buff_and0052_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0052_wg_cy<1> (buff_and0052_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0052_wg_cy<2> (buff_and0052_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0052_wg_cy<3> (buff_and0052_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0052_wg_cy<4> (buff_and0052_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0052_wg_cy<5> (buff_and0052_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0052_wg_cy<6> (buff_and0052_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0052_wg_cy<7> (buff_and0052)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_5_mux0018_lut<1>1 (Madd_rg3_5_mux0018_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_5_mux0018_xor<1>11 (rg3_5_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0134<23>1 (buff_mux0134<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0056_wg_lut<0> (buff_and0056_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0056_wg_cy<0> (buff_and0056_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0056_wg_cy<1> (buff_and0056_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0056_wg_cy<2> (buff_and0056_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0056_wg_cy<3> (buff_and0056_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0056_wg_cy<4> (buff_and0056_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0056_wg_cy<5> (buff_and0056_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0056_wg_cy<6> (buff_and0056_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0056_wg_cy<7> (buff_and0056)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_4_mux0018_lut<1>1 (Madd_rg3_4_mux0018_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_4_mux0018_xor<1>11 (rg3_4_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0136<23>1 (buff_mux0136<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0060_wg_lut<0> (buff_and0060_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0060_wg_cy<0> (buff_and0060_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0060_wg_cy<1> (buff_and0060_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0060_wg_cy<2> (buff_and0060_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0060_wg_cy<3> (buff_and0060_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0060_wg_cy<4> (buff_and0060_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0060_wg_cy<5> (buff_and0060_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0060_wg_cy<6> (buff_and0060_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0060_wg_cy<7> (buff_and0060)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_3_mux0018_lut<1>1 (Madd_rg3_3_mux0018_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_3_mux0018_xor<1>11 (rg3_3_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0138<23>1 (buff_mux0138<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0064_wg_lut<0> (buff_and0064_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0064_wg_cy<0> (buff_and0064_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0064_wg_cy<1> (buff_and0064_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0064_wg_cy<2> (buff_and0064_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0064_wg_cy<3> (buff_and0064_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0064_wg_cy<4> (buff_and0064_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0064_wg_cy<5> (buff_and0064_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0064_wg_cy<6> (buff_and0064_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0064_wg_cy<7> (buff_and0064)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0018_lut<1>1 (Madd_rg3_2_mux0018_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_2_mux0018_xor<1>11 (rg3_2_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0140<23>1 (buff_mux0140<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0058_wg_lut<0> (buff_and0058_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0058_wg_cy<0> (buff_and0058_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0058_wg_cy<1> (buff_and0058_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0058_wg_cy<2> (buff_and0058_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0058_wg_cy<3> (buff_and0058_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0058_wg_cy<4> (buff_and0058_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0058_wg_cy<5> (buff_and0058_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0058_wg_cy<6> (buff_and0058_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0058_wg_cy<7> (buff_and0058)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_1_mux0018_lut<1>1 (Madd_rg3_1_mux0018_lut<1>)
+     LUT3:I0->O           66   0.551   2.387  Madd_rg3_1_mux0018_xor<1>11 (rg3_1_mux0018<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0142<23>1 (buff_mux0142<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0062_wg_lut<0> (buff_and0062_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0062_wg_cy<0> (buff_and0062_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0062_wg_cy<1> (buff_and0062_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0062_wg_cy<2> (buff_and0062_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0062_wg_cy<3> (buff_and0062_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0062_wg_cy<4> (buff_and0062_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0062_wg_cy<5> (buff_and0062_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0062_wg_cy<6> (buff_and0062_wg_cy<6>)
+     MUXCY:CI->O          68   0.303   2.254  buff_and0062_wg_cy<7> (buff_and0062)
      LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0006_lut<0> (Madd_rg3_0_add0006_lut<0>)
      MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0006_cy<0> (Madd_rg3_0_add0006_cy<0>)
      MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<1> (Madd_rg3_0_add0006_cy<1>)
@@ -535,63 +1814,416 @@ Delay:               119.527ns (Levels of Logic = 185)
      MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<14> (Madd_rg3_0_add0006_cy<14>)
      MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0006_cy<15> (Madd_rg3_0_add0006_cy<15>)
      XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0006_xor<16> (rg3_0_add0006<16>)
-     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux002516_SW2 (N166)
-     LUT3:I0->O            1   0.551   0.996  Mmux_buff_mux002516 (buff_mux0025<16>)
-     LUT4:I1->O            1   0.551   0.000  buff_and0012_wg_lut<2> (buff_and0012_wg_lut<2>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0012_wg_cy<2> (buff_and0012_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<3> (buff_and0012_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<4> (buff_and0012_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<5> (buff_and0012_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0012_wg_cy<6> (buff_and0012_wg_cy<6>)
-     MUXCY:CI->O          99   0.303   2.305  buff_and0012_wg_cy<7> (buff_and0012)
-     LUT4:I2->O            1   0.551   0.996  Madd_rg3_3_mux0008_lut<1>1_SW0 (N186)
-     LUT4:I1->O            1   0.551   1.140  Madd_rg3_3_mux0008_lut<1>1 (Madd_rg3_3_mux0008_lut<1>)
-     LUT2:I0->O           65   0.551   2.381  Madd_rg3_3_mux0008_xor<1>11 (rg3_3_mux0008<1>)
-     LUT4:I0->O            1   0.551   1.140  buff_mux0027<23>1 (buff_mux0027<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0014_wg_lut<0> (buff_and0014_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0014_wg_cy<0> (buff_and0014_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<1> (buff_and0014_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<2> (buff_and0014_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<3> (buff_and0014_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<4> (buff_and0014_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<5> (buff_and0014_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0014_wg_cy<6> (buff_and0014_wg_cy<6>)
-     MUXCY:CI->O          99   0.303   2.576  buff_and0014_wg_cy<7> (buff_and0014)
-     LUT4:I0->O            1   0.551   0.996  Madd_rg3_2_mux0009_xor<1>11_SW0 (N202)
-     LUT2:I1->O           65   0.551   2.381  Madd_rg3_2_mux0009_xor<1>11 (rg3_2_mux0009<1>)
-     LUT4:I0->O            1   0.551   1.140  buff_mux0029<23>1 (buff_mux0029<23>)
-     LUT4:I0->O            1   0.551   0.000  buff_and0011_wg_lut<0> (buff_and0011_wg_lut<0>)
-     MUXCY:S->O            1   0.500   0.000  buff_and0011_wg_cy<0> (buff_and0011_wg_cy<0>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<1> (buff_and0011_wg_cy<1>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<2> (buff_and0011_wg_cy<2>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<3> (buff_and0011_wg_cy<3>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<4> (buff_and0011_wg_cy<4>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<5> (buff_and0011_wg_cy<5>)
-     MUXCY:CI->O           1   0.064   0.000  buff_and0011_wg_cy<6> (buff_and0011_wg_cy<6>)
-     MUXCY:CI->O          45   0.303   1.996  buff_and0011_wg_cy<7> (buff_and0011)
-     LUT4:I2->O            1   0.551   0.000  Madd_rg3_1_mux0009_lut<1>11 (Madd_rg3_1_mux0009_lut<1>1)
-     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_1_mux0009_lut<1>1_f5 (Madd_rg3_1_mux0009_lut<1>)
-     LUT3:I0->O            4   0.551   1.256  Madd_rg3_1_mux0009_xor<1>11 (rg3_1_mux0009<1>)
-     LUT3:I0->O            1   0.551   1.140  buff_and00137 (buff_and00137)
-     LUT4:I0->O            1   0.551   0.996  buff_and001330 (buff_and001330)
-     LUT4:I1->O            1   0.551   1.140  buff_and001368 (buff_and001368)
-     LUT4:I0->O            1   0.551   1.140  buff_and0013510 (buff_and0013)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux014516_SW2 (N1394)
+     LUT3:I0->O            3   0.551   1.102  Mmux_buff_mux014516 (buff_mux0145<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0069_wg_lut<2> (buff_and0069_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0069_wg_cy<2> (buff_and0069_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0069_wg_cy<3> (buff_and0069_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0069_wg_cy<4> (buff_and0069_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0069_wg_cy<5> (buff_and0069_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0069_wg_cy<6> (buff_and0069_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0069_wg_cy<7> (buff_and0069)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_9_mux0020_lut<1>1_SW0 (N1468)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_9_mux0020_lut<1>1 (Madd_rg3_9_mux0020_lut<1>)
+     LUT2:I0->O           65   0.551   2.381  Madd_rg3_9_mux0020_xor<1>11 (rg3_9_mux0020<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0147<23>1 (buff_mux0147<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0073_wg_lut<0> (buff_and0073_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0073_wg_cy<0> (buff_and0073_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0073_wg_cy<1> (buff_and0073_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0073_wg_cy<2> (buff_and0073_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0073_wg_cy<3> (buff_and0073_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0073_wg_cy<4> (buff_and0073_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0073_wg_cy<5> (buff_and0073_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0073_wg_cy<6> (buff_and0073_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0073_wg_cy<7> (buff_and0073)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_8_mux0021_lut<0>11 (Madd_rg3_8_mux0021_lut<0>1)
+     MUXF5:I1->O           3   0.360   0.975  Madd_rg3_8_mux0021_lut<0>1_f5 (Madd_rg3_8_mux0021_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_8_mux0021_xor<1>11 (rg3_8_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0149<23>1 (buff_mux0149<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0067_wg_lut<0> (buff_and0067_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0067_wg_cy<0> (buff_and0067_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0067_wg_cy<1> (buff_and0067_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0067_wg_cy<2> (buff_and0067_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0067_wg_cy<3> (buff_and0067_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0067_wg_cy<4> (buff_and0067_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0067_wg_cy<5> (buff_and0067_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0067_wg_cy<6> (buff_and0067_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0067_wg_cy<7> (buff_and0067)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_7_mux0021_lut<1>1 (Madd_rg3_7_mux0021_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_7_mux0021_xor<1>11 (rg3_7_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0151<23>1 (buff_mux0151<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0071_wg_lut<0> (buff_and0071_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0071_wg_cy<0> (buff_and0071_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0071_wg_cy<1> (buff_and0071_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0071_wg_cy<2> (buff_and0071_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0071_wg_cy<3> (buff_and0071_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0071_wg_cy<4> (buff_and0071_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0071_wg_cy<5> (buff_and0071_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0071_wg_cy<6> (buff_and0071_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0071_wg_cy<7> (buff_and0071)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_6_mux0021_lut<1>1 (Madd_rg3_6_mux0021_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_6_mux0021_xor<1>11 (rg3_6_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0153<23>1 (buff_mux0153<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0075_wg_lut<0> (buff_and0075_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0075_wg_cy<0> (buff_and0075_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0075_wg_cy<1> (buff_and0075_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0075_wg_cy<2> (buff_and0075_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0075_wg_cy<3> (buff_and0075_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0075_wg_cy<4> (buff_and0075_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0075_wg_cy<5> (buff_and0075_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0075_wg_cy<6> (buff_and0075_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0075_wg_cy<7> (buff_and0075)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_5_mux0021_lut<1>1 (Madd_rg3_5_mux0021_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_5_mux0021_xor<1>11 (rg3_5_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0155<23>1 (buff_mux0155<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0078_wg_lut<0> (buff_and0078_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0078_wg_cy<0> (buff_and0078_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0078_wg_cy<1> (buff_and0078_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0078_wg_cy<2> (buff_and0078_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0078_wg_cy<3> (buff_and0078_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0078_wg_cy<4> (buff_and0078_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0078_wg_cy<5> (buff_and0078_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0078_wg_cy<6> (buff_and0078_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0078_wg_cy<7> (buff_and0078)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_4_mux0021_lut<1>1 (Madd_rg3_4_mux0021_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_4_mux0021_xor<1>11 (rg3_4_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0157<23>1 (buff_mux0157<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0081_wg_lut<0> (buff_and0081_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0081_wg_cy<0> (buff_and0081_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0081_wg_cy<1> (buff_and0081_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0081_wg_cy<2> (buff_and0081_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0081_wg_cy<3> (buff_and0081_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0081_wg_cy<4> (buff_and0081_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0081_wg_cy<5> (buff_and0081_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0081_wg_cy<6> (buff_and0081_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0081_wg_cy<7> (buff_and0081)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_3_mux0021_lut<1>1 (Madd_rg3_3_mux0021_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_3_mux0021_xor<1>11 (rg3_3_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0159<23>1 (buff_mux0159<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0077_wg_lut<0> (buff_and0077_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0077_wg_cy<0> (buff_and0077_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0077_wg_cy<1> (buff_and0077_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0077_wg_cy<2> (buff_and0077_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0077_wg_cy<3> (buff_and0077_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0077_wg_cy<4> (buff_and0077_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0077_wg_cy<5> (buff_and0077_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0077_wg_cy<6> (buff_and0077_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0077_wg_cy<7> (buff_and0077)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0021_lut<1>1 (Madd_rg3_2_mux0021_lut<1>)
+     LUT3:I0->O           67   0.551   2.393  Madd_rg3_2_mux0021_xor<1>11 (rg3_2_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0161<23>1 (buff_mux0161<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0080_wg_lut<0> (buff_and0080_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0080_wg_cy<0> (buff_and0080_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0080_wg_cy<1> (buff_and0080_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0080_wg_cy<2> (buff_and0080_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0080_wg_cy<3> (buff_and0080_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0080_wg_cy<4> (buff_and0080_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0080_wg_cy<5> (buff_and0080_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0080_wg_cy<6> (buff_and0080_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0080_wg_cy<7> (buff_and0080)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_1_mux0021_lut<1>1 (Madd_rg3_1_mux0021_lut<1>)
+     LUT3:I0->O           66   0.551   2.387  Madd_rg3_1_mux0021_xor<1>11 (rg3_1_mux0021<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0163<23>1 (buff_mux0163<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0082_wg_lut<0> (buff_and0082_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0082_wg_cy<0> (buff_and0082_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0082_wg_cy<1> (buff_and0082_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0082_wg_cy<2> (buff_and0082_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0082_wg_cy<3> (buff_and0082_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0082_wg_cy<4> (buff_and0082_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0082_wg_cy<5> (buff_and0082_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0082_wg_cy<6> (buff_and0082_wg_cy<6>)
+     MUXCY:CI->O          68   0.303   2.254  buff_and0082_wg_cy<7> (buff_and0082)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0007_lut<0> (Madd_rg3_0_add0007_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0007_cy<0> (Madd_rg3_0_add0007_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<1> (Madd_rg3_0_add0007_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<2> (Madd_rg3_0_add0007_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<3> (Madd_rg3_0_add0007_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<4> (Madd_rg3_0_add0007_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<5> (Madd_rg3_0_add0007_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<6> (Madd_rg3_0_add0007_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<7> (Madd_rg3_0_add0007_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<8> (Madd_rg3_0_add0007_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<9> (Madd_rg3_0_add0007_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<10> (Madd_rg3_0_add0007_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<11> (Madd_rg3_0_add0007_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<12> (Madd_rg3_0_add0007_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<13> (Madd_rg3_0_add0007_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<14> (Madd_rg3_0_add0007_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0007_cy<15> (Madd_rg3_0_add0007_cy<15>)
+     XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0007_xor<16> (rg3_0_add0007<16>)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux016616_SW2 (N1392)
+     LUT3:I0->O            3   0.551   1.102  Mmux_buff_mux016616 (buff_mux0166<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0084_wg_lut<2> (buff_and0084_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0084_wg_cy<2> (buff_and0084_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0084_wg_cy<3> (buff_and0084_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0084_wg_cy<4> (buff_and0084_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0084_wg_cy<5> (buff_and0084_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0084_wg_cy<6> (buff_and0084_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0084_wg_cy<7> (buff_and0084)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_9_mux0023_lut<1>1_SW0 (N1472)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_9_mux0023_lut<1>1 (Madd_rg3_9_mux0023_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_9_mux0023_xor<1>11 (rg3_9_mux0023<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0168<23>1 (buff_mux0168<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0086_wg_lut<0> (buff_and0086_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0086_wg_cy<0> (buff_and0086_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0086_wg_cy<1> (buff_and0086_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0086_wg_cy<2> (buff_and0086_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0086_wg_cy<3> (buff_and0086_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0086_wg_cy<4> (buff_and0086_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0086_wg_cy<5> (buff_and0086_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0086_wg_cy<6> (buff_and0086_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0086_wg_cy<7> (buff_and0086)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_8_mux0024_lut<0>11 (Madd_rg3_8_mux0024_lut<0>1)
+     MUXF5:I1->O           3   0.360   0.975  Madd_rg3_8_mux0024_lut<0>1_f5 (Madd_rg3_8_mux0024_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_8_mux0024_xor<1>11 (rg3_8_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0170<23>1 (buff_mux0170<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0083_wg_lut<0> (buff_and0083_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0083_wg_cy<0> (buff_and0083_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0083_wg_cy<1> (buff_and0083_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0083_wg_cy<2> (buff_and0083_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0083_wg_cy<3> (buff_and0083_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0083_wg_cy<4> (buff_and0083_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0083_wg_cy<5> (buff_and0083_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0083_wg_cy<6> (buff_and0083_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0083_wg_cy<7> (buff_and0083)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_7_mux0024_lut<1>1 (Madd_rg3_7_mux0024_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_7_mux0024_xor<1>11 (rg3_7_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0172<23>1 (buff_mux0172<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0085_wg_lut<0> (buff_and0085_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0085_wg_cy<0> (buff_and0085_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0085_wg_cy<1> (buff_and0085_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0085_wg_cy<2> (buff_and0085_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0085_wg_cy<3> (buff_and0085_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0085_wg_cy<4> (buff_and0085_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0085_wg_cy<5> (buff_and0085_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0085_wg_cy<6> (buff_and0085_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0085_wg_cy<7> (buff_and0085)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_6_mux0024_lut<1>1 (Madd_rg3_6_mux0024_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_6_mux0024_xor<1>11 (rg3_6_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0174<23>1 (buff_mux0174<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0087_wg_lut<0> (buff_and0087_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0087_wg_cy<0> (buff_and0087_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0087_wg_cy<1> (buff_and0087_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0087_wg_cy<2> (buff_and0087_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0087_wg_cy<3> (buff_and0087_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0087_wg_cy<4> (buff_and0087_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0087_wg_cy<5> (buff_and0087_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0087_wg_cy<6> (buff_and0087_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0087_wg_cy<7> (buff_and0087)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_5_mux0024_lut<1>1 (Madd_rg3_5_mux0024_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_5_mux0024_xor<1>11 (rg3_5_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0176<23>1 (buff_mux0176<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0089_wg_lut<0> (buff_and0089_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0089_wg_cy<0> (buff_and0089_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0089_wg_cy<1> (buff_and0089_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0089_wg_cy<2> (buff_and0089_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0089_wg_cy<3> (buff_and0089_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0089_wg_cy<4> (buff_and0089_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0089_wg_cy<5> (buff_and0089_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0089_wg_cy<6> (buff_and0089_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0089_wg_cy<7> (buff_and0089)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_4_mux0024_lut<1>1 (Madd_rg3_4_mux0024_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_4_mux0024_xor<1>11 (rg3_4_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0178<23>1 (buff_mux0178<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0091_wg_lut<0> (buff_and0091_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0091_wg_cy<0> (buff_and0091_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0091_wg_cy<1> (buff_and0091_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0091_wg_cy<2> (buff_and0091_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0091_wg_cy<3> (buff_and0091_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0091_wg_cy<4> (buff_and0091_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0091_wg_cy<5> (buff_and0091_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0091_wg_cy<6> (buff_and0091_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0091_wg_cy<7> (buff_and0091)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_3_mux0024_lut<1>1 (Madd_rg3_3_mux0024_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_3_mux0024_xor<1>11 (rg3_3_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0180<23>1 (buff_mux0180<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0088_wg_lut<0> (buff_and0088_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0088_wg_cy<0> (buff_and0088_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0088_wg_cy<1> (buff_and0088_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0088_wg_cy<2> (buff_and0088_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0088_wg_cy<3> (buff_and0088_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0088_wg_cy<4> (buff_and0088_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0088_wg_cy<5> (buff_and0088_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0088_wg_cy<6> (buff_and0088_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0088_wg_cy<7> (buff_and0088)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_2_mux0024_lut<1>1 (Madd_rg3_2_mux0024_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_2_mux0024_xor<1>11 (rg3_2_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0182<23>1 (buff_mux0182<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0090_wg_lut<0> (buff_and0090_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0090_wg_cy<0> (buff_and0090_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0090_wg_cy<1> (buff_and0090_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0090_wg_cy<2> (buff_and0090_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0090_wg_cy<3> (buff_and0090_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0090_wg_cy<4> (buff_and0090_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0090_wg_cy<5> (buff_and0090_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0090_wg_cy<6> (buff_and0090_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0090_wg_cy<7> (buff_and0090)
+     LUT4:I2->O            2   0.551   1.216  Madd_rg3_1_mux0024_lut<1>1 (Madd_rg3_1_mux0024_lut<1>)
+     LUT3:I0->O           66   0.551   2.387  Madd_rg3_1_mux0024_xor<1>11 (rg3_1_mux0024<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0184<23>1 (buff_mux0184<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0092_wg_lut<0> (buff_and0092_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0092_wg_cy<0> (buff_and0092_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0092_wg_cy<1> (buff_and0092_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0092_wg_cy<2> (buff_and0092_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0092_wg_cy<3> (buff_and0092_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0092_wg_cy<4> (buff_and0092_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0092_wg_cy<5> (buff_and0092_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0092_wg_cy<6> (buff_and0092_wg_cy<6>)
+     MUXCY:CI->O          67   0.303   2.249  buff_and0092_wg_cy<7> (buff_and0092)
+     LUT2:I1->O            1   0.551   0.000  Madd_rg3_0_add0008_lut<0> (Madd_rg3_0_add0008_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_rg3_0_add0008_cy<0> (Madd_rg3_0_add0008_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<1> (Madd_rg3_0_add0008_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<2> (Madd_rg3_0_add0008_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<3> (Madd_rg3_0_add0008_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<4> (Madd_rg3_0_add0008_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<5> (Madd_rg3_0_add0008_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<6> (Madd_rg3_0_add0008_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<7> (Madd_rg3_0_add0008_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<8> (Madd_rg3_0_add0008_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<9> (Madd_rg3_0_add0008_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<10> (Madd_rg3_0_add0008_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<11> (Madd_rg3_0_add0008_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<12> (Madd_rg3_0_add0008_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<13> (Madd_rg3_0_add0008_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<14> (Madd_rg3_0_add0008_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_rg3_0_add0008_cy<15> (Madd_rg3_0_add0008_cy<15>)
+     XORCY:CI->O           1   0.904   0.827  Madd_rg3_0_add0008_xor<16> (rg3_0_add0008<16>)
+     LUT4:I3->O            2   0.551   1.216  Mmux_buff_mux018716_SW2 (N1402)
+     LUT3:I0->O            1   0.551   0.996  Mmux_buff_mux018716 (buff_mux0187<16>)
+     LUT4:I1->O            1   0.551   0.000  buff_and0095_wg_lut<2> (buff_and0095_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0095_wg_cy<2> (buff_and0095_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0095_wg_cy<3> (buff_and0095_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0095_wg_cy<4> (buff_and0095_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0095_wg_cy<5> (buff_and0095_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0095_wg_cy<6> (buff_and0095_wg_cy<6>)
+     MUXCY:CI->O          99   0.303   2.305  buff_and0095_wg_cy<7> (buff_and0095)
+     LUT4:I2->O            1   0.551   0.996  Madd_rg3_9_mux0026_lut<1>1_SW0 (N1476)
+     LUT4:I1->O            1   0.551   1.140  Madd_rg3_9_mux0026_lut<1>1 (Madd_rg3_9_mux0026_lut<1>)
+     LUT3:I0->O           65   0.551   2.381  Madd_rg3_9_mux0026_xor<1>11 (rg3_9_mux0026<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0189<23>1 (buff_mux0189<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0093_wg_lut<0> (buff_and0093_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0093_wg_cy<0> (buff_and0093_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0093_wg_cy<1> (buff_and0093_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0093_wg_cy<2> (buff_and0093_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0093_wg_cy<3> (buff_and0093_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0093_wg_cy<4> (buff_and0093_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0093_wg_cy<5> (buff_and0093_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0093_wg_cy<6> (buff_and0093_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0093_wg_cy<7> (buff_and0093)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_8_mux0027_lut<0>11 (Madd_rg3_8_mux0027_lut<0>1)
+     MUXF5:I1->O           2   0.360   0.945  Madd_rg3_8_mux0027_lut<0>1_f5 (Madd_rg3_8_mux0027_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_8_mux0027_xor<1>11 (rg3_8_mux0027<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0191<23>1 (buff_mux0191<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0094_wg_lut<0> (buff_and0094_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0094_wg_cy<0> (buff_and0094_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0094_wg_cy<1> (buff_and0094_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0094_wg_cy<2> (buff_and0094_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0094_wg_cy<3> (buff_and0094_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0094_wg_cy<4> (buff_and0094_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0094_wg_cy<5> (buff_and0094_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0094_wg_cy<6> (buff_and0094_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0094_wg_cy<7> (buff_and0094)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_7_mux0027_lut<0>11 (Madd_rg3_7_mux0027_lut<0>1)
+     MUXF5:I1->O           2   0.360   0.945  Madd_rg3_7_mux0027_lut<0>1_f5 (Madd_rg3_7_mux0027_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_7_mux0027_xor<1>11 (rg3_7_mux0027<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0193<23>1 (buff_mux0193<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0096_wg_lut<0> (buff_and0096_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0096_wg_cy<0> (buff_and0096_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0096_wg_cy<1> (buff_and0096_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0096_wg_cy<2> (buff_and0096_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0096_wg_cy<3> (buff_and0096_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0096_wg_cy<4> (buff_and0096_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0096_wg_cy<5> (buff_and0096_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0096_wg_cy<6> (buff_and0096_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0096_wg_cy<7> (buff_and0096)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_6_mux0027_lut<0>11 (Madd_rg3_6_mux0027_lut<0>1)
+     MUXF5:I1->O           2   0.360   0.945  Madd_rg3_6_mux0027_lut<0>1_f5 (Madd_rg3_6_mux0027_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_6_mux0027_xor<1>11 (rg3_6_mux0027<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0195<23>1 (buff_mux0195<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0097_wg_lut<0> (buff_and0097_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0097_wg_cy<0> (buff_and0097_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0097_wg_cy<1> (buff_and0097_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0097_wg_cy<2> (buff_and0097_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0097_wg_cy<3> (buff_and0097_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0097_wg_cy<4> (buff_and0097_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0097_wg_cy<5> (buff_and0097_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0097_wg_cy<6> (buff_and0097_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0097_wg_cy<7> (buff_and0097)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_5_mux0027_lut<0>11 (Madd_rg3_5_mux0027_lut<0>1)
+     MUXF5:I1->O           2   0.360   0.945  Madd_rg3_5_mux0027_lut<0>1_f5 (Madd_rg3_5_mux0027_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_5_mux0027_xor<1>11 (rg3_5_mux0027<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0197<23>1 (buff_mux0197<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0098_wg_lut<0> (buff_and0098_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0098_wg_cy<0> (buff_and0098_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0098_wg_cy<1> (buff_and0098_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0098_wg_cy<2> (buff_and0098_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0098_wg_cy<3> (buff_and0098_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0098_wg_cy<4> (buff_and0098_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0098_wg_cy<5> (buff_and0098_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0098_wg_cy<6> (buff_and0098_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0098_wg_cy<7> (buff_and0098)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_4_mux0027_lut<0>11 (Madd_rg3_4_mux0027_lut<0>1)
+     MUXF5:I1->O           2   0.360   0.945  Madd_rg3_4_mux0027_lut<0>1_f5 (Madd_rg3_4_mux0027_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_4_mux0027_xor<1>11 (rg3_4_mux0027<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0199<23>1 (buff_mux0199<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0066_wg_lut<0> (buff_and0066_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0066_wg_cy<0> (buff_and0066_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0066_wg_cy<1> (buff_and0066_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0066_wg_cy<2> (buff_and0066_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0066_wg_cy<3> (buff_and0066_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0066_wg_cy<4> (buff_and0066_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0066_wg_cy<5> (buff_and0066_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0066_wg_cy<6> (buff_and0066_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0066_wg_cy<7> (buff_and0066)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_3_mux0027_lut<0>11 (Madd_rg3_3_mux0027_lut<0>1)
+     MUXF5:I1->O           2   0.360   0.945  Madd_rg3_3_mux0027_lut<0>1_f5 (Madd_rg3_3_mux0027_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_3_mux0027_xor<1>11 (rg3_3_mux0027<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0201<23>1 (buff_mux0201<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0070_wg_lut<0> (buff_and0070_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0070_wg_cy<0> (buff_and0070_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0070_wg_cy<1> (buff_and0070_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0070_wg_cy<2> (buff_and0070_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0070_wg_cy<3> (buff_and0070_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0070_wg_cy<4> (buff_and0070_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0070_wg_cy<5> (buff_and0070_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0070_wg_cy<6> (buff_and0070_wg_cy<6>)
+     MUXCY:CI->O         100   0.303   2.311  buff_and0070_wg_cy<7> (buff_and0070)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_2_mux0027_lut<0>11 (Madd_rg3_2_mux0027_lut<0>1)
+     MUXF5:I1->O           2   0.360   0.945  Madd_rg3_2_mux0027_lut<0>1_f5 (Madd_rg3_2_mux0027_lut<0>)
+     LUT3:I2->O           65   0.551   2.381  Madd_rg3_2_mux0027_xor<1>11 (rg3_2_mux0027<1>)
+     LUT4:I0->O            1   0.551   1.140  buff_mux0203<23>1 (buff_mux0203<23>)
+     LUT4:I0->O            1   0.551   0.000  buff_and0074_wg_lut<0> (buff_and0074_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  buff_and0074_wg_cy<0> (buff_and0074_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0074_wg_cy<1> (buff_and0074_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0074_wg_cy<2> (buff_and0074_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0074_wg_cy<3> (buff_and0074_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0074_wg_cy<4> (buff_and0074_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0074_wg_cy<5> (buff_and0074_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  buff_and0074_wg_cy<6> (buff_and0074_wg_cy<6>)
+     MUXCY:CI->O          45   0.303   1.996  buff_and0074_wg_cy<7> (buff_and0074)
+     LUT4:I2->O            1   0.551   0.000  Madd_rg3_1_mux0027_lut<1>11 (Madd_rg3_1_mux0027_lut<1>1)
+     MUXF5:I1->O           2   0.360   1.216  Madd_rg3_1_mux0027_lut<1>1_f5 (Madd_rg3_1_mux0027_lut<1>)
+     LUT3:I0->O            4   0.551   1.256  Madd_rg3_1_mux0027_xor<1>11 (rg3_1_mux0027<1>)
+     LUT3:I0->O            1   0.551   1.140  buff_and00797 (buff_and00797)
+     LUT4:I0->O            1   0.551   0.996  buff_and007930 (buff_and007930)
+     LUT4:I1->O            1   0.551   1.140  buff_and007968 (buff_and007968)
+     LUT4:I0->O            1   0.551   1.140  buff_and0079501 (buff_and0079)
      LUT4:I0->O            1   0.551   0.000  arr_to_std_logic_1_cmp_eq00001 (arr_to_std_logic_1_cmp_eq0000)
      MUXF5:I1->O           1   0.360   0.801  arr_to_std_logic_1_cmp_eq0000_f5 (result_1_OBUF)
      OBUF:I->O                 5.644          result_1_OBUF (result<1>)
     ----------------------------------------
-    Total                    119.527ns (51.481ns logic, 68.046ns route)
-                                       (43.1% logic, 56.9% route)
+    Total                    948.940ns (338.830ns logic, 610.110ns route)
+                                       (35.7% logic, 64.3% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.06 secs
+Total REAL time to Xst completion: 34.00 secs
+Total CPU time to Xst completion: 34.34 secs
  
 --> 
 
-Total memory usage is 4553508 kilobytes
+Total memory usage is 4786436 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

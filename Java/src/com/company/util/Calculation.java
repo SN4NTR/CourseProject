@@ -8,8 +8,8 @@ public class Calculation {
     private static final Scanner scanner = new Scanner(System.in);
 
     public void start() {
-        int[] rg1 = new int[NUMBER_LENGTH]; // A
-        int[] rg2 = new int[NUMBER_LENGTH]; // B
+        int[] rg1 = new int[NUMBER_LENGTH];
+        int[] rg2 = new int[NUMBER_LENGTH];
 
         System.out.print("\nEnter the 1st number: ");
         enterNumber(rg1);
@@ -26,8 +26,8 @@ public class Calculation {
     }
 
     private void multiply(int[] rg1, int[] rg2) {
-        int[] rg3 = new int[NUMBER_LENGTH]; // C
-        int[] result = new int[NUMBER_LENGTH * 2]; // result
+        int[] rg3 = new int[NUMBER_LENGTH];
+        int[] result = new int[NUMBER_LENGTH * 2];
         int counter = rg1.length;
         int buffer = 0;
 

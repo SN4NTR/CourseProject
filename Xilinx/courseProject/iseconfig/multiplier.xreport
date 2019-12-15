@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-14T16:21:05</DateModified>
+  <DateModified>2019-12-14T19:32:29</DateModified>
   <ModuleName>multiplier</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2019-12-14T16:46:40</SummaryTimeStamp>
   <SavedFilePath>D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject/iseconfig/multiplier.xreport</SavedFilePath>
   <ImplementationReportsDirectory>D:/SN4NTR/BSUIR/Course Project/Xilinx/courseProject\</ImplementationReportsDirectory>
   <DateInitialized>2019-12-14T00:52:42</DateInitialized>
